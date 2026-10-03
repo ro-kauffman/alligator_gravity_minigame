@@ -152,6 +152,13 @@
 				"C:/Users/rache/Downloads/alligator_gravity/Content/__ExternalActors__/testing_map/E/IR/X704V2XJTEW6U57E9RPXXK.uasset",
 				"C:/Users/rache/Downloads/alligator_gravity/Content/testing_map.umap",
 				"C:/Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Content/minigame.umap",
+				"C:/Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Content/alligator_minigame.umap",
+				"C:/Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Content/pharoah_minigame.umap",
+				"C:/Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Content/PharoahMinigame.umap",
+				"C:/Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Content/BP_PharaohMinigame.uasset",
+				"C:/Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Content/BP_PharaohMinigamePlayer.uasset",
+				"C:/Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Content/PharaohMinigame.umap",
+				"C:/Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Content/BP_GeneralPlayer.uasset",
 				"C:/Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Content/__ExternalActors__/testing_map/F/4V/1L54H6384I49Z07TDRLAV2.uasset",
 				"C:/Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Content/__ExternalActors__/testing_map/E/QH/B1J93BBO7QWM8JWFMIX316.uasset",
 				"C:/Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Content/__ExternalActors__/testing_map/E/IR/X704V2XJTEW6U57E9RPXXK.uasset",
@@ -298,15 +305,9 @@
 				"C:/Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Content/__ExternalActors__/testing_map/8/NT/N49TKM1HYUD7JM5U8KMAOB.uasset",
 				"C:/Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Content/testing_map.umap",
 				"C:/Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Content/testing_map_HLOD0_Instancing.uasset",
-				"C:/Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Content/alligator_minigame.umap",
 				"C:/Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Content/BP_AlligatoeMinigamePlayer.uasset",
-				"C:/Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Content/pharoah_minigame.umap",
 				"C:/Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Content/BP_PharoahMinigamePlayer.uasset",
-				"C:/Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Content/PharoahMinigame.umap",
-				"C:/Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Content/BP_PharoahMinigame.uasset",
-				"C:/Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Content/BP_PharaohMinigame.uasset",
-				"C:/Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Content/BP_PharaohMinigamePlayer.uasset",
-				"C:/Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Content/PharaohMinigame.umap"
+				"C:/Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Content/BP_PharoahMinigame.uasset"
 			]
 		}
 	]

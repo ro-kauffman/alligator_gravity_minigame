@@ -1545,3 +1545,383 @@ FPackageName: Skipped package /Game/Assets/UI/T_HeroHeadshot has a valid, mounte
 [2026.10.03-13.40.04:114][245]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
 [2026.10.03-13.40.04:114][245]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
 [2026.10.03-13.40.04:115][245]LogShaderCompilers: Display: ================================================
+[2026.10.03-13.43.01:913][632]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 371.465332
+[2026.10.03-13.43.02:915][635]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.03-13.43.02:915][635]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 372.134766, Update Interval: 304.130981
+[2026.10.03-13.44.33:976][969]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.03-13.44.33:995][969]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.03-13.44.33:995][969]LogPlayLevel: Display: Creating online subsystem for client :Context_6
+[2026.10.03-13.44.33:999][969]LogOnline: OSS: Created online subsystem instance for: :Context_6
+[2026.10.03-13.44.34:041][970]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PharaohMinigame
+[2026.10.03-13.44.34:046][970]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005459s)
+[2026.10.03-13.44.34:047][970]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PharaohMinigame.PharaohMinigame to /Game/UEDPIE_0_PharaohMinigame.PharaohMinigame (0.005553s)
+[2026.10.03-13.44.34:079][970]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2026.10.03-13.44.34:089][970]LogTemp: WinRT Apartment initialized successfully!
+[2026.10.03-13.44.34:089][970]LogChaosDD: Creating Chaos Debug Draw Scene for world PharaohMinigame
+[2026.10.03-13.44.34:093][970]LogPlayLevel: PIE: World Init took: (0.004202s)
+[2026.10.03-13.44.34:095][970]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2026.10.03-13.44.34:095][970]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.03-13.44.34:095][970]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.03-13.44.34:095][970]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.03-13.44.34:095][970]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.03-13.44.34:095][970]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.03-13.44.34:095][970]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.03-13.44.34:095][970]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.03-13.44.34:095][970]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.03-13.44.34:095][970]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.03-13.44.34:095][970]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.03-13.44.34:096][970]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.03-13.44.34:099][970]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.03-13.44.34:133][970]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- WH202A)
+[2026.10.03-13.44.34:133][970]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.03-13.44.34:133][970]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.03-13.44.34:133][970]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.03-13.44.34:134][970]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2026.10.03-13.44.34:134][970]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2026.10.03-13.44.34:140][970]LogInit: FAudioDevice initialized with ID 3.
+[2026.10.03-13.44.34:140][970]LogAudio: Display: Audio Device (ID: 3) registered with world 'PharaohMinigame'.
+[2026.10.03-13.44.34:140][970]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2026.10.03-13.44.34:140][970]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2026.10.03-13.44.34:141][970]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2026.10.03-13.44.34:147][970]LogLoad: Game class is 'BP_PharaohMinigame_C'
+[2026.10.03-13.44.34:148][970]LogWorld: Bringing World /Game/UEDPIE_0_PharaohMinigame.PharaohMinigame up for play (max tick rate 60) at 2026.10.03-09.44.34
+[2026.10.03-13.44.34:149][970]LogWorld: Bringing up level for play took: 0.001239
+[2026.10.03-13.44.34:149][970]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2026.10.03-13.44.34:149][970]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.10.03-13.44.34:150][970]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2026.10.03-13.44.34:150][970]LogMinigameCore: Error: MinigameBase: Not enough players for this game type!
+[2026.10.03-13.44.34:150][970]LogMinigameCore: Warning: MinigameBase: No point counter found. Creating default point counter.
+[2026.10.03-13.44.34:151][970]LogMinigameCore: Error: MinigameBase: No player object specified for team 1.
+[2026.10.03-13.44.34:154][970]PIE: Server logged in
+[2026.10.03-13.44.34:157][970]PIE: Play in editor total start time 0.162 seconds.
+[2026.10.03-13.44.34:240][971]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.03-13.44.46:253][671]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.03-13.44.46:253][671]LogWorld: BeginTearingDown for /Game/UEDPIE_0_PharaohMinigame
+[2026.10.03-13.44.46:253][671]LogTemp: Warning: Deinitialize Bluetooth Manager Subsystem
+[2026.10.03-13.44.46:253][671]LogWorld: UWorld::CleanupWorld for PharaohMinigame, bSessionEnded=true, bCleanupResources=true
+[2026.10.03-13.44.46:253][671]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.03-13.44.46:256][671]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.03-13.44.46:260][671]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.03-13.44.46:288][671]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.03-13.44.46:288][671]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2026.10.03-13.44.46:288][671]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=4
+[2026.10.03-13.44.46:292][671]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=2
+[2026.10.03-13.44.46:307][671]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2026.10.03-13.44.46:472][672]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2026.10.03-13.44.51:094][793]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_PharaohMinigamePlayer.BP_PharaohMinigamePlayer
+[2026.10.03-13.44.51:095][793]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_4
+[2026.10.03-13.44.51:449][793]LogStreaming: Display: FlushAsyncLoading(578): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.03-13.44.54:437][793]LogSlate: Took 0.008375 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2026.10.03-13.44.54:626][795]LogPSOHitching: Encountered 50 PSO creation hitches so far (22 graphics, 28 compute). 0 of them were precached.
+[2026.10.03-13.48.10:557][822]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 680.110718
+[2026.10.03-13.48.10:667][828]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.03-13.48.10:667][828]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 680.203125, Update Interval: 310.142517
+[2026.10.03-13.49.11:021][791]LogContentBrowser: Deferred new asset file creation: BP_PharaohMinigamePlayer1
+[2026.10.03-13.49.11:039][791]LogContentBrowser: Creating deferred item: BP_PharaohMinigamePlayer1
+[2026.10.03-13.49.11:088][792]LogContentBrowser: Renaming the item being created (Deferred Item: BP_PharaohMinigamePlayer1).
+[2026.10.03-13.49.22:701][401]LogContentBrowser: Attempting asset rename: BP_PharaohMinigamePlayer1 -> BP_AlligatorPlayer
+[2026.10.03-13.49.22:781][401]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2026.10.03-13.49.22:795][401]LogContentBrowser: End creating deferred item BP_PharaohMinigamePlayer1
+[2026.10.03-13.49.22:798][401]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_5
+[2026.10.03-13.49.39:260][109]LogContentBrowser: Attempting asset rename: BP_PharaohMinigamePlayer -> BP_GeneralPlayer
+[2026.10.03-13.49.39:736][109]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.03-13.49.39:738][109]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP_PharaohMinigame] ([2] browsable assets)...
+[2026.10.03-13.49.39:738][109]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_PharaohMinigame]
+[2026.10.03-13.49.39:738][109]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_PharaohMinigame" FILE="../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Content/BP_PharaohMinigame.uasset" SILENT=true
+[2026.10.03-13.49.39:758][109]LogSavePackage: Moving output files for package: /Game/BP_PharaohMinigame
+[2026.10.03-13.49.39:759][109]LogSavePackage: Moving '../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Saved/BP_PharaohMinigame78E523684D85404E2F187F8FF98A1DC1.tmp' to '../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Content/BP_PharaohMinigame.uasset'
+[2026.10.03-13.49.39:762][109]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP_GeneralPlayer] ([2] browsable assets)...
+[2026.10.03-13.49.39:762][109]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_GeneralPlayer]
+[2026.10.03-13.49.39:762][109]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_GeneralPlayer" FILE="../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Content/BP_GeneralPlayer.uasset" SILENT=true
+[2026.10.03-13.49.39:779][109]LogSavePackage: Moving output files for package: /Game/BP_GeneralPlayer
+[2026.10.03-13.49.39:779][109]LogSavePackage: Moving '../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Saved/BP_GeneralPlayer1C3F1D3E48EAF400B6EA058D5308CD3E.tmp' to '../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Content/BP_GeneralPlayer.uasset'
+[2026.10.03-13.49.39:789][109]LogFileHelpers: InternalPromptForCheckoutAndSave took 52.653 ms (total: 366.589 ms)
+[2026.10.03-13.49.39:858][109]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2026.10.03-13.49.39:901][109]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2026.10.03-13.49.39:940][109]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2026.10.03-13.49.40:129][109]LogContentValidation: Display: Starting to validate 2 assets
+[2026.10.03-13.49.40:129][109]LogContentValidation: Enabled validators:
+[2026.10.03-13.49.40:129][109]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.03-13.49.40:129][109]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.03-13.49.40:130][109]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.03-13.49.40:130][109]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.03-13.49.40:130][109]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.03-13.49.40:130][109]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.03-13.49.40:130][109]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.10.03-13.49.40:130][109]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.10.03-13.49.40:130][109]AssetCheck: /Game/BP_PharaohMinigame Validating asset
+[2026.10.03-13.49.40:130][109]AssetCheck: /Game/BP_GeneralPlayer Validating asset
+[2026.10.03-13.49.40:216][109]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Saved/SourceControl/UncontrolledChangelists.json
+[2026.10.03-13.49.40:220][110]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_6
+[2026.10.03-13.50.05:714][318]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2026.10.03-13.50.05:740][318]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/PharaohMinigame_Auto1
+[2026.10.03-13.50.05:740][318]LogSavePackage: Moving '../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Saved/PharaohMinigame_Auto1E855B9EC42D5A4912B6334A6ED5EABC2.tmp' to '../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Saved/Autosaves/Game/PharaohMinigame_Auto1.umap'
+[2026.10.03-13.50.05:745][318]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/PharaohMinigame' took 0.068
+[2026.10.03-13.50.05:745][318]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.068
+[2026.10.03-13.50.05:746][318]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BP_AlligatorPlayer] ([2] browsable assets)...
+[2026.10.03-13.50.05:800][318]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_AlligatorPlayer.BP_AlligatorPlayer]
+[2026.10.03-13.50.05:800][318]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_AlligatorPlayer]
+[2026.10.03-13.50.05:819][318]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BP_AlligatorPlayer_Auto1
+[2026.10.03-13.50.05:819][318]LogSavePackage: Moving '../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Saved/BP_AlligatorPlayer_Auto1344676FF4BE6737D7E5FB8AE4949ADA6.tmp' to '../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Saved/Autosaves/Game/BP_AlligatorPlayer_Auto1.uasset'
+[2026.10.03-13.50.05:820][318]LogFileHelpers: Auto-saving content packages took 0.075
+[2026.10.03-13.50.39:395][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2026.10.03-13.50.44:002][138]LogSlate: Window 'Create New Blueprint' being destroyed
+[2026.10.03-13.50.52:363][483]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2026.10.03-13.51.39:020][867]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.03-13.51.39:256][867]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2026.10.03-13.51.39:281][867]LogSavePackage: Moving output files for package: /Game/PharaohMinigame
+[2026.10.03-13.51.39:283][867]LogSavePackage: Moving '../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Saved/PharaohMinigameC60E4B2B4D0CB7D2F7652681893F7C1A.tmp' to '../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Content/PharaohMinigame.umap'
+[2026.10.03-13.51.39:306][867]LogFileHelpers: Saving map 'PharaohMinigame' took 0.147
+[2026.10.03-13.51.39:329][867]LogFileHelpers: InternalPromptForCheckoutAndSave took 309.144 ms (total: 675.733 ms)
+[2026.10.03-13.51.39:529][867]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.03-13.51.39:530][867]LogContentValidation: Enabled validators:
+[2026.10.03-13.51.39:530][867]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.03-13.51.39:530][867]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.03-13.51.39:530][867]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.03-13.51.39:530][867]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.03-13.51.39:530][867]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.03-13.51.39:530][867]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.03-13.51.39:530][867]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.10.03-13.51.39:530][867]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.10.03-13.51.39:530][867]AssetCheck: /Game/PharaohMinigame Validating asset
+[2026.10.03-13.51.40:313][908]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.03-13.51.40:329][908]LogPlayLevel: [PlayLevel] Compiling BP_AlligatorPlayer before play...
+[2026.10.03-13.51.40:402][908]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2026.10.03-13.51.40:404][908]LogPlayLevel: PlayLevel: Blueprint regeneration took 75 ms (1 blueprints)
+[2026.10.03-13.51.40:404][908]LogPlayLevel: Display: Creating online subsystem for client :Context_10
+[2026.10.03-13.51.40:408][908]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2026.10.03-13.51.40:443][909]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PharaohMinigame
+[2026.10.03-13.51.40:448][909]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004924s)
+[2026.10.03-13.51.40:448][909]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PharaohMinigame.PharaohMinigame to /Game/UEDPIE_0_PharaohMinigame.PharaohMinigame (0.004995s)
+[2026.10.03-13.51.40:486][909]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2026.10.03-13.51.40:490][909]LogTemp: WinRT Apartment initialized successfully!
+[2026.10.03-13.51.40:490][909]LogChaosDD: Creating Chaos Debug Draw Scene for world PharaohMinigame
+[2026.10.03-13.51.40:493][909]LogPlayLevel: PIE: World Init took: (0.003589s)
+[2026.10.03-13.51.40:496][909]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2026.10.03-13.51.40:496][909]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.03-13.51.40:496][909]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.03-13.51.40:496][909]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.03-13.51.40:496][909]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.03-13.51.40:496][909]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.03-13.51.40:496][909]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.03-13.51.40:496][909]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.03-13.51.40:496][909]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.03-13.51.40:496][909]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.03-13.51.40:496][909]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.03-13.51.40:496][909]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.03-13.51.40:500][909]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.03-13.51.40:528][909]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- WH202A)
+[2026.10.03-13.51.40:528][909]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.03-13.51.40:528][909]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.03-13.51.40:528][909]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.03-13.51.40:529][909]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2026.10.03-13.51.40:529][909]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2026.10.03-13.51.40:533][909]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2026.10.03-13.51.40:533][909]LogInit: FAudioDevice initialized with ID 4.
+[2026.10.03-13.51.40:533][909]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2026.10.03-13.51.40:533][909]LogAudio: Display: Audio Device (ID: 4) registered with world 'PharaohMinigame'.
+[2026.10.03-13.51.40:533][909]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2026.10.03-13.51.40:538][909]LogLoad: Game class is 'BP_PharaohMinigame_C'
+[2026.10.03-13.51.40:539][909]LogWorld: Bringing World /Game/UEDPIE_0_PharaohMinigame.PharaohMinigame up for play (max tick rate 60) at 2026.10.03-09.51.40
+[2026.10.03-13.51.40:540][909]LogWorld: Bringing up level for play took: 0.001244
+[2026.10.03-13.51.40:541][909]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2026.10.03-13.51.40:541][909]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.10.03-13.51.40:541][909]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2026.10.03-13.51.40:541][909]LogMinigameCore: Error: MinigameBase: Not enough players for this game type!
+[2026.10.03-13.51.40:541][909]LogMinigameCore: Warning: MinigameBase: No point counter found. Creating default point counter.
+[2026.10.03-13.51.40:542][909]LogTemp: Warning: Minigame Base Player 0: Found player BashLocalPlayer_2 and controller BashPlayerController_0
+[2026.10.03-13.51.40:551][909]PIE: Server logged in
+[2026.10.03-13.51.40:554][909]PIE: Play in editor total start time 0.227 seconds.
+[2026.10.03-13.51.40:592][910]LogMutable: Display: Compiling Customizable Object CO_ModularCharacter for platform WindowsEditor and optimization level "Maximum". The Compilation will take more time to run due to the chosen optimization level.
+[2026.10.03-13.51.40:632][910]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.03-13.51.41:006][911]Mutable: Compiling CO_ModularCharacter. Loading assets
+[2026.10.03-13.51.41:039][911]LogStreaming: Display: FlushAsyncLoading(585): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.03-13.51.41:058][911]LogSkeletalMesh: Building Skeletal Mesh SKEL_ModTorso...
+[2026.10.03-13.51.41:067][911]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /BashAssets/Character/Modular/Pieces/SKEL_ModTorso.SKEL_ModTorso
+[2026.10.03-13.51.41:109][911]LogSkeletalMesh: Building Skeletal Mesh SKEL_ModHead...
+[2026.10.03-13.51.41:124][911]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKEL_ModHead) ...
+[2026.10.03-13.51.41:132][911]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /BashAssets/Character/Modular/Pieces/SKEL_ModHead.SKEL_ModHead
+[2026.10.03-13.51.41:162][911]LogSkeletalMesh: Building Skeletal Mesh SKEL_Leg_L...
+[2026.10.03-13.51.41:175][911]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKEL_Leg_L) ...
+[2026.10.03-13.51.41:176][911]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /BashAssets/Character/Modular/Pieces/LeftLeg/SKEL_Leg_L.SKEL_Leg_L
+[2026.10.03-13.51.41:204][911]LogSkeletalMesh: Building Skeletal Mesh SKEL_Leg_R...
+[2026.10.03-13.51.41:212][911]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /BashAssets/Character/Modular/Pieces/RightLeg/SKEL_Leg_R.SKEL_Leg_R
+[2026.10.03-13.51.41:242][911]LogSkeletalMesh: Building Skeletal Mesh SKEL_Arm_L...
+[2026.10.03-13.51.41:257][911]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKEL_Arm_L) ...
+[2026.10.03-13.51.41:260][911]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /BashAssets/Character/Modular/Pieces/LeftArm/SKEL_Arm_L.SKEL_Arm_L
+[2026.10.03-13.51.41:291][911]LogSkeletalMesh: Building Skeletal Mesh SKEL_Arm_R...
+[2026.10.03-13.51.41:306][911]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKEL_Arm_R) ...
+[2026.10.03-13.51.41:313][911]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /BashAssets/Character/Modular/Pieces/RightArm/SKEL_Arm_R.SKEL_Arm_R
+[2026.10.03-13.51.41:336][911]Mutable: Warning: Could not generate a mesh section because it didn't have a material selected. Please assign one and recompile.   CO_WizardHat  (Node  Mesh Section )
+[2026.10.03-13.51.41:338][911]Mutable: Warning: Could not generate a mesh section because it didn't have a material selected. Please assign one and recompile.   CO_Sunhat  (Node  Mesh Section )
+[2026.10.03-13.51.41:338][911]Mutable: Warning: Could not generate a mesh section because it didn't have a material selected. Please assign one and recompile.   CO_PropellorHat  (Node  Mesh Section )
+[2026.10.03-13.51.41:339][911]Mutable: Warning: Could not generate a mesh section because it didn't have a material selected. Please assign one and recompile.   CO_PirateHat  (Node  Mesh Section )
+[2026.10.03-13.51.41:339][911]LogStreaming: Warning: LoadPackage: SkipPackage: /BashAssets/Character/Modular/Clothes/Hats/Billed/SKEL_BilledHat (0xC89E6A500700329F) - The package to load does not exist on disk or in the loader
+[2026.10.03-13.51.41:340][911]LogUObjectGlobals: Warning: Failed to find object 'Object /BashAssets/Character/Modular/Clothes/Hats/Billed/SKEL_BilledHat.SKEL_BilledHat'
+[2026.10.03-13.51.41:340][911]Mutable: Warning: Failed to load the skeletal mesh set in the node.[Asset path: /BashAssets/Character/Modular/Clothes/Hats/Billed/SKEL_BilledHat]   CO_Hat  (Node  Skeletal Mesh )
+[2026.10.03-13.51.41:340][911]Mutable: Warning: Could not generate a mesh section because it didn't have a material selected. Please assign one and recompile.   CO_GnomeHat  (Node  Mesh Section )
+[2026.10.03-13.51.41:341][911]Mutable: Warning: Could not generate a mesh section because it didn't have a material selected. Please assign one and recompile.   CO_BeretHat  (Node  Mesh Section )
+[2026.10.03-13.51.41:341][911]Mutable: Warning: Could not generate a mesh section because it didn't have a material selected. Please assign one and recompile.   CO_WizardRobe  (Node  Mesh Section )
+[2026.10.03-13.51.41:343][911]Mutable: Warning: Could not generate a mesh section because it didn't have a material selected. Please assign one and recompile.   CO_Shirt  (Node  Mesh Section )
+[2026.10.03-13.51.41:343][911]Mutable: Warning: Could not generate a mesh section because it didn't have a material selected. Please assign one and recompile.   CO_PuffyDress  (Node  Mesh Section )
+[2026.10.03-13.51.41:343][911]Mutable: Warning: Could not generate a mesh section because it didn't have a material selected. Please assign one and recompile.   CO_PuffyDress  (Node  Mesh Section )
+[2026.10.03-13.51.41:343][911]Mutable: Warning: Could not generate a mesh section because it didn't have a material selected. Please assign one and recompile.   CO_PrincessDress  (Node  Mesh Section )
+[2026.10.03-13.51.41:343][911]Mutable: Warning: Could not generate a mesh section because it didn't have a material selected. Please assign one and recompile.   CO_Jacket  (Node  Mesh Section )
+[2026.10.03-13.51.41:344][911]Mutable: Warning: Could not generate a mesh section because it didn't have a material selected. Please assign one and recompile.   CO_Flannel  (Node  Mesh Section )
+[2026.10.03-13.51.41:344][911]Mutable: Warning: Could not generate a mesh section because it didn't have a material selected. Please assign one and recompile.   CO_Dress  (Node  Mesh Section )
+[2026.10.03-13.51.41:344][911]Mutable: Warning: Could not generate a mesh section because it didn't have a material selected. Please assign one and recompile.   CO_ShortSpikyHair  (Node  Mesh Section )
+[2026.10.03-13.51.41:344][911]Mutable: Warning: Could not generate a mesh section because it didn't have a material selected. Please assign one and recompile.   CO_ShortCombedHair  (Node  Mesh Section )
+[2026.10.03-13.51.41:344][911]Mutable: Warning: Could not generate a mesh section because it didn't have a material selected. Please assign one and recompile.   CO_PonytailHair  (Node  Mesh Section )
+[2026.10.03-13.51.41:345][911]Mutable: Warning: Could not generate a mesh section because it didn't have a material selected. Please assign one and recompile.   CO_LongStraightHair  (Node  Mesh Section )
+[2026.10.03-13.51.41:345][911]Mutable: Warning: Could not generate a mesh section because it didn't have a material selected. Please assign one and recompile.   CO_LocsWithBunsHair  (Node  Mesh Section )
+[2026.10.03-13.51.41:345][911]Mutable: Warning: Could not generate a mesh section because it didn't have a material selected. Please assign one and recompile.   CO_HighCurlyShortHair  (Node  Mesh Section )
+[2026.10.03-13.51.41:345][911]Mutable: Warning: Could not generate a mesh section because it didn't have a material selected. Please assign one and recompile.   CO_HighBunHair  (Node  Mesh Section )
+[2026.10.03-13.51.41:346][911]Mutable: Warning: Could not generate a mesh section because it didn't have a material selected. Please assign one and recompile.   CO_CurlyMediumHair  (Node  Mesh Section )
+[2026.10.03-13.51.41:346][911]Mutable: Warning: Could not generate a mesh section because it didn't have a material selected. Please assign one and recompile.   CO_BuzzcutHair  (Node  Mesh Section )
+[2026.10.03-13.51.41:346][911]Mutable: Warning: Could not generate a mesh section because it didn't have a material selected. Please assign one and recompile.   CO_BunHair  (Node  Mesh Section )
+[2026.10.03-13.51.41:346][911]Mutable: Warning: Could not generate a mesh section because it didn't have a material selected. Please assign one and recompile.   CO_BraidsHair  (Node  Mesh Section )
+[2026.10.03-13.51.41:346][911]Mutable: Warning: Could not generate a mesh section because it didn't have a material selected. Please assign one and recompile.   CO_BobWithHeadbandHair  (Node  Mesh Section )
+[2026.10.03-13.51.41:347][911]Mutable: Warning: Could not generate a mesh section because it didn't have a material selected. Please assign one and recompile.   CO_BobWithHeadbandHair  (Node  Mesh Section )
+[2026.10.03-13.51.41:347][911]Mutable: Warning: Could not generate a mesh section because it didn't have a material selected. Please assign one and recompile.   CO_Short  (Node  Mesh Section )
+[2026.10.03-13.51.41:347][911]Mutable: Warning: Could not generate a mesh section because it didn't have a material selected. Please assign one and recompile.   CO_Pants  (Node  Mesh Section )
+[2026.10.03-13.51.41:347][911]Mutable: Warning: Could not generate a mesh section because it didn't have a material selected. Please assign one and recompile.   CO_SquareGlasses  (Node  Mesh Section )
+[2026.10.03-13.51.41:347][911]Mutable: Warning: Could not generate a mesh section because it didn't have a material selected. Please assign one and recompile.   CO_RoundGlasses  (Node  Mesh Section )
+[2026.10.03-13.51.41:347][911]Mutable: Warning: Could not generate a mesh section because it didn't have a material selected. Please assign one and recompile.   CO_Monocle  (Node  Mesh Section )
+[2026.10.03-13.51.41:348][911]Mutable: Warning: Could not generate a mesh section because it didn't have a material selected. Please assign one and recompile.   CO_CatGlasses  (Node  Mesh Section )
+[2026.10.03-13.51.41:348][911]Mutable: Warning: Could not generate a mesh section because it didn't have a material selected. Please assign one and recompile.   CO_Shoes  (Node  Mesh Section )
+[2026.10.03-13.51.41:348][911]Mutable: Warning: Could not generate a mesh section because it didn't have a material selected. Please assign one and recompile.   CO_RainBoots  (Node  Mesh Section )
+[2026.10.03-13.51.41:348][911]Mutable: Warning: Could not generate a mesh section because it didn't have a material selected. Please assign one and recompile.   CO_ClosedSandals  (Node  Mesh Section )
+[2026.10.03-13.51.41:349][911]Mutable: Warning: Could not generate a mesh section because it didn't have a material selected. Please assign one and recompile.   CO_FairyWings  (Node  Mesh Section )
+[2026.10.03-13.51.41:349][911]Mutable: Warning: Could not generate a mesh section because it didn't have a material selected. Please assign one and recompile.   CO_AngelWings  (Node  Mesh Section )
+[2026.10.03-13.51.41:349][911]Mutable: Compiling CO_ModularCharacter. Compiling
+[2026.10.03-13.51.41:651][913]LogMutableCore: Generated roms: 9 (2 KB) are embedded, 14 (115 KB) are streamed of which 0 (0 KB) are high-res.
+[2026.10.03-13.51.41:651][913]LogMutableCore:    Cache Files Written : 0
+[2026.10.03-13.51.41:652][913]LogMutableCore:    Cache Files Read    : 0
+[2026.10.03-13.51.41:652][913]LogMutableCore:    Cache MB Written    : 0
+[2026.10.03-13.51.41:652][913]LogMutableCore:    Cache MB Read       : 0
+[2026.10.03-13.51.41:743][914]Mutable: Warning: CO_ModularCharacter : Constant mesh not set.   CO_Hat  (Node  Skeletal Mesh )
+[2026.10.03-13.51.41:746][914]Mutable: Compiling CO_ModularCharacter. Saving Data
+[2026.10.03-13.51.41:778][915]LogMutable: Display: Finished compiling Customizable Object CO_ModularCharacter. Compilation took 1.186 seconds to complete.
+[2026.10.03-13.51.41:785][915]Mutable: Warning: CO_ModularCharacter finished compiling with 40 warnings and 0 errors.
+[2026.10.03-13.51.41:787][915]LogMutable: Started Update Skeletal Mesh Async. CustomizableObject=CO_ModularCharacter Instance=CustomizableObjectInstance_2, Frame=33917
+[2026.10.03-13.51.56:815][501]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.03-13.51.56:815][501]LogWorld: BeginTearingDown for /Game/UEDPIE_0_PharaohMinigame
+[2026.10.03-13.51.56:815][501]LogTemp: Warning: Deinitialize Bluetooth Manager Subsystem
+[2026.10.03-13.51.56:815][501]LogWorld: UWorld::CleanupWorld for PharaohMinigame, bSessionEnded=true, bCleanupResources=true
+[2026.10.03-13.51.56:815][501]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.03-13.51.56:818][501]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.03-13.51.56:827][501]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.03-13.51.56:866][501]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.03-13.51.56:866][501]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2026.10.03-13.51.56:867][501]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=4
+[2026.10.03-13.51.56:870][501]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=2
+[2026.10.03-13.51.56:887][501]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2026.10.03-13.51.57:014][502]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2026.10.03-13.52.03:939][777]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.03-13.52.03:956][777]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.03-13.52.03:956][777]LogPlayLevel: Display: Creating online subsystem for client :Context_11
+[2026.10.03-13.52.03:960][777]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2026.10.03-13.52.03:995][778]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PharaohMinigame
+[2026.10.03-13.52.04:000][778]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004513s)
+[2026.10.03-13.52.04:000][778]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PharaohMinigame.PharaohMinigame to /Game/UEDPIE_0_PharaohMinigame.PharaohMinigame (0.004585s)
+[2026.10.03-13.52.04:038][778]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2026.10.03-13.52.04:042][778]LogTemp: WinRT Apartment initialized successfully!
+[2026.10.03-13.52.04:042][778]LogChaosDD: Creating Chaos Debug Draw Scene for world PharaohMinigame
+[2026.10.03-13.52.04:044][778]LogPlayLevel: PIE: World Init took: (0.002346s)
+[2026.10.03-13.52.04:045][778]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2026.10.03-13.52.04:046][778]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.03-13.52.04:046][778]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.03-13.52.04:046][778]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.03-13.52.04:046][778]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.03-13.52.04:046][778]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.03-13.52.04:046][778]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.03-13.52.04:046][778]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.03-13.52.04:046][778]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.03-13.52.04:046][778]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.03-13.52.04:046][778]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.03-13.52.04:046][778]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.03-13.52.04:049][778]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.03-13.52.04:077][778]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- WH202A)
+[2026.10.03-13.52.04:077][778]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.03-13.52.04:077][778]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.03-13.52.04:077][778]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.03-13.52.04:078][778]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2026.10.03-13.52.04:078][778]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2026.10.03-13.52.04:084][778]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2026.10.03-13.52.04:084][778]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2026.10.03-13.52.04:084][778]LogInit: FAudioDevice initialized with ID 5.
+[2026.10.03-13.52.04:084][778]LogAudio: Display: Audio Device (ID: 5) registered with world 'PharaohMinigame'.
+[2026.10.03-13.52.04:084][778]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2026.10.03-13.52.04:089][778]LogLoad: Game class is 'BP_PharaohMinigame_C'
+[2026.10.03-13.52.04:090][778]LogWorld: Bringing World /Game/UEDPIE_0_PharaohMinigame.PharaohMinigame up for play (max tick rate 60) at 2026.10.03-09.52.04
+[2026.10.03-13.52.04:090][778]LogWorld: Bringing up level for play took: 0.001027
+[2026.10.03-13.52.04:092][778]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2026.10.03-13.52.04:092][778]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.10.03-13.52.04:092][778]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2026.10.03-13.52.04:092][778]LogMinigameCore: Error: MinigameBase: Not enough players for this game type!
+[2026.10.03-13.52.04:092][778]LogMinigameCore: Warning: MinigameBase: No point counter found. Creating default point counter.
+[2026.10.03-13.52.04:093][778]LogTemp: Warning: Minigame Base Player 0: Found player BashLocalPlayer_3 and controller BashPlayerController_0
+[2026.10.03-13.52.04:096][778]PIE: Server logged in
+[2026.10.03-13.52.04:100][778]PIE: Play in editor total start time 0.143 seconds.
+[2026.10.03-13.52.04:105][778]LogMutable: Started Update Skeletal Mesh Async. CustomizableObject=CO_ModularCharacter Instance=CustomizableObjectInstance_3, Frame=34780
+[2026.10.03-13.52.04:175][779]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.03-13.52.04:258][780]LogShaderCompilers: Display: ================================================
+[2026.10.03-13.52.04:258][780]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.10.03-13.52.04:258][780]LogShaderCompilers: Display: Total job queries 442, among them cache hits 30 (6.79%), DDC hits 187 (42.31%), Duplicates 71 (16.06%)
+[2026.10.03-13.52.04:258][780]LogShaderCompilers: Display: Tracking 341 distinct input hashes that result in 243 distinct outputs (71.26%)
+[2026.10.03-13.52.04:258][780]LogShaderCompilers: Display: RAM used: 3.25 MiB of 819.20 MiB budget. Usage: 0.40%
+[2026.10.03-13.52.04:258][780]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.10.03-13.52.04:258][780]LogShaderCompilers: Display: Shaders Compiled: 154
+[2026.10.03-13.52.04:258][780]LogShaderCompilers: Display: Jobs assigned 154, completed 154 (100%)
+[2026.10.03-13.52.04:259][780]LogShaderCompilers: Display: Average time worker was idle: 39.80 s
+[2026.10.03-13.52.04:259][780]LogShaderCompilers: Display: Time job spent in pending queue: average 7.44 s, longest 36.21 s
+[2026.10.03-13.52.04:259][780]LogShaderCompilers: Display: Job execution time: average 17.49 s, max 34.64 s
+[2026.10.03-13.52.04:259][780]LogShaderCompilers: Display: Job life time (pending + execution): average 24.93 s, max 39.95
+[2026.10.03-13.52.04:259][780]LogShaderCompilers: Display: Shader code size: total 1.51 MiB, numShaders 154, average 10.042 KiB, min 3.699 KiB, max 28.704 KiB
+[2026.10.03-13.52.04:259][780]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 53.34 s
+[2026.10.03-13.52.04:259][780]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2026.10.03-13.52.04:259][780]LogShaderCompilers: Display: Jobs were issued in 60 batches (only local compilation was used), average 2.57 jobs/batch
+[2026.10.03-13.52.04:259][780]LogShaderCompilers: Display: Average processing rate: 2.89 jobs/sec
+[2026.10.03-13.52.04:259][780]LogShaderCompilers: Display: Total thread time: 358.647 s
+[2026.10.03-13.52.04:259][780]LogShaderCompilers: Display: Total thread preprocess time: 9.636 s
+[2026.10.03-13.52.04:259][780]LogShaderCompilers: Display: Percentage time preprocessing: 2.69%
+[2026.10.03-13.52.04:259][780]LogShaderCompilers: Display: Effective parallelization: 6.72 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.840490
+[2026.10.03-13.52.04:259][780]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.10.03-13.52.04:259][780]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS (compiled   10 times, average 5.32 sec, max 12.64 sec, min 2.51 sec)
+[2026.10.03-13.52.04:259][780]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled   10 times, average 5.16 sec, max 11.72 sec, min 2.78 sec)
+[2026.10.03-13.52.04:259][780]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    9 times, average 4.37 sec, max 10.63 sec, min 1.99 sec)
+[2026.10.03-13.52.04:259][780]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    4 times, average 3.62 sec, max 5.14 sec, min 2.22 sec)
+[2026.10.03-13.52.04:259][780]LogShaderCompilers: Display:                          FPathTracingVolumetricCloudMaterial (compiled    1 times, average 3.60 sec, max 3.60 sec, min 3.60 sec)
+[2026.10.03-13.52.04:259][780]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.10.03-13.52.04:259][780]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 18.62% of total time (compiled   25 times, average 2.67 sec, max 11.74 sec, min 0.65 sec)
+[2026.10.03-13.52.04:259][780]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS - 14.82% of total time (compiled   10 times, average 5.32 sec, max 12.64 sec, min 2.51 sec)
+[2026.10.03-13.52.04:259][780]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 14.38% of total time (compiled   10 times, average 5.16 sec, max 11.72 sec, min 2.78 sec)
+[2026.10.03-13.52.04:259][780]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 10.96% of total time (compiled    9 times, average 4.37 sec, max 10.63 sec, min 1.99 sec)
+[2026.10.03-13.52.04:259][780]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 10.68% of total time (compiled   27 times, average 1.42 sec, max 4.60 sec, min 0.56 sec)
+[2026.10.03-13.52.04:259][780]LogShaderCompilers: Display: === Material stats ===
+[2026.10.03-13.52.04:259][780]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.10.03-13.52.04:259][780]LogShaderCompilers: Display: Materials Translated:    148
+[2026.10.03-13.52.04:259][780]LogShaderCompilers: Display: Material Total Translate Time: 0.21 s
+[2026.10.03-13.52.04:259][780]LogShaderCompilers: Display: Material Translation Only: 0.09 s (40%)
+[2026.10.03-13.52.04:259][780]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2026.10.03-13.52.04:259][780]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2026.10.03-13.52.04:259][780]LogShaderCompilers: Display: ================================================
+[2026.10.03-13.52.16:593][323]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.03-13.52.16:593][323]LogWorld: BeginTearingDown for /Game/UEDPIE_0_PharaohMinigame
+[2026.10.03-13.52.16:593][323]LogTemp: Warning: Deinitialize Bluetooth Manager Subsystem
+[2026.10.03-13.52.16:593][323]LogWorld: UWorld::CleanupWorld for PharaohMinigame, bSessionEnded=true, bCleanupResources=true
+[2026.10.03-13.52.16:593][323]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.03-13.52.16:596][323]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.03-13.52.16:605][323]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.03-13.52.16:644][323]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.03-13.52.16:644][323]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2026.10.03-13.52.16:644][323]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=4
+[2026.10.03-13.52.16:649][323]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=2
+[2026.10.03-13.52.16:660][323]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2026.10.03-13.52.16:854][324]LogPlayLevel: Display: Destroying online subsystem :Context_11
