@@ -1,0 +1,4 @@
+Thread: Game
+Context:'Prepass' Type:'SWindow' Tag:'None' Location:'D:\build\++UE5\Sync\Engine\Source\Editor\MainFrame\Private\MainFrameModule.cpp_198'
+Context:'Prepass' Type:'SConstraintCanvas' Tag:'None' Location:'D:\build\++UE5\Sync\Engine\Source\Runtime\UMG\Private\Components\CanvasPanel.cpp_56'
+Context:'Prepass' Type:'SOverlay' Tag:'None' Location:'D:\build\++UE5\Sync\Engine\Source\Runtime\UMG\Private\Components\Overlay.cpp_72'
