@@ -2616,3 +2616,72 @@ Make sure '/Game/objects/BP_LObject.BP_LObject_C' has been compiled for  Get InW
 [2026.10.04-14.17.55:131][148]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
 [2026.10.04-14.18.15:526][532]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
 [2026.10.04-14.18.25:615][736]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2026.10.04-14.18.55:761][943]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2026.10.04-14.18.55:805][943]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/PharaohsForcesMinigame_Auto4
+[2026.10.04-14.18.55:806][943]LogSavePackage: Moving '../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Saved/PharaohsForcesMinigame_Auto4BFE2F3DB4D8BC2067A1C1588768048B0.tmp' to '../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Saved/Autosaves/Game/PharaohsForcesMinigame_Auto4.umap'
+[2026.10.04-14.18.55:808][943]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/PharaohsForcesMinigame' took 0.089
+[2026.10.04-14.18.55:808][943]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.089
+[2026.10.04-14.18.55:809][943]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/objects/BP_RObject] ([2] browsable assets)...
+[2026.10.04-14.18.56:055][943]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/objects/BP_RObject.BP_RObject]
+[2026.10.04-14.18.56:056][943]OBJ SavePackage: Finished generating thumbnails for package [/Game/objects/BP_RObject]
+[2026.10.04-14.18.56:085][943]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/objects/BP_RObject_Auto4
+[2026.10.04-14.18.56:085][943]LogSavePackage: Moving '../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Saved/BP_RObject_Auto4262113A84A1F88F03AE761A5E2B71096.tmp' to '../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Saved/Autosaves/Game/objects/BP_RObject_Auto4.uasset'
+[2026.10.04-14.18.56:088][943]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/objects/BP_AObject] ([2] browsable assets)...
+[2026.10.04-14.18.56:105][943]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/objects/BP_AObject.BP_AObject]
+[2026.10.04-14.18.56:105][943]OBJ SavePackage: Finished generating thumbnails for package [/Game/objects/BP_AObject]
+[2026.10.04-14.18.56:133][943]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/objects/BP_AObject_Auto4
+[2026.10.04-14.18.56:133][943]LogSavePackage: Moving '../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Saved/BP_AObject_Auto4E6870D5B4C185D0FD3A39E925C4E2182.tmp' to '../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Saved/Autosaves/Game/objects/BP_AObject_Auto4.uasset'
+[2026.10.04-14.18.56:135][943]LogFileHelpers: Auto-saving content packages took 0.327
+[2026.10.04-14.19.02:881][986]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.04-14.19.03:127][986]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/objects/BP_AObject] ([2] browsable assets)...
+[2026.10.04-14.19.03:127][986]OBJ SavePackage: Finished generating thumbnails for package [/Game/objects/BP_AObject]
+[2026.10.04-14.19.03:127][986]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/BP_AObject" FILE="../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Content/objects/BP_AObject.uasset" SILENT=true
+[2026.10.04-14.19.03:150][986]LogSavePackage: Moving output files for package: /Game/objects/BP_AObject
+[2026.10.04-14.19.03:152][986]LogSavePackage: Moving '../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Saved/BP_AObject1205C99043FE073F8D1D20902AA735B2.tmp' to '../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Content/objects/BP_AObject.uasset'
+[2026.10.04-14.19.03:181][986]LogFileHelpers: InternalPromptForCheckoutAndSave took 300.067 ms (total: 995.392 ms)
+[2026.10.04-14.19.03:356][986]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.04-14.19.03:356][986]LogContentValidation: Enabled validators:
+[2026.10.04-14.19.03:356][986]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.04-14.19.03:356][986]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.04-14.19.03:356][986]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.04-14.19.03:356][986]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.04-14.19.03:356][986]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.04-14.19.03:356][986]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.04-14.19.03:356][986]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.10.04-14.19.03:356][986]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.10.04-14.19.03:356][986]AssetCheck: /Game/objects/BP_AObject Validating asset
+[2026.10.04-14.19.08:127][ 80]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.04-14.19.08:359][ 80]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/objects/BP_RObject] ([2] browsable assets)...
+[2026.10.04-14.19.08:359][ 80]OBJ SavePackage: Finished generating thumbnails for package [/Game/objects/BP_RObject]
+[2026.10.04-14.19.08:359][ 80]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/BP_RObject" FILE="../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Content/objects/BP_RObject.uasset" SILENT=true
+[2026.10.04-14.19.08:390][ 80]LogSavePackage: Moving output files for package: /Game/objects/BP_RObject
+[2026.10.04-14.19.08:391][ 80]LogSavePackage: Moving '../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Saved/BP_RObject20977B384D4715A24E60D58815D456D9.tmp' to '../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Content/objects/BP_RObject.uasset'
+[2026.10.04-14.19.08:417][ 80]LogFileHelpers: InternalPromptForCheckoutAndSave took 290.654 ms (total: 1.28 sec)
+[2026.10.04-14.19.08:623][ 80]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.04-14.19.08:623][ 80]LogContentValidation: Enabled validators:
+[2026.10.04-14.19.08:623][ 80]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.04-14.19.08:623][ 80]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.04-14.19.08:623][ 80]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.04-14.19.08:623][ 80]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.04-14.19.08:623][ 80]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.04-14.19.08:623][ 80]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.04-14.19.08:623][ 80]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.10.04-14.19.08:623][ 80]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.10.04-14.19.08:623][ 80]AssetCheck: /Game/objects/BP_RObject Validating asset
+[2026.10.04-14.19.10:953][116]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.04-14.19.11:160][116]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2026.10.04-14.19.11:202][116]LogSavePackage: Moving output files for package: /Game/PharaohsForcesMinigame
+[2026.10.04-14.19.11:203][116]LogSavePackage: Moving '../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Saved/PharaohsForcesMinigameB1A40A7B460769DD7AF7D4B258606086.tmp' to '../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Content/PharaohsForcesMinigame.umap'
+[2026.10.04-14.19.11:233][116]LogFileHelpers: Saving map 'PharaohsForcesMinigame' took 0.163
+[2026.10.04-14.19.11:257][116]LogFileHelpers: InternalPromptForCheckoutAndSave took 303.528 ms (total: 1.58 sec)
+[2026.10.04-14.19.11:308][116]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.04-14.19.11:308][116]LogContentValidation: Enabled validators:
+[2026.10.04-14.19.11:308][116]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.04-14.19.11:308][116]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.04-14.19.11:308][116]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.04-14.19.11:308][116]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.04-14.19.11:308][116]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.04-14.19.11:308][116]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.04-14.19.11:308][116]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.10.04-14.19.11:308][116]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.10.04-14.19.11:308][116]AssetCheck: /Game/PharaohsForcesMinigame Validating asset
