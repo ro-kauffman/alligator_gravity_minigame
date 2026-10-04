@@ -2674,3 +2674,219 @@ FPackageName: Skipped package /Game/Assets/UI/T_HeroHeadshot has a valid, mounte
 [2026.10.04-19.57.49:660][480]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
 [2026.10.04-19.57.49:660][480]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
 [2026.10.04-19.57.49:660][480]AssetCheck: /Game/objects/BP_RObject Validating asset
+[2026.10.04-19.58.14:664][599]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2026.10.04-19.58.14:672][599]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/PharaohsForcesMinigame' took 0.066
+[2026.10.04-19.58.14:673][599]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BP_GeneralPlayer] ([2] browsable assets)...
+[2026.10.04-19.58.14:963][599]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_GeneralPlayer.BP_GeneralPlayer]
+[2026.10.04-19.58.14:963][599]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_GeneralPlayer]
+[2026.10.04-19.58.15:038][599]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BP_GeneralPlayer_Auto2
+[2026.10.04-19.58.15:039][599]LogSavePackage: Moving '../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Saved/BP_GeneralPlayer_Auto2409A28F54537D61873B500B4BEB2CED2.tmp' to '../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Saved/Autosaves/Game/BP_GeneralPlayer_Auto2.uasset'
+[2026.10.04-19.58.15:042][599]LogFileHelpers: Auto-saving content packages took 0.370
+[2026.10.04-19.59.25:435][811]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.04-19.59.25:459][811]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.04-19.59.25:459][811]LogPlayLevel: Display: Creating online subsystem for client :Context_26
+[2026.10.04-19.59.25:466][811]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2026.10.04-19.59.25:542][812]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-19.59.25:559][812]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017064s)
+[2026.10.04-19.59.25:559][812]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PharaohsForcesMinigame.PharaohsForcesMinigame to /Game/UEDPIE_0_PharaohsForcesMinigame.PharaohsForcesMinigame (0.017151s)
+[2026.10.04-19.59.25:610][812]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2026.10.04-19.59.25:616][812]LogTemp: WinRT Apartment initialized successfully!
+[2026.10.04-19.59.25:616][812]LogChaosDD: Creating Chaos Debug Draw Scene for world PharaohsForcesMinigame
+[2026.10.04-19.59.25:619][812]LogPlayLevel: PIE: World Init took: (0.002480s)
+[2026.10.04-19.59.25:620][812]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2026.10.04-19.59.25:620][812]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.04-19.59.25:620][812]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.04-19.59.25:620][812]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.04-19.59.25:620][812]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.04-19.59.25:620][812]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.04-19.59.25:620][812]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.04-19.59.25:620][812]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.04-19.59.25:620][812]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.04-19.59.25:620][812]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.04-19.59.25:620][812]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.04-19.59.25:620][812]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.04-19.59.25:623][812]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.04-19.59.25:655][812]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- WH202A)
+[2026.10.04-19.59.25:655][812]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.04-19.59.25:655][812]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.04-19.59.25:655][812]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.04-19.59.25:655][812]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2026.10.04-19.59.25:655][812]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2026.10.04-19.59.25:661][812]LogInit: FAudioDevice initialized with ID 5.
+[2026.10.04-19.59.25:661][812]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2026.10.04-19.59.25:661][812]LogAudio: Display: Audio Device (ID: 5) registered with world 'PharaohsForcesMinigame'.
+[2026.10.04-19.59.25:661][812]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2026.10.04-19.59.25:661][812]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2026.10.04-19.59.25:671][812]LogLoad: Game class is 'BP_PharaohMinigame_C'
+[2026.10.04-19.59.25:677][812]LogWorld: Bringing World /Game/UEDPIE_0_PharaohsForcesMinigame.PharaohsForcesMinigame up for play (max tick rate 60) at 2026.10.04-15.59.25
+[2026.10.04-19.59.25:678][812]LogWorld: Bringing up level for play took: 0.006267
+[2026.10.04-19.59.25:678][812]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2026.10.04-19.59.25:679][812]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.10.04-19.59.25:679][812]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2026.10.04-19.59.25:679][812]LogMinigameCore: Error: MinigameBase: Not enough players for this game type!
+[2026.10.04-19.59.25:679][812]LogMinigameCore: Warning: MinigameBase: No point counter found. Creating default point counter.
+[2026.10.04-19.59.25:681][812]LogTemp: Warning: Minigame Base Player 0: Found player BashLocalPlayer_4 and controller BashPlayerController_0
+[2026.10.04-19.59.25:682][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:682][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:682][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:682][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:682][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:682][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:682][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:682][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:682][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:682][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:682][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:682][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:682][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:682][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:682][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:682][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:682][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:682][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:682][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:682][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:682][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:682][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:682][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:683][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:683][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:683][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:683][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:683][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:683][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:683][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:683][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:683][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:683][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:683][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:683][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:683][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:683][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:683][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:683][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:683][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:683][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:684][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:684][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:684][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:684][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:684][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:684][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:684][812]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.25:688][812]PIE: Server logged in
+[2026.10.04-19.59.25:691][812]PIE: Play in editor total start time 0.233 seconds.
+[2026.10.04-19.59.25:701][812]LogMutable: Started Update Skeletal Mesh Async. CustomizableObject=CO_ModularCharacter Instance=CustomizableObjectInstance_4, Frame=74814
+[2026.10.04-19.59.26:161][813]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.04-19.59.31:137][941]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.33:057][  7]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.41:517][297]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.43:520][367]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.45:436][433]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.51:991][660]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.54:462][744]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:784][823]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments. Attempt 1 out of 16 tries.
+[2026.10.04-19.59.56:890][827]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments. Attempt 2 out of 16 tries.
+[2026.10.04-19.59.56:951][830]LogTemp: Warning: Minigame Base Player 0: Found player BashLocalPlayer_4 and controller BashPlayerController_0
+[2026.10.04-19.59.56:953][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:953][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:953][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:953][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:953][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:953][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:953][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:953][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:953][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:953][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:953][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:953][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:953][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:953][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:953][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:953][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:953][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:953][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:953][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:953][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:953][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:953][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:953][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:953][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:953][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:953][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:953][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:953][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:953][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:953][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:953][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:953][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:953][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:953][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:953][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:953][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:954][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:954][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:954][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:954][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:954][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:954][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:954][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:954][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:954][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:954][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:954][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:954][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:954][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:955][830]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-19.59.56:959][830]LogMutable: Started Update Skeletal Mesh Async. CustomizableObject=CO_ModularCharacter Instance=CustomizableObjectInstance_4, Frame=75832
+[2026.10.04-19.59.56:991][831]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments. Attempt 3 out of 16 tries.
+[2026.10.04-19.59.57:094][834]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments. Attempt 4 out of 16 tries.
+[2026.10.04-19.59.57:198][838]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments. Attempt 5 out of 16 tries.
+[2026.10.04-19.59.57:302][841]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments. Attempt 6 out of 16 tries.
+[2026.10.04-19.59.57:404][844]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments. Attempt 7 out of 16 tries.
+[2026.10.04-19.59.57:509][848]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments. Attempt 8 out of 16 tries.
+[2026.10.04-19.59.57:609][851]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments. Attempt 9 out of 16 tries.
+[2026.10.04-19.59.57:714][855]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments. Attempt 10 out of 16 tries.
+[2026.10.04-19.59.57:819][859]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments. Attempt 11 out of 16 tries.
+[2026.10.04-19.59.57:929][863]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments. Attempt 12 out of 16 tries.
+[2026.10.04-19.59.58:029][866]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments. Attempt 13 out of 16 tries.
+[2026.10.04-19.59.58:131][869]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments. Attempt 14 out of 16 tries.
+[2026.10.04-19.59.58:241][873]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments. Attempt 15 out of 16 tries.
+[2026.10.04-19.59.58:341][877]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments. Attempt 16 out of 16 tries.
+[2026.10.04-19.59.58:443][880]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments. Attempt 17 out of 16 tries.
+[2026.10.04-19.59.58:443][880]LogUdpMessaging: Warning: Gave up sending with 1 outstanding acks. Attempted 16 tries.
+[2026.10.04-19.59.58:444][880]LogUdpMessaging: Warning: FUdpMessageProcessor::GetInitializedSegments segmenter is invalid. Removing from send queue.
+[2026.10.04-19.59.59:398][914]LogBlueprintUserMessages: [BP_ObstacleTable] BP_RObject1_C
+[2026.10.04-20.00.02:459][ 18]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.04-20.00.02:459][ 18]LogWorld: BeginTearingDown for /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-20.00.02:459][ 18]LogTemp: Warning: Deinitialize Bluetooth Manager Subsystem
+[2026.10.04-20.00.02:459][ 18]LogWorld: UWorld::CleanupWorld for PharaohsForcesMinigame, bSessionEnded=true, bCleanupResources=true
+[2026.10.04-20.00.02:461][ 18]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-20.00.02:466][ 18]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.04-20.00.02:473][ 18]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-20.00.02:506][ 18]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.04-20.00.02:507][ 18]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2026.10.04-20.00.02:507][ 18]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=4
+[2026.10.04-20.00.02:511][ 18]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=2
+[2026.10.04-20.00.02:522][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2026.10.04-20.00.02:755][ 19]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2026.10.04-20.01.18:818][451]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.04-20.01.18:949][451]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/objects/BP_RObject] ([2] browsable assets)...
+[2026.10.04-20.01.18:949][451]OBJ SavePackage: Finished generating thumbnails for package [/Game/objects/BP_RObject]
+[2026.10.04-20.01.18:949][451]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/BP_RObject" FILE="../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Content/objects/BP_RObject.uasset" SILENT=true
+[2026.10.04-20.01.18:976][451]LogSavePackage: Moving output files for package: /Game/objects/BP_RObject
+[2026.10.04-20.01.18:977][451]LogSavePackage: Moving '../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Saved/BP_RObjectE1A24D304073EC6EB58AD7BEB515B9F1.tmp' to '../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Content/objects/BP_RObject.uasset'
+[2026.10.04-20.01.18:992][451]LogFileHelpers: InternalPromptForCheckoutAndSave took 173.639 ms (total: 1.41 sec)
+[2026.10.04-20.01.19:095][451]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.04-20.01.19:095][451]LogContentValidation: Enabled validators:
+[2026.10.04-20.01.19:095][451]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.04-20.01.19:095][451]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.04-20.01.19:095][451]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.04-20.01.19:095][451]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.04-20.01.19:095][451]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.04-20.01.19:095][451]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.04-20.01.19:095][451]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.10.04-20.01.19:095][451]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.10.04-20.01.19:095][451]AssetCheck: /Game/objects/BP_RObject Validating asset
