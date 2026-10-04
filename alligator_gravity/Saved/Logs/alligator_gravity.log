@@ -5732,3 +5732,6 @@ Otherwise assets can be missing from cooked builds. Continue with rename?
 [2026.10.04-21.38.43:767][407]AssetCheck: /Game/icons/Human_Icon Validating asset
 [2026.10.04-21.38.43:767][407]AssetCheck: /Game/icons/Alli_Icon Validating asset
 [2026.10.04-21.38.43:782][407]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Saved/SourceControl/UncontrolledChangelists.json
+[2026.10.04-21.39.33:203][375]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3932.556396
+[2026.10.04-21.39.34:202][378]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.04-21.39.34:202][378]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3933.227295, Update Interval: 310.144348
