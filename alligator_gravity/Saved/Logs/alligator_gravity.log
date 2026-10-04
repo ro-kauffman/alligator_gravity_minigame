@@ -3746,3 +3746,22 @@ Make sure '/Game/objects/BP_LObject.BP_LObject_C' has been compiled for  Get InW
 [2026.10.04-14.43.24:175][ 98]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25, StreamState=2
 [2026.10.04-14.43.24:206][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
 [2026.10.04-14.43.24:278][ 99]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2026.10.04-14.45.34:519][686]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2026.10.04-14.45.34:590][686]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/PharaohsForcesMinigame_Auto6
+[2026.10.04-14.45.34:590][686]LogSavePackage: Moving '../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Saved/PharaohsForcesMinigame_Auto65CA751AE43AC0CF53A499692FB0E6CB6.tmp' to '../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Saved/Autosaves/Game/PharaohsForcesMinigame_Auto6.umap'
+[2026.10.04-14.45.34:599][686]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/PharaohsForcesMinigame' took 0.125
+[2026.10.04-14.45.34:599][686]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.125
+[2026.10.04-14.45.34:600][686]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/objects/BP_RObject] ([2] browsable assets)...
+[2026.10.04-14.45.34:922][686]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/objects/BP_RObject.BP_RObject]
+[2026.10.04-14.45.34:924][686]OBJ SavePackage: Finished generating thumbnails for package [/Game/objects/BP_RObject]
+[2026.10.04-14.45.34:969][686]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/objects/BP_RObject_Auto6
+[2026.10.04-14.45.34:970][686]LogSavePackage: Moving '../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Saved/BP_RObject_Auto625ED20D9444DCE3E9DE174BCB154DAC5.tmp' to '../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Saved/Autosaves/Game/objects/BP_RObject_Auto6.uasset'
+[2026.10.04-14.45.34:972][686]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/objects/BP_LObject] ([2] browsable assets)...
+[2026.10.04-14.45.35:099][686]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/objects/BP_LObject.BP_LObject]
+[2026.10.04-14.45.35:099][686]OBJ SavePackage: Finished generating thumbnails for package [/Game/objects/BP_LObject]
+[2026.10.04-14.45.35:126][686]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/objects/BP_LObject_Auto6
+[2026.10.04-14.45.35:126][686]LogSavePackage: Moving '../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Saved/BP_LObject_Auto6E5111A7244A669EA86FA28A2701D2A59.tmp' to '../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Saved/Autosaves/Game/objects/BP_LObject_Auto6.uasset'
+[2026.10.04-14.45.35:129][686]LogFileHelpers: Auto-saving content packages took 0.530
+[2026.10.04-14.46.52:539][919]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4778.788086
+[2026.10.04-14.46.53:542][922]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.04-14.46.53:542][922]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4779.457031, Update Interval: 316.683258
