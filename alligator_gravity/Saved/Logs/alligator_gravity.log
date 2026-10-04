@@ -1442,3 +1442,1132 @@ FPackageName: Skipped package /BashAssets/Character/Modular/Clothes/Bottoms/Pant
 [2026.10.04-13.24.55:010][278]LogActor: Loaded Actor (BP_ObstacleSpawner_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
 [2026.10.04-13.24.55:011][278]LogActor: Loaded Actor (BP_ObstacleSpawner1_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
 [2026.10.04-13.24.55:011][278]LogActor: Loaded Actor (BP_ObstacleSpawner2_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.27.27:025][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2026.10.04-13.27.30:856][128]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.04-13.27.30:869][128]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.04-13.27.30:870][128]LogPlayLevel: Display: Creating online subsystem for client :Context_6
+[2026.10.04-13.27.30:873][128]LogOnline: OSS: Created online subsystem instance for: :Context_6
+[2026.10.04-13.27.30:903][129]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PharaohMinigame
+[2026.10.04-13.27.30:908][129]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005195s)
+[2026.10.04-13.27.30:908][129]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PharaohMinigame.PharaohMinigame to /Game/UEDPIE_0_PharaohMinigame.PharaohMinigame (0.005300s)
+[2026.10.04-13.27.30:950][129]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2026.10.04-13.27.30:952][129]LogTemp: WinRT Apartment initialized successfully!
+[2026.10.04-13.27.30:953][129]LogChaosDD: Creating Chaos Debug Draw Scene for world PharaohMinigame
+[2026.10.04-13.27.30:955][129]LogPlayLevel: PIE: World Init took: (0.002571s)
+[2026.10.04-13.27.30:956][129]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2026.10.04-13.27.30:956][129]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.04-13.27.30:956][129]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.04-13.27.30:956][129]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.04-13.27.30:956][129]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.04-13.27.30:956][129]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.04-13.27.30:956][129]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.04-13.27.30:956][129]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.04-13.27.30:956][129]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.04-13.27.30:956][129]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.04-13.27.30:956][129]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.04-13.27.30:957][129]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.04-13.27.30:960][129]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.04-13.27.30:985][129]LogAudioMixer: Display: Using Audio Hardware Device Speakers (High Definition Audio Device)
+[2026.10.04-13.27.30:986][129]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.04-13.27.30:986][129]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.04-13.27.30:986][129]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.04-13.27.30:987][129]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2026.10.04-13.27.30:987][129]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2026.10.04-13.27.30:993][129]LogInit: FAudioDevice initialized with ID 2.
+[2026.10.04-13.27.30:993][129]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2026.10.04-13.27.30:993][129]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2026.10.04-13.27.30:993][129]LogAudio: Display: Audio Device (ID: 2) registered with world 'PharaohMinigame'.
+[2026.10.04-13.27.30:993][129]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2026.10.04-13.27.30:996][129]LogMutable: Error: Customizable Object [CO_ModularCharacter] not loaded or not compiled. Compile via the editor or via code before instancing.  Calling function: FCustomizableObjectInstanceDescriptor::SetRandomValuesFromStream.  Error: Cannot set random values
+[2026.10.04-13.27.30:996][129]Mutable: Warning: Warning: Customizable Object [CO_ModularCharacter] not loaded or compiled.
+[2026.10.04-13.27.31:002][129]LogStreaming: Display: FlushAsyncLoading(587): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.04-13.27.31:165][129]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.8.dll
+[2026.10.04-13.27.31:210][129]LogLoad: Game class is 'BP_PharaohMinigame_C'
+[2026.10.04-13.27.31:213][129]LogWorld: Bringing World /Game/UEDPIE_0_PharaohMinigame.PharaohMinigame up for play (max tick rate 60) at 2026.10.04-09.27.31
+[2026.10.04-13.27.31:213][129]LogWorld: Bringing up level for play took: 0.002781
+[2026.10.04-13.27.31:214][129]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2026.10.04-13.27.31:215][129]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.10.04-13.27.31:215][129]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2026.10.04-13.27.31:221][129]LogMinigameCore: Error: MinigameBase: Not enough players for this game type!
+[2026.10.04-13.27.31:221][129]LogMinigameCore: Warning: MinigameBase: No point counter found. Creating default point counter.
+[2026.10.04-13.27.31:224][129]LogTemp: Warning: Minigame Base Player 0: Found player BashLocalPlayer_0 and controller BashPlayerController_0
+[2026.10.04-13.27.31:241][129]PIE: Server logged in
+[2026.10.04-13.27.31:244][129]PIE: Play in editor total start time 0.381 seconds.
+[2026.10.04-13.27.31:261][129]LogSceneTextures: Display: Enforcing FloatRGBA scene color format due to alpha channel requirement.
+[2026.10.04-13.27.31:479][129]LoadErrors: Warning: While trying to load package /MinigameCore/Widgets/WBP_SplitScreen3, a dependent package /Landmass/TextureCreation/Textures/TNoise1024 was not available. Additional explanatory information follows:
+FPackageName: Unable to identify a valid mount point associated with skipped package /Landmass/TextureCreation/Textures/TNoise1024. The package root is unknown.
+Skipped package /Landmass/TextureCreation/Textures/TNoise1024 was expected to be found in plugin Landmass, however that plugin is not mounted. [ExplicitlyLoaded = FALSE, Enabled = FALSE].
+[2026.10.04-13.27.31:480][130]LoadErrors: Warning: While trying to load package /MinigameCore/Widgets/WBP_PracticeMode_PlayerReady, a dependent package /Game/Assets/UI/T_HeroHeadshot was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Assets/UI/T_HeroHeadshot has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/Rasheed Chenet/Documents/GitHub/alligator_gravity_minigame/alligator_gravity/Content/Assets/UI/T_HeroHeadshot'. Perhaps it has been deleted or was not synced?
+
+[2026.10.04-13.27.31:487][130]LogMutable: Display: Compiling Customizable Object CO_ModularCharacter for platform WindowsEditor and optimization level "Maximum". The Compilation will take more time to run due to the chosen optimization level.
+[2026.10.04-13.27.31:636][131]LogMutable: Display: Compiled data loaded from DDC
+[2026.10.04-13.27.31:640][131]LogMutable: Display: Finished compiling Customizable Object CO_ModularCharacter. Compilation took 0.155 seconds to complete.
+[2026.10.04-13.27.31:642][131]Mutable: CO_ModularCharacter finished compiling.
+[2026.10.04-13.27.31:700][131]LogMutable: Started Update Skeletal Mesh Async. CustomizableObject=CO_ModularCharacter Instance=CustomizableObjectInstance_0, Frame=7133
+[2026.10.04-13.27.57:466][446]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.04-13.27.57:466][446]LogWorld: BeginTearingDown for /Game/UEDPIE_0_PharaohMinigame
+[2026.10.04-13.27.57:467][446]LogTemp: Warning: Deinitialize Bluetooth Manager Subsystem
+[2026.10.04-13.27.57:467][446]LogWorld: UWorld::CleanupWorld for PharaohMinigame, bSessionEnded=true, bCleanupResources=true
+[2026.10.04-13.27.57:468][446]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-13.27.57:603][446]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.04-13.27.57:611][446]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-13.27.57:656][446]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.10.04-13.27.57:656][446]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2026.10.04-13.27.57:656][446]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=4
+[2026.10.04-13.27.57:659][446]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=2
+[2026.10.04-13.27.57:665][446]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.04-13.27.57:672][446]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2026.10.04-13.27.57:747][447]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2026.10.04-13.27.58:811][484]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.04-13.27.59:036][484]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2026.10.04-13.27.59:056][484]LogSavePackage: Moving output files for package: /Game/PharaohMinigame
+[2026.10.04-13.27.59:058][484]LogSavePackage: Moving '../../../../../../Users/Rasheed Chenet/Documents/GitHub/alligator_gravity_minigame/alligator_gravity/Saved/PharaohMinigame826567AC48A4541FFA6647B388EDF4F0.tmp' to '../../../../../../Users/Rasheed Chenet/Documents/GitHub/alligator_gravity_minigame/alligator_gravity/Content/PharaohMinigame.umap'
+[2026.10.04-13.27.59:067][484]LogFileHelpers: Saving map 'PharaohMinigame' took 0.086
+[2026.10.04-13.27.59:105][484]LogFileHelpers: InternalPromptForCheckoutAndSave took 294.776 ms (total: 403.103 ms)
+[2026.10.04-13.27.59:226][484]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.04-13.27.59:226][484]LogContentValidation: Enabled validators:
+[2026.10.04-13.27.59:226][484]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.04-13.27.59:226][484]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.04-13.27.59:226][484]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.04-13.27.59:226][484]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.04-13.27.59:226][484]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.04-13.27.59:226][484]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.04-13.27.59:226][484]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.10.04-13.27.59:226][484]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.10.04-13.27.59:227][484]AssetCheck: /Game/PharaohMinigame Validating asset
+[2026.10.04-13.27.59:263][485]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/Rasheed Chenet/Documents/GitHub/alligator_gravity_minigame/alligator_gravity/Saved/SourceControl/UncontrolledChangelists.json
+[2026.10.04-13.28.03:739][641]LogActor: Loaded Actor (BP_ObstacleSpawner_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.28.03:739][641]LogActor: Loaded Actor (BP_ObstacleSpawner1_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.28.03:740][641]LogActor: Loaded Actor (BP_ObstacleSpawner2_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.28.03:768][642]LogActor: Loaded Actor (BP_ObstacleSpawner_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.28.03:769][642]LogActor: Loaded Actor (BP_ObstacleSpawner1_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.28.03:770][642]LogActor: Loaded Actor (BP_ObstacleSpawner2_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.28.03:877][646]LogActor: Loaded Actor (BP_ObstacleSpawner_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.28.03:878][646]LogActor: Loaded Actor (BP_ObstacleSpawner1_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.28.03:879][646]LogActor: Loaded Actor (BP_ObstacleSpawner2_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.28.03:955][649]LogActor: Loaded Actor (BP_ObstacleSpawner_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.28.03:956][649]LogActor: Loaded Actor (BP_ObstacleSpawner1_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.28.03:956][649]LogActor: Loaded Actor (BP_ObstacleSpawner2_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.28.03:989][650]LogActor: Loaded Actor (BP_ObstacleSpawner_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.28.03:990][650]LogActor: Loaded Actor (BP_ObstacleSpawner1_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.28.03:991][650]LogActor: Loaded Actor (BP_ObstacleSpawner2_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.28.04:679][676]LogActor: Loaded Actor (BP_ObstacleSpawner_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.28.04:680][676]LogActor: Loaded Actor (BP_ObstacleSpawner1_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.28.04:680][676]LogActor: Loaded Actor (BP_ObstacleSpawner2_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.28.05:024][689]LogActor: Loaded Actor (BP_ObstacleSpawner_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.28.05:024][689]LogActor: Loaded Actor (BP_ObstacleSpawner1_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.28.05:025][689]LogActor: Loaded Actor (BP_ObstacleSpawner2_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.28.06:629][745]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.04-13.28.06:845][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2026.10.04-13.28.06:864][745]LogSavePackage: Moving output files for package: /Game/PharaohMinigame
+[2026.10.04-13.28.06:867][745]LogSavePackage: Moving '../../../../../../Users/Rasheed Chenet/Documents/GitHub/alligator_gravity_minigame/alligator_gravity/Saved/PharaohMinigameD1869ABD4EBBBE3C242FA6A9A261A25E.tmp' to '../../../../../../Users/Rasheed Chenet/Documents/GitHub/alligator_gravity_minigame/alligator_gravity/Content/PharaohMinigame.umap'
+[2026.10.04-13.28.06:876][745]LogFileHelpers: Saving map 'PharaohMinigame' took 0.084
+[2026.10.04-13.28.06:909][745]LogFileHelpers: InternalPromptForCheckoutAndSave took 280.974 ms (total: 684.077 ms)
+[2026.10.04-13.28.07:026][745]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.04-13.28.07:026][745]LogContentValidation: Enabled validators:
+[2026.10.04-13.28.07:026][745]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.04-13.28.07:026][745]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.04-13.28.07:026][745]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.04-13.28.07:026][745]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.04-13.28.07:026][745]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.04-13.28.07:026][745]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.04-13.28.07:026][745]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.10.04-13.28.07:026][745]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.10.04-13.28.07:027][745]AssetCheck: /Game/PharaohMinigame Validating asset
+[2026.10.04-13.28.08:231][787]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.04-13.28.08:240][787]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.04-13.28.08:240][787]LogPlayLevel: Display: Creating online subsystem for client :Context_7
+[2026.10.04-13.28.08:244][787]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2026.10.04-13.28.08:272][788]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PharaohMinigame
+[2026.10.04-13.28.08:277][788]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005524s)
+[2026.10.04-13.28.08:277][788]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PharaohMinigame.PharaohMinigame to /Game/UEDPIE_0_PharaohMinigame.PharaohMinigame (0.005614s)
+[2026.10.04-13.28.08:326][788]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2026.10.04-13.28.08:328][788]LogTemp: WinRT Apartment initialized successfully!
+[2026.10.04-13.28.08:328][788]LogChaosDD: Creating Chaos Debug Draw Scene for world PharaohMinigame
+[2026.10.04-13.28.08:331][788]LogPlayLevel: PIE: World Init took: (0.003386s)
+[2026.10.04-13.28.08:332][788]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2026.10.04-13.28.08:332][788]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.04-13.28.08:332][788]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.04-13.28.08:332][788]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.04-13.28.08:332][788]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.04-13.28.08:332][788]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.04-13.28.08:332][788]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.04-13.28.08:332][788]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.04-13.28.08:332][788]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.04-13.28.08:332][788]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.04-13.28.08:332][788]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.04-13.28.08:332][788]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.04-13.28.08:336][788]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.04-13.28.08:357][788]LogAudioMixer: Display: Using Audio Hardware Device Speakers (High Definition Audio Device)
+[2026.10.04-13.28.08:357][788]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.04-13.28.08:358][788]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.04-13.28.08:358][788]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.04-13.28.08:358][788]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2026.10.04-13.28.08:358][788]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2026.10.04-13.28.08:363][788]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2026.10.04-13.28.08:363][788]LogInit: FAudioDevice initialized with ID 3.
+[2026.10.04-13.28.08:363][788]LogAudio: Display: Audio Device (ID: 3) registered with world 'PharaohMinigame'.
+[2026.10.04-13.28.08:363][788]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2026.10.04-13.28.08:363][788]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2026.10.04-13.28.08:368][788]LogLoad: Game class is 'BP_PharaohMinigame_C'
+[2026.10.04-13.28.08:370][788]LogWorld: Bringing World /Game/UEDPIE_0_PharaohMinigame.PharaohMinigame up for play (max tick rate 60) at 2026.10.04-09.28.08
+[2026.10.04-13.28.08:371][788]LogWorld: Bringing up level for play took: 0.002552
+[2026.10.04-13.28.08:371][788]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2026.10.04-13.28.08:372][788]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.10.04-13.28.08:372][788]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2026.10.04-13.28.08:372][788]LogMinigameCore: Error: MinigameBase: Not enough players for this game type!
+[2026.10.04-13.28.08:372][788]LogMinigameCore: Warning: MinigameBase: No point counter found. Creating default point counter.
+[2026.10.04-13.28.08:374][788]LogTemp: Warning: Minigame Base Player 0: Found player BashLocalPlayer_1 and controller BashPlayerController_0
+[2026.10.04-13.28.08:380][788]PIE: Server logged in
+[2026.10.04-13.28.08:383][788]PIE: Play in editor total start time 0.144 seconds.
+[2026.10.04-13.28.08:390][788]LogMutable: Started Update Skeletal Mesh Async. CustomizableObject=CO_ModularCharacter Instance=CustomizableObjectInstance_1, Frame=7790
+[2026.10.04-13.28.22:167][960]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.04-13.28.22:167][960]LogWorld: BeginTearingDown for /Game/UEDPIE_0_PharaohMinigame
+[2026.10.04-13.28.22:167][960]LogTemp: Warning: Deinitialize Bluetooth Manager Subsystem
+[2026.10.04-13.28.22:167][960]LogWorld: UWorld::CleanupWorld for PharaohMinigame, bSessionEnded=true, bCleanupResources=true
+[2026.10.04-13.28.22:168][960]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-13.28.22:271][960]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.04-13.28.22:282][960]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-13.28.22:321][960]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.04-13.28.22:322][960]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2026.10.04-13.28.22:322][960]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=4
+[2026.10.04-13.28.22:326][960]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=2
+[2026.10.04-13.28.22:340][960]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2026.10.04-13.28.22:401][961]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2026.10.04-13.28.31:745][314]LogActor: Loaded Actor (BP_ObstacleSpawner_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.28.31:746][314]LogActor: Loaded Actor (BP_ObstacleSpawner1_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.28.31:747][314]LogActor: Loaded Actor (BP_ObstacleSpawner2_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.28.31:984][323]LogActor: Loaded Actor (BP_ObstacleSpawner_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.28.31:985][323]LogActor: Loaded Actor (BP_ObstacleSpawner1_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.28.31:985][323]LogActor: Loaded Actor (BP_ObstacleSpawner2_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.28.32:200][331]LogActor: Loaded Actor (BP_ObstacleSpawner_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.28.32:201][331]LogActor: Loaded Actor (BP_ObstacleSpawner1_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.28.32:201][331]LogActor: Loaded Actor (BP_ObstacleSpawner2_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.28.32:727][351]LogActor: Loaded Actor (BP_ObstacleSpawner_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.28.32:728][351]LogActor: Loaded Actor (BP_ObstacleSpawner1_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.28.32:729][351]LogActor: Loaded Actor (BP_ObstacleSpawner2_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.28.32:819][354]LogActor: Loaded Actor (BP_ObstacleSpawner_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.28.32:820][354]LogActor: Loaded Actor (BP_ObstacleSpawner1_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.28.32:820][354]LogActor: Loaded Actor (BP_ObstacleSpawner2_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.28.32:864][355]LogActor: Loaded Actor (BP_ObstacleSpawner_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.28.32:864][355]LogActor: Loaded Actor (BP_ObstacleSpawner1_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.28.32:865][355]LogActor: Loaded Actor (BP_ObstacleSpawner2_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.28.33:245][368]LogActor: Loaded Actor (BP_ObstacleSpawner_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.28.33:245][368]LogActor: Loaded Actor (BP_ObstacleSpawner1_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.28.33:246][368]LogActor: Loaded Actor (BP_ObstacleSpawner2_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.28.35:762][451]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.04-13.28.35:932][451]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2026.10.04-13.28.35:949][451]LogSavePackage: Moving output files for package: /Game/PharaohMinigame
+[2026.10.04-13.28.35:950][451]LogSavePackage: Moving '../../../../../../Users/Rasheed Chenet/Documents/GitHub/alligator_gravity_minigame/alligator_gravity/Saved/PharaohMinigame5D42C1724153EB8EC4444A9C8A1F34B4.tmp' to '../../../../../../Users/Rasheed Chenet/Documents/GitHub/alligator_gravity_minigame/alligator_gravity/Content/PharaohMinigame.umap'
+[2026.10.04-13.28.35:958][451]LogFileHelpers: Saving map 'PharaohMinigame' took 0.081
+[2026.10.04-13.28.35:974][451]LogFileHelpers: InternalPromptForCheckoutAndSave took 212.870 ms (total: 896.948 ms)
+[2026.10.04-13.28.36:078][451]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.04-13.28.36:079][451]LogContentValidation: Enabled validators:
+[2026.10.04-13.28.36:079][451]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.04-13.28.36:079][451]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.04-13.28.36:079][451]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.04-13.28.36:079][451]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.04-13.28.36:079][451]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.04-13.28.36:079][451]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.04-13.28.36:079][451]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.10.04-13.28.36:079][451]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.10.04-13.28.36:079][451]AssetCheck: /Game/PharaohMinigame Validating asset
+[2026.10.04-13.28.36:703][474]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.04-13.28.36:711][474]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.04-13.28.36:711][474]LogPlayLevel: Display: Creating online subsystem for client :Context_8
+[2026.10.04-13.28.36:717][474]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2026.10.04-13.28.36:747][475]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PharaohMinigame
+[2026.10.04-13.28.36:754][475]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006622s)
+[2026.10.04-13.28.36:754][475]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PharaohMinigame.PharaohMinigame to /Game/UEDPIE_0_PharaohMinigame.PharaohMinigame (0.006735s)
+[2026.10.04-13.28.36:799][475]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2026.10.04-13.28.36:801][475]LogTemp: WinRT Apartment initialized successfully!
+[2026.10.04-13.28.36:801][475]LogChaosDD: Creating Chaos Debug Draw Scene for world PharaohMinigame
+[2026.10.04-13.28.36:804][475]LogPlayLevel: PIE: World Init took: (0.002668s)
+[2026.10.04-13.28.36:806][475]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2026.10.04-13.28.36:806][475]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.04-13.28.36:806][475]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.04-13.28.36:806][475]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.04-13.28.36:806][475]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.04-13.28.36:807][475]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.04-13.28.36:807][475]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.04-13.28.36:807][475]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.04-13.28.36:807][475]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.04-13.28.36:807][475]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.04-13.28.36:807][475]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.04-13.28.36:807][475]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.04-13.28.36:810][475]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.04-13.28.36:830][475]LogAudioMixer: Display: Using Audio Hardware Device Speakers (High Definition Audio Device)
+[2026.10.04-13.28.36:830][475]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.04-13.28.36:830][475]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.04-13.28.36:830][475]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.04-13.28.36:831][475]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2026.10.04-13.28.36:831][475]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2026.10.04-13.28.36:837][475]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2026.10.04-13.28.36:837][475]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2026.10.04-13.28.36:837][475]LogInit: FAudioDevice initialized with ID 4.
+[2026.10.04-13.28.36:837][475]LogAudio: Display: Audio Device (ID: 4) registered with world 'PharaohMinigame'.
+[2026.10.04-13.28.36:837][475]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2026.10.04-13.28.36:842][475]LogLoad: Game class is 'BP_PharaohMinigame_C'
+[2026.10.04-13.28.36:846][475]LogWorld: Bringing World /Game/UEDPIE_0_PharaohMinigame.PharaohMinigame up for play (max tick rate 60) at 2026.10.04-09.28.36
+[2026.10.04-13.28.36:846][475]LogWorld: Bringing up level for play took: 0.003116
+[2026.10.04-13.28.36:847][475]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2026.10.04-13.28.36:847][475]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.10.04-13.28.36:847][475]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2026.10.04-13.28.36:848][475]LogMinigameCore: Error: MinigameBase: Not enough players for this game type!
+[2026.10.04-13.28.36:848][475]LogMinigameCore: Warning: MinigameBase: No point counter found. Creating default point counter.
+[2026.10.04-13.28.36:849][475]LogTemp: Warning: Minigame Base Player 0: Found player BashLocalPlayer_2 and controller BashPlayerController_0
+[2026.10.04-13.28.36:855][475]PIE: Server logged in
+[2026.10.04-13.28.36:859][475]PIE: Play in editor total start time 0.148 seconds.
+[2026.10.04-13.28.36:867][475]LogMutable: Started Update Skeletal Mesh Async. CustomizableObject=CO_ModularCharacter Instance=CustomizableObjectInstance_2, Frame=8477
+[2026.10.04-13.28.43:876][563]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.04-13.28.43:876][563]LogWorld: BeginTearingDown for /Game/UEDPIE_0_PharaohMinigame
+[2026.10.04-13.28.43:876][563]LogTemp: Warning: Deinitialize Bluetooth Manager Subsystem
+[2026.10.04-13.28.43:876][563]LogWorld: UWorld::CleanupWorld for PharaohMinigame, bSessionEnded=true, bCleanupResources=true
+[2026.10.04-13.28.43:878][563]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-13.28.44:004][563]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.04-13.28.44:011][563]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-13.28.44:056][563]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.04-13.28.44:057][563]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2026.10.04-13.28.44:057][563]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=4
+[2026.10.04-13.28.44:061][563]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=2
+[2026.10.04-13.28.44:074][563]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2026.10.04-13.28.44:189][564]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2026.10.04-13.28.55:722][926]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AlligatorStuff/BP_ObstacleSpawner.BP_ObstacleSpawner
+[2026.10.04-13.28.55:722][926]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_5
+[2026.10.04-13.29.32:208][801]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_6
+[2026.10.04-13.29.32:287][802]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_7
+[2026.10.04-13.29.32:354][803]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_8
+[2026.10.04-13.29.33:498][827]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/objects/BP_AObject.BP_AObject
+[2026.10.04-13.29.33:498][827]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2026.10.04-13.29.38:952][945]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2026.10.04-13.29.38:952][945]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-13.29.39:112][945]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2026.10.04-13.29.43:021][ 48]LogActor: Loaded Actor (BP_ObstacleSpawner_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.29.43:021][ 48]LogActor: Loaded Actor (BP_ObstacleSpawner1_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.29.43:022][ 48]LogActor: Loaded Actor (BP_ObstacleSpawner2_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.29.43:092][ 49]LogStreaming: Display: FlushAsyncLoading(588): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.04-13.29.43:092][ 49]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/AlligatorStuff/BP_ObstacleManager.BP_ObstacleManager'
+[2026.10.04-13.34.12:097][165]LogActor: Loaded Actor (BP_ObstacleSpawner_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.34.12:098][165]LogActor: Loaded Actor (BP_ObstacleSpawner1_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.34.12:098][165]LogActor: Loaded Actor (BP_ObstacleSpawner2_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.34.12:100][165]LogActor: Loaded Actor (BP_ObstacleSpawner_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.34.12:101][165]LogActor: Loaded Actor (BP_ObstacleSpawner1_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.34.12:101][165]LogActor: Loaded Actor (BP_ObstacleSpawner2_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.34.15:962][312]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.04-13.34.16:161][312]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2026.10.04-13.34.16:181][312]LogSavePackage: Moving output files for package: /Game/PharaohMinigame
+[2026.10.04-13.34.16:182][312]LogSavePackage: Moving '../../../../../../Users/Rasheed Chenet/Documents/GitHub/alligator_gravity_minigame/alligator_gravity/Saved/PharaohMinigame7037779743AF34CDED4882A698A1843C.tmp' to '../../../../../../Users/Rasheed Chenet/Documents/GitHub/alligator_gravity_minigame/alligator_gravity/Content/PharaohMinigame.umap'
+[2026.10.04-13.34.16:190][312]LogFileHelpers: Saving map 'PharaohMinigame' took 0.088
+[2026.10.04-13.34.16:208][312]LogFileHelpers: InternalPromptForCheckoutAndSave took 246.087 ms (total: 1.14 sec)
+[2026.10.04-13.34.16:324][312]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.04-13.34.16:324][312]LogContentValidation: Enabled validators:
+[2026.10.04-13.34.16:324][312]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.04-13.34.16:324][312]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.04-13.34.16:324][312]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.04-13.34.16:324][312]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.04-13.34.16:324][312]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.04-13.34.16:324][312]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.04-13.34.16:324][312]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.10.04-13.34.16:324][312]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.10.04-13.34.16:324][312]AssetCheck: /Game/PharaohMinigame Validating asset
+[2026.10.04-13.34.17:024][341]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.04-13.34.17:034][341]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.04-13.34.17:034][341]LogPlayLevel: Display: Creating online subsystem for client :Context_14
+[2026.10.04-13.34.17:038][341]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2026.10.04-13.34.17:067][342]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PharaohMinigame
+[2026.10.04-13.34.17:072][342]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005408s)
+[2026.10.04-13.34.17:072][342]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PharaohMinigame.PharaohMinigame to /Game/UEDPIE_0_PharaohMinigame.PharaohMinigame (0.005491s)
+[2026.10.04-13.34.17:120][342]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2026.10.04-13.34.17:123][342]LogTemp: WinRT Apartment initialized successfully!
+[2026.10.04-13.34.17:123][342]LogChaosDD: Creating Chaos Debug Draw Scene for world PharaohMinigame
+[2026.10.04-13.34.17:126][342]LogPlayLevel: PIE: World Init took: (0.002743s)
+[2026.10.04-13.34.17:127][342]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2026.10.04-13.34.17:127][342]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.04-13.34.17:127][342]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.04-13.34.17:127][342]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.04-13.34.17:127][342]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.04-13.34.17:127][342]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.04-13.34.17:128][342]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.04-13.34.17:128][342]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.04-13.34.17:128][342]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.04-13.34.17:128][342]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.04-13.34.17:128][342]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.04-13.34.17:128][342]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.04-13.34.17:131][342]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.04-13.34.17:158][342]LogAudioMixer: Display: Using Audio Hardware Device Speakers (High Definition Audio Device)
+[2026.10.04-13.34.17:159][342]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.04-13.34.17:159][342]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.04-13.34.17:159][342]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.04-13.34.17:160][342]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2026.10.04-13.34.17:160][342]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2026.10.04-13.34.17:164][342]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2026.10.04-13.34.17:164][342]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2026.10.04-13.34.17:164][342]LogInit: FAudioDevice initialized with ID 5.
+[2026.10.04-13.34.17:164][342]LogAudio: Display: Audio Device (ID: 5) registered with world 'PharaohMinigame'.
+[2026.10.04-13.34.17:164][342]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2026.10.04-13.34.17:170][342]LogLoad: Game class is 'BP_PharaohMinigame_C'
+[2026.10.04-13.34.17:172][342]LogWorld: Bringing World /Game/UEDPIE_0_PharaohMinigame.PharaohMinigame up for play (max tick rate 60) at 2026.10.04-09.34.17
+[2026.10.04-13.34.17:173][342]LogWorld: Bringing up level for play took: 0.002701
+[2026.10.04-13.34.17:173][342]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2026.10.04-13.34.17:173][342]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.10.04-13.34.17:174][342]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2026.10.04-13.34.17:174][342]LogMinigameCore: Error: MinigameBase: Not enough players for this game type!
+[2026.10.04-13.34.17:174][342]LogMinigameCore: Warning: MinigameBase: No point counter found. Creating default point counter.
+[2026.10.04-13.34.17:175][342]LogTemp: Warning: Minigame Base Player 0: Found player BashLocalPlayer_3 and controller BashPlayerController_0
+[2026.10.04-13.34.17:181][342]PIE: Server logged in
+[2026.10.04-13.34.17:185][342]PIE: Play in editor total start time 0.151 seconds.
+[2026.10.04-13.34.17:192][342]LogMutable: Started Update Skeletal Mesh Async. CustomizableObject=CO_ModularCharacter Instance=CustomizableObjectInstance_3, Frame=14344
+[2026.10.04-13.34.18:933][365]LogScript: Warning: UGameplayStatics::BeginDeferredActorSpawnFromClass: can not spawn an actor from a NULL class
+[2026.10.04-13.34.19:643][373]LogScript: Warning: Accessed None trying to read (real) property CurrObstacle in BP_AlligatorPlayer_C
+	BP_AlligatorPlayer_C /Game/UEDPIE_0_PharaohMinigame.PharaohMinigame:PersistentLevel.BP_AlligatorPlayer_C_0
+	Function /Game/BP_AlligatorPlayer.BP_AlligatorPlayer_C:MoveBlock:0158
+[2026.10.04-13.34.19:643][373]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CurrObstacle in BP_AlligatorPlayer_C". Node:  Set Actor Transform Graph:  MoveBlock Function:  Move Block Blueprint:  BP_AlligatorPlayer
+[2026.10.04-13.34.19:643][373]LogScript: Warning: Accessed None trying to read (real) property CurrObstacle in BP_AlligatorPlayer_C
+	BP_AlligatorPlayer_C /Game/UEDPIE_0_PharaohMinigame.PharaohMinigame:PersistentLevel.BP_AlligatorPlayer_C_0
+	Function /Game/BP_AlligatorPlayer.BP_AlligatorPlayer_C:MoveBlock:02C0
+[2026.10.04-13.34.19:643][373]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CurrObstacle in BP_AlligatorPlayer_C". Node:  Set Actor Transform Graph:  MoveBlock Function:  Move Block Blueprint:  BP_AlligatorPlayer
+[2026.10.04-13.34.21:618][398]LogScript: Warning: Accessed None trying to read (real) property CurrObstacle in BP_AlligatorPlayer_C
+	BP_AlligatorPlayer_C /Game/UEDPIE_0_PharaohMinigame.PharaohMinigame:PersistentLevel.BP_AlligatorPlayer_C_0
+	Function /Game/BP_AlligatorPlayer.BP_AlligatorPlayer_C:MoveBlock:0158
+[2026.10.04-13.34.21:618][398]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CurrObstacle in BP_AlligatorPlayer_C". Node:  Set Actor Transform Graph:  MoveBlock Function:  Move Block Blueprint:  BP_AlligatorPlayer
+[2026.10.04-13.34.21:618][398]LogScript: Warning: Accessed None trying to read (real) property CurrObstacle in BP_AlligatorPlayer_C
+	BP_AlligatorPlayer_C /Game/UEDPIE_0_PharaohMinigame.PharaohMinigame:PersistentLevel.BP_AlligatorPlayer_C_0
+	Function /Game/BP_AlligatorPlayer.BP_AlligatorPlayer_C:MoveBlock:02C0
+[2026.10.04-13.34.21:618][398]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CurrObstacle in BP_AlligatorPlayer_C". Node:  Set Actor Transform Graph:  MoveBlock Function:  Move Block Blueprint:  BP_AlligatorPlayer
+[2026.10.04-13.34.21:820][401]LogScript: Warning: Accessed None trying to read (real) property CurrObstacle in BP_AlligatorPlayer_C
+	BP_AlligatorPlayer_C /Game/UEDPIE_0_PharaohMinigame.PharaohMinigame:PersistentLevel.BP_AlligatorPlayer_C_0
+	Function /Game/BP_AlligatorPlayer.BP_AlligatorPlayer_C:MoveBlock:0158
+[2026.10.04-13.34.21:820][401]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CurrObstacle in BP_AlligatorPlayer_C". Node:  Set Actor Transform Graph:  MoveBlock Function:  Move Block Blueprint:  BP_AlligatorPlayer
+[2026.10.04-13.34.21:820][401]LogScript: Warning: Accessed None trying to read (real) property CurrObstacle in BP_AlligatorPlayer_C
+	BP_AlligatorPlayer_C /Game/UEDPIE_0_PharaohMinigame.PharaohMinigame:PersistentLevel.BP_AlligatorPlayer_C_0
+	Function /Game/BP_AlligatorPlayer.BP_AlligatorPlayer_C:MoveBlock:02C0
+[2026.10.04-13.34.21:820][401]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CurrObstacle in BP_AlligatorPlayer_C". Node:  Set Actor Transform Graph:  MoveBlock Function:  Move Block Blueprint:  BP_AlligatorPlayer
+[2026.10.04-13.34.22:129][405]LogScript: Warning: Accessed None trying to read (real) property CurrObstacle in BP_AlligatorPlayer_C
+	BP_AlligatorPlayer_C /Game/UEDPIE_0_PharaohMinigame.PharaohMinigame:PersistentLevel.BP_AlligatorPlayer_C_0
+	Function /Game/BP_AlligatorPlayer.BP_AlligatorPlayer_C:MoveBlock:0158
+[2026.10.04-13.34.22:130][405]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CurrObstacle in BP_AlligatorPlayer_C". Node:  Set Actor Transform Graph:  MoveBlock Function:  Move Block Blueprint:  BP_AlligatorPlayer
+[2026.10.04-13.34.22:130][405]LogScript: Warning: Accessed None trying to read (real) property CurrObstacle in BP_AlligatorPlayer_C
+	BP_AlligatorPlayer_C /Game/UEDPIE_0_PharaohMinigame.PharaohMinigame:PersistentLevel.BP_AlligatorPlayer_C_0
+	Function /Game/BP_AlligatorPlayer.BP_AlligatorPlayer_C:MoveBlock:02C0
+[2026.10.04-13.34.22:130][405]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CurrObstacle in BP_AlligatorPlayer_C". Node:  Set Actor Transform Graph:  MoveBlock Function:  Move Block Blueprint:  BP_AlligatorPlayer
+[2026.10.04-13.34.22:672][412]LogScript: Warning: UGameplayStatics::BeginDeferredActorSpawnFromClass: can not spawn an actor from a NULL class
+[2026.10.04-13.34.22:672][412]LogScript: Warning: Accessed None trying to read (real) property CurrObstacle in BP_AlligatorPlayer_C
+	BP_AlligatorPlayer_C /Game/UEDPIE_0_PharaohMinigame.PharaohMinigame:PersistentLevel.BP_AlligatorPlayer_C_0
+	Function /Game/BP_AlligatorPlayer.BP_AlligatorPlayer_C:ExecuteUbergraph_BP_AlligatorPlayer:01EB
+[2026.10.04-13.34.22:672][412]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CurrObstacle in BP_AlligatorPlayer_C". Node:  Destroy Actor Graph:  EventGraph Function:  Execute Ubergraph BP Alligator Player Blueprint:  BP_AlligatorPlayer
+[2026.10.04-13.34.23:615][423]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.04-13.34.23:615][423]LogWorld: BeginTearingDown for /Game/UEDPIE_0_PharaohMinigame
+[2026.10.04-13.34.23:615][423]LogTemp: Warning: Deinitialize Bluetooth Manager Subsystem
+[2026.10.04-13.34.23:615][423]LogWorld: UWorld::CleanupWorld for PharaohMinigame, bSessionEnded=true, bCleanupResources=true
+[2026.10.04-13.34.23:616][423]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-13.34.23:748][423]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.04-13.34.23:755][423]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-13.34.23:800][423]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.10.04-13.34.23:800][423]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2026.10.04-13.34.23:800][423]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=4
+[2026.10.04-13.34.23:803][423]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=2
+[2026.10.04-13.34.23:810][423]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.04-13.34.23:817][423]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2026.10.04-13.34.24:092][424]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2026.10.04-13.34.29:348][577]LogSlate: Window 'Message Log' being destroyed
+[2026.10.04-13.34.29:422][577]LogSlate: Window 'Message Log' being destroyed
+[2026.10.04-13.34.39:964][942]LogActor: Loaded Actor (BP_ObstacleSpawner_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.34.39:964][942]LogActor: Loaded Actor (BP_ObstacleSpawner1_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.34.39:965][942]LogActor: Loaded Actor (BP_ObstacleSpawner2_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.34.39:967][942]LogActor: Loaded Actor (BP_ObstacleSpawner_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.34.39:968][942]LogActor: Loaded Actor (BP_ObstacleSpawner1_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.34.39:968][942]LogActor: Loaded Actor (BP_ObstacleSpawner2_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.36.55:338][325]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.04-13.36.55:493][325]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AlligatorStuff/BP_ObstacleManager] ([2] browsable assets)...
+[2026.10.04-13.36.55:493][325]OBJ SavePackage: Finished generating thumbnails for package [/Game/AlligatorStuff/BP_ObstacleManager]
+[2026.10.04-13.36.55:505][325]LogSavePackage: Moving output files for package: /Game/AlligatorStuff/BP_ObstacleManager
+[2026.10.04-13.36.55:506][325]LogSavePackage: Moving '../../../../../../Users/Rasheed Chenet/Documents/GitHub/alligator_gravity_minigame/alligator_gravity/Saved/BP_ObstacleManager28850B814CAAB2752110CCB69A36275F.tmp' to '../../../../../../Users/Rasheed Chenet/Documents/GitHub/alligator_gravity_minigame/alligator_gravity/Content/AlligatorStuff/BP_ObstacleManager.uasset'
+[2026.10.04-13.36.55:526][325]LogFileHelpers: InternalPromptForCheckoutAndSave took 187.858 ms (total: 1.33 sec)
+[2026.10.04-13.36.55:594][325]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.04-13.36.55:594][325]LogContentValidation: Enabled validators:
+[2026.10.04-13.36.55:594][325]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.04-13.36.55:594][325]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.04-13.36.55:594][325]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.04-13.36.55:594][325]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.04-13.36.55:594][325]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.04-13.36.55:594][325]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.04-13.36.55:594][325]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.10.04-13.36.55:594][325]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.10.04-13.36.55:595][325]AssetCheck: /Game/AlligatorStuff/BP_ObstacleManager Validating asset
+[2026.10.04-13.36.56:034][337]LogActor: Loaded Actor (BP_ObstacleSpawner_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.36.56:035][337]LogActor: Loaded Actor (BP_ObstacleSpawner1_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.36.56:035][337]LogActor: Loaded Actor (BP_ObstacleSpawner2_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.36.56:037][337]LogActor: Loaded Actor (BP_ObstacleSpawner_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.36.56:038][337]LogActor: Loaded Actor (BP_ObstacleSpawner1_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.36.56:038][337]LogActor: Loaded Actor (BP_ObstacleSpawner2_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.36.56:146][337]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2026.10.04-13.36.56:151][337]LogActor: Loaded Actor (BP_ObstacleSpawner_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.36.56:151][337]LogActor: Loaded Actor (BP_ObstacleSpawner1_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.36.56:152][337]LogActor: Loaded Actor (BP_ObstacleSpawner2_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.36.56:154][337]LogActor: Loaded Actor (BP_ObstacleSpawner_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.36.56:154][337]LogActor: Loaded Actor (BP_ObstacleSpawner1_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.36.56:155][337]LogActor: Loaded Actor (BP_ObstacleSpawner2_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.36.56:188][337]LogActor: Loaded Actor (BP_ObstacleSpawner_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.36.56:188][337]LogActor: Loaded Actor (BP_ObstacleSpawner1_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.36.56:189][337]LogActor: Loaded Actor (BP_ObstacleSpawner2_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.36.56:191][337]LogActor: Loaded Actor (BP_ObstacleSpawner_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.36.56:191][337]LogActor: Loaded Actor (BP_ObstacleSpawner1_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.36.56:191][337]LogActor: Loaded Actor (BP_ObstacleSpawner2_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.36.58:618][413]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.04-13.36.58:627][413]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.04-13.36.58:627][413]LogPlayLevel: Display: Creating online subsystem for client :Context_15
+[2026.10.04-13.36.58:631][413]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2026.10.04-13.36.58:659][414]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PharaohMinigame
+[2026.10.04-13.36.58:665][414]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005890s)
+[2026.10.04-13.36.58:665][414]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PharaohMinigame.PharaohMinigame to /Game/UEDPIE_0_PharaohMinigame.PharaohMinigame (0.005979s)
+[2026.10.04-13.36.58:714][414]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2026.10.04-13.36.58:717][414]LogTemp: WinRT Apartment initialized successfully!
+[2026.10.04-13.36.58:717][414]LogChaosDD: Creating Chaos Debug Draw Scene for world PharaohMinigame
+[2026.10.04-13.36.58:719][414]LogPlayLevel: PIE: World Init took: (0.002658s)
+[2026.10.04-13.36.58:721][414]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2026.10.04-13.36.58:721][414]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.04-13.36.58:721][414]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.04-13.36.58:721][414]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.04-13.36.58:721][414]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.04-13.36.58:721][414]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.04-13.36.58:721][414]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.04-13.36.58:721][414]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.04-13.36.58:721][414]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.04-13.36.58:721][414]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.04-13.36.58:721][414]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.04-13.36.58:721][414]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.04-13.36.58:725][414]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.04-13.36.58:748][414]LogAudioMixer: Display: Using Audio Hardware Device Speakers (High Definition Audio Device)
+[2026.10.04-13.36.58:748][414]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.04-13.36.58:748][414]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.04-13.36.58:748][414]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.04-13.36.58:749][414]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2026.10.04-13.36.58:750][414]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2026.10.04-13.36.58:754][414]LogInit: FAudioDevice initialized with ID 6.
+[2026.10.04-13.36.58:754][414]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2026.10.04-13.36.58:755][414]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2026.10.04-13.36.58:755][414]LogAudio: Display: Audio Device (ID: 6) registered with world 'PharaohMinigame'.
+[2026.10.04-13.36.58:755][414]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2026.10.04-13.36.58:760][414]LogLoad: Game class is 'BP_PharaohMinigame_C'
+[2026.10.04-13.36.58:762][414]LogWorld: Bringing World /Game/UEDPIE_0_PharaohMinigame.PharaohMinigame up for play (max tick rate 60) at 2026.10.04-09.36.58
+[2026.10.04-13.36.58:763][414]LogWorld: Bringing up level for play took: 0.002476
+[2026.10.04-13.36.58:764][414]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2026.10.04-13.36.58:764][414]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.10.04-13.36.58:764][414]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2026.10.04-13.36.58:764][414]LogMinigameCore: Error: MinigameBase: Not enough players for this game type!
+[2026.10.04-13.36.58:765][414]LogMinigameCore: Warning: MinigameBase: No point counter found. Creating default point counter.
+[2026.10.04-13.36.58:765][414]LogTemp: Warning: Minigame Base Player 0: Found player BashLocalPlayer_4 and controller BashPlayerController_0
+[2026.10.04-13.36.58:771][414]PIE: Server logged in
+[2026.10.04-13.36.58:775][414]PIE: Play in editor total start time 0.148 seconds.
+[2026.10.04-13.36.58:782][414]LogMutable: Started Update Skeletal Mesh Async. CustomizableObject=CO_ModularCharacter Instance=CustomizableObjectInstance_4, Frame=17416
+[2026.10.04-13.37.20:065][682]LogScript: Warning: UGameplayStatics::BeginDeferredActorSpawnFromClass: can not spawn an actor from a NULL class
+[2026.10.04-13.37.20:772][691]LogScript: Warning: Accessed None trying to read (real) property CurrObstacle in BP_AlligatorPlayer_C
+	BP_AlligatorPlayer_C /Game/UEDPIE_0_PharaohMinigame.PharaohMinigame:PersistentLevel.BP_AlligatorPlayer_C_0
+	Function /Game/BP_AlligatorPlayer.BP_AlligatorPlayer_C:MoveBlock:0158
+[2026.10.04-13.37.20:772][691]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CurrObstacle in BP_AlligatorPlayer_C". Node:  Set Actor Transform Graph:  MoveBlock Function:  Move Block Blueprint:  BP_AlligatorPlayer
+[2026.10.04-13.37.20:772][691]LogScript: Warning: Accessed None trying to read (real) property CurrObstacle in BP_AlligatorPlayer_C
+	BP_AlligatorPlayer_C /Game/UEDPIE_0_PharaohMinigame.PharaohMinigame:PersistentLevel.BP_AlligatorPlayer_C_0
+	Function /Game/BP_AlligatorPlayer.BP_AlligatorPlayer_C:MoveBlock:02C0
+[2026.10.04-13.37.20:773][691]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CurrObstacle in BP_AlligatorPlayer_C". Node:  Set Actor Transform Graph:  MoveBlock Function:  Move Block Blueprint:  BP_AlligatorPlayer
+[2026.10.04-13.37.22:164][708]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.04-13.37.22:164][708]LogWorld: BeginTearingDown for /Game/UEDPIE_0_PharaohMinigame
+[2026.10.04-13.37.22:165][708]LogTemp: Warning: Deinitialize Bluetooth Manager Subsystem
+[2026.10.04-13.37.22:165][708]LogWorld: UWorld::CleanupWorld for PharaohMinigame, bSessionEnded=true, bCleanupResources=true
+[2026.10.04-13.37.22:166][708]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-13.37.22:343][708]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.04-13.37.22:351][708]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-13.37.22:398][708]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.10.04-13.37.22:399][708]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2026.10.04-13.37.22:399][708]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6, StreamState=4
+[2026.10.04-13.37.22:402][708]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6, StreamState=2
+[2026.10.04-13.37.22:408][708]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.04-13.37.22:413][708]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2026.10.04-13.37.22:688][709]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2026.10.04-13.37.26:680][826]LogSlate: Window 'Message Log' being destroyed
+[2026.10.04-13.37.26:757][826]LogSlate: Window 'Message Log' being destroyed
+[2026.10.04-13.38.01:951][ 19]LogStreaming: Display: FlushAsyncLoading(589): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.04-13.38.01:951][ 19]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/AlligatorStuff/BP_ObstacleManager.BP_ObstacleManager'
+[2026.10.04-13.38.06:019][121]LogStreaming: Display: FlushAsyncLoading(590): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.04-13.38.06:019][121]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/AlligatorStuff/BP_ObstacleManager.BP_ObstacleManager'
+[2026.10.04-13.38.08:520][182]LogStreaming: Display: FlushAsyncLoading(591): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.04-13.38.08:521][182]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/AlligatorStuff/BP_ObstacleManager.BP_ObstacleManager'
+[2026.10.04-13.38.13:779][316]LogActor: Loaded Actor (BP_ObstacleSpawner_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.38.13:780][316]LogActor: Loaded Actor (BP_ObstacleSpawner1_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.38.13:780][316]LogActor: Loaded Actor (BP_ObstacleSpawner2_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.38.13:783][316]LogActor: Loaded Actor (BP_ObstacleSpawner_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.38.13:784][316]LogActor: Loaded Actor (BP_ObstacleSpawner1_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.38.13:784][316]LogActor: Loaded Actor (BP_ObstacleSpawner2_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.38.24:174][414]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.04-13.38.24:341][414]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AlligatorStuff/BP_ObstacleManager] ([2] browsable assets)...
+[2026.10.04-13.38.24:341][414]OBJ SavePackage: Finished generating thumbnails for package [/Game/AlligatorStuff/BP_ObstacleManager]
+[2026.10.04-13.38.24:356][414]LogSavePackage: Moving output files for package: /Game/AlligatorStuff/BP_ObstacleManager
+[2026.10.04-13.38.24:357][414]LogSavePackage: Moving '../../../../../../Users/Rasheed Chenet/Documents/GitHub/alligator_gravity_minigame/alligator_gravity/Saved/BP_ObstacleManagerEAC4215D429E698D3C881B889DDB54B0.tmp' to '../../../../../../Users/Rasheed Chenet/Documents/GitHub/alligator_gravity_minigame/alligator_gravity/Content/AlligatorStuff/BP_ObstacleManager.uasset'
+[2026.10.04-13.38.24:377][414]LogFileHelpers: InternalPromptForCheckoutAndSave took 202.480 ms (total: 1.53 sec)
+[2026.10.04-13.38.24:458][414]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.04-13.38.24:458][414]LogContentValidation: Enabled validators:
+[2026.10.04-13.38.24:458][414]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.04-13.38.24:458][414]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.04-13.38.24:458][414]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.04-13.38.24:458][414]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.04-13.38.24:458][414]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.04-13.38.24:458][414]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.04-13.38.24:458][414]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.10.04-13.38.24:458][414]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.10.04-13.38.24:458][414]AssetCheck: /Game/AlligatorStuff/BP_ObstacleManager Validating asset
+[2026.10.04-13.38.33:846][681]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.04-13.38.34:056][681]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2026.10.04-13.38.34:075][681]LogSavePackage: Moving output files for package: /Game/PharaohMinigame
+[2026.10.04-13.38.34:076][681]LogSavePackage: Moving '../../../../../../Users/Rasheed Chenet/Documents/GitHub/alligator_gravity_minigame/alligator_gravity/Saved/PharaohMinigameCCD4A2D64121857AFED3EFB90770CB4D.tmp' to '../../../../../../Users/Rasheed Chenet/Documents/GitHub/alligator_gravity_minigame/alligator_gravity/Content/PharaohMinigame.umap'
+[2026.10.04-13.38.34:085][681]LogFileHelpers: Saving map 'PharaohMinigame' took 0.087
+[2026.10.04-13.38.34:102][681]LogFileHelpers: InternalPromptForCheckoutAndSave took 255.789 ms (total: 1.78 sec)
+[2026.10.04-13.38.34:195][681]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.04-13.38.34:195][681]LogContentValidation: Enabled validators:
+[2026.10.04-13.38.34:195][681]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.04-13.38.34:195][681]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.04-13.38.34:195][681]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.04-13.38.34:195][681]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.04-13.38.34:195][681]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.04-13.38.34:195][681]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.04-13.38.34:195][681]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.10.04-13.38.34:195][681]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.10.04-13.38.34:196][681]AssetCheck: /Game/PharaohMinigame Validating asset
+[2026.10.04-13.38.35:913][751]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.04-13.38.35:920][751]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.04-13.38.35:920][751]LogPlayLevel: Display: Creating online subsystem for client :Context_16
+[2026.10.04-13.38.35:924][751]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2026.10.04-13.38.35:953][752]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PharaohMinigame
+[2026.10.04-13.38.35:960][752]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007393s)
+[2026.10.04-13.38.35:960][752]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PharaohMinigame.PharaohMinigame to /Game/UEDPIE_0_PharaohMinigame.PharaohMinigame (0.007483s)
+[2026.10.04-13.38.36:007][752]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2026.10.04-13.38.36:010][752]LogTemp: WinRT Apartment initialized successfully!
+[2026.10.04-13.38.36:010][752]LogChaosDD: Creating Chaos Debug Draw Scene for world PharaohMinigame
+[2026.10.04-13.38.36:013][752]LogPlayLevel: PIE: World Init took: (0.002960s)
+[2026.10.04-13.38.36:014][752]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2026.10.04-13.38.36:014][752]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.04-13.38.36:014][752]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.04-13.38.36:014][752]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.04-13.38.36:014][752]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.04-13.38.36:014][752]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.04-13.38.36:014][752]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.04-13.38.36:014][752]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.04-13.38.36:014][752]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.04-13.38.36:014][752]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.04-13.38.36:014][752]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.04-13.38.36:014][752]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.04-13.38.36:018][752]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.04-13.38.36:039][752]LogAudioMixer: Display: Using Audio Hardware Device Speakers (High Definition Audio Device)
+[2026.10.04-13.38.36:039][752]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.04-13.38.36:039][752]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.04-13.38.36:039][752]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.04-13.38.36:040][752]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2026.10.04-13.38.36:040][752]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2026.10.04-13.38.36:045][752]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2026.10.04-13.38.36:045][752]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2026.10.04-13.38.36:045][752]LogInit: FAudioDevice initialized with ID 7.
+[2026.10.04-13.38.36:046][752]LogAudio: Display: Audio Device (ID: 7) registered with world 'PharaohMinigame'.
+[2026.10.04-13.38.36:046][752]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2026.10.04-13.38.36:051][752]LogLoad: Game class is 'BP_PharaohMinigame_C'
+[2026.10.04-13.38.36:054][752]LogWorld: Bringing World /Game/UEDPIE_0_PharaohMinigame.PharaohMinigame up for play (max tick rate 60) at 2026.10.04-09.38.36
+[2026.10.04-13.38.36:055][752]LogWorld: Bringing up level for play took: 0.002998
+[2026.10.04-13.38.36:056][752]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2026.10.04-13.38.36:056][752]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.10.04-13.38.36:056][752]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2026.10.04-13.38.36:057][752]LogMinigameCore: Error: MinigameBase: Not enough players for this game type!
+[2026.10.04-13.38.36:057][752]LogMinigameCore: Warning: MinigameBase: No point counter found. Creating default point counter.
+[2026.10.04-13.38.36:058][752]LogTemp: Warning: Minigame Base Player 0: Found player BashLocalPlayer_5 and controller BashPlayerController_0
+[2026.10.04-13.38.36:059][752]LogScript: Warning: UGameplayStatics::BeginDeferredActorSpawnFromClass: can not spawn an actor from a NULL class
+[2026.10.04-13.38.36:064][752]PIE: Server logged in
+[2026.10.04-13.38.36:067][752]PIE: Play in editor total start time 0.147 seconds.
+[2026.10.04-13.38.36:074][752]LogMutable: Started Update Skeletal Mesh Async. CustomizableObject=CO_ModularCharacter Instance=CustomizableObjectInstance_5, Frame=18754
+[2026.10.04-13.38.41:509][822]LogScript: Warning: Accessed None trying to read (real) property CurrObstacle in BP_AlligatorPlayer_C
+	BP_AlligatorPlayer_C /Game/UEDPIE_0_PharaohMinigame.PharaohMinigame:PersistentLevel.BP_AlligatorPlayer_C_0
+	Function /Game/BP_AlligatorPlayer.BP_AlligatorPlayer_C:MoveBlock:0158
+[2026.10.04-13.38.41:510][822]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CurrObstacle in BP_AlligatorPlayer_C". Node:  Set Actor Transform Graph:  MoveBlock Function:  Move Block Blueprint:  BP_AlligatorPlayer
+[2026.10.04-13.38.41:510][822]LogScript: Warning: Accessed None trying to read (real) property CurrObstacle in BP_AlligatorPlayer_C
+	BP_AlligatorPlayer_C /Game/UEDPIE_0_PharaohMinigame.PharaohMinigame:PersistentLevel.BP_AlligatorPlayer_C_0
+	Function /Game/BP_AlligatorPlayer.BP_AlligatorPlayer_C:MoveBlock:02C0
+[2026.10.04-13.38.41:510][822]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CurrObstacle in BP_AlligatorPlayer_C". Node:  Set Actor Transform Graph:  MoveBlock Function:  Move Block Blueprint:  BP_AlligatorPlayer
+[2026.10.04-13.38.46:904][889]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.04-13.38.46:904][889]LogWorld: BeginTearingDown for /Game/UEDPIE_0_PharaohMinigame
+[2026.10.04-13.38.46:905][889]LogTemp: Warning: Deinitialize Bluetooth Manager Subsystem
+[2026.10.04-13.38.46:905][889]LogWorld: UWorld::CleanupWorld for PharaohMinigame, bSessionEnded=true, bCleanupResources=true
+[2026.10.04-13.38.46:906][889]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-13.38.47:040][889]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.04-13.38.47:049][889]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-13.38.47:100][889]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.04-13.38.47:100][889]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2026.10.04-13.38.47:101][889]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7, StreamState=4
+[2026.10.04-13.38.47:103][889]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7, StreamState=2
+[2026.10.04-13.38.47:116][889]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2026.10.04-13.38.47:357][890]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2026.10.04-13.38.53:393][ 66]LogSlate: Window 'Message Log' being destroyed
+[2026.10.04-13.38.53:466][ 66]LogSlate: Window 'Message Log' being destroyed
+[2026.10.04-13.39.00:988][346]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.04-13.39.00:996][346]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.04-13.39.00:996][346]LogPlayLevel: Display: Creating online subsystem for client :Context_17
+[2026.10.04-13.39.01:000][346]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2026.10.04-13.39.01:029][347]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PharaohMinigame
+[2026.10.04-13.39.01:036][347]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006506s)
+[2026.10.04-13.39.01:036][347]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PharaohMinigame.PharaohMinigame to /Game/UEDPIE_0_PharaohMinigame.PharaohMinigame (0.006630s)
+[2026.10.04-13.39.01:084][347]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2026.10.04-13.39.01:086][347]LogTemp: WinRT Apartment initialized successfully!
+[2026.10.04-13.39.01:086][347]LogChaosDD: Creating Chaos Debug Draw Scene for world PharaohMinigame
+[2026.10.04-13.39.01:088][347]LogPlayLevel: PIE: World Init took: (0.002859s)
+[2026.10.04-13.39.01:091][347]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2026.10.04-13.39.01:091][347]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.04-13.39.01:091][347]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.04-13.39.01:091][347]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.04-13.39.01:091][347]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.04-13.39.01:091][347]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.04-13.39.01:091][347]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.04-13.39.01:091][347]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.04-13.39.01:091][347]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.04-13.39.01:091][347]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.04-13.39.01:091][347]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.04-13.39.01:091][347]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.04-13.39.01:094][347]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.04-13.39.01:115][347]LogAudioMixer: Display: Using Audio Hardware Device Speakers (High Definition Audio Device)
+[2026.10.04-13.39.01:116][347]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.04-13.39.01:116][347]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.04-13.39.01:116][347]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.04-13.39.01:117][347]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2026.10.04-13.39.01:117][347]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2026.10.04-13.39.01:121][347]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2026.10.04-13.39.01:121][347]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2026.10.04-13.39.01:121][347]LogInit: FAudioDevice initialized with ID 8.
+[2026.10.04-13.39.01:121][347]LogAudio: Display: Audio Device (ID: 8) registered with world 'PharaohMinigame'.
+[2026.10.04-13.39.01:121][347]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2026.10.04-13.39.01:126][347]LogLoad: Game class is 'BP_PharaohMinigame_C'
+[2026.10.04-13.39.01:129][347]LogWorld: Bringing World /Game/UEDPIE_0_PharaohMinigame.PharaohMinigame up for play (max tick rate 60) at 2026.10.04-09.39.01
+[2026.10.04-13.39.01:129][347]LogWorld: Bringing up level for play took: 0.002562
+[2026.10.04-13.39.01:130][347]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2026.10.04-13.39.01:130][347]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.10.04-13.39.01:130][347]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2026.10.04-13.39.01:132][347]LogMinigameCore: Error: MinigameBase: Not enough players for this game type!
+[2026.10.04-13.39.01:132][347]LogMinigameCore: Warning: MinigameBase: No point counter found. Creating default point counter.
+[2026.10.04-13.39.01:133][347]LogTemp: Warning: Minigame Base Player 0: Found player BashLocalPlayer_6 and controller BashPlayerController_0
+[2026.10.04-13.39.01:139][347]PIE: Server logged in
+[2026.10.04-13.39.01:143][347]PIE: Play in editor total start time 0.147 seconds.
+[2026.10.04-13.39.01:151][347]LogMutable: Started Update Skeletal Mesh Async. CustomizableObject=CO_ModularCharacter Instance=CustomizableObjectInstance_6, Frame=19349
+[2026.10.04-13.39.23:628][629]LogScript: Warning: UGameplayStatics::BeginDeferredActorSpawnFromClass: can not spawn an actor from a NULL class
+[2026.10.04-13.39.24:576][641]LogScript: Warning: Accessed None trying to read (real) property CurrObstacle in BP_AlligatorPlayer_C
+	BP_AlligatorPlayer_C /Game/UEDPIE_0_PharaohMinigame.PharaohMinigame:PersistentLevel.BP_AlligatorPlayer_C_0
+	Function /Game/BP_AlligatorPlayer.BP_AlligatorPlayer_C:MoveBlock:0158
+[2026.10.04-13.39.24:576][641]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CurrObstacle in BP_AlligatorPlayer_C". Node:  Set Actor Transform Graph:  MoveBlock Function:  Move Block Blueprint:  BP_AlligatorPlayer
+[2026.10.04-13.39.24:576][641]LogScript: Warning: Accessed None trying to read (real) property CurrObstacle in BP_AlligatorPlayer_C
+	BP_AlligatorPlayer_C /Game/UEDPIE_0_PharaohMinigame.PharaohMinigame:PersistentLevel.BP_AlligatorPlayer_C_0
+	Function /Game/BP_AlligatorPlayer.BP_AlligatorPlayer_C:MoveBlock:02C0
+[2026.10.04-13.39.24:576][641]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CurrObstacle in BP_AlligatorPlayer_C". Node:  Set Actor Transform Graph:  MoveBlock Function:  Move Block Blueprint:  BP_AlligatorPlayer
+[2026.10.04-13.39.29:533][702]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.04-13.39.29:533][702]LogWorld: BeginTearingDown for /Game/UEDPIE_0_PharaohMinigame
+[2026.10.04-13.39.29:533][702]LogTemp: Warning: Deinitialize Bluetooth Manager Subsystem
+[2026.10.04-13.39.29:533][702]LogWorld: UWorld::CleanupWorld for PharaohMinigame, bSessionEnded=true, bCleanupResources=true
+[2026.10.04-13.39.29:535][702]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-13.39.29:649][702]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.04-13.39.29:656][702]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-13.39.29:703][702]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.04-13.39.29:703][702]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2026.10.04-13.39.29:703][702]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=4
+[2026.10.04-13.39.29:707][702]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=2
+[2026.10.04-13.39.29:722][702]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2026.10.04-13.39.29:938][703]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2026.10.04-13.39.31:255][740]LogSlate: Window 'Message Log' being destroyed
+[2026.10.04-13.39.31:332][740]LogSlate: Window 'Message Log' being destroyed
+[2026.10.04-13.41.36:969][521]LogStreaming: Display: FlushAsyncLoading(592): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.04-13.41.36:970][521]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/AlligatorStuff/BP_ObstacleManager.BP_ObstacleManager'
+[2026.10.04-13.42.13:132][208]LogSlate: Window 'EventGraph' being destroyed
+[2026.10.04-13.45.23:275][ 10]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AlligatorStuff/BP_ObstacleTable.BP_ObstacleTable
+[2026.10.04-13.45.23:275][ 10]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_10
+[2026.10.04-13.46.53:882][659]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.04-13.46.54:044][659]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AlligatorStuff/BP_ObstacleManager] ([2] browsable assets)...
+[2026.10.04-13.46.54:044][659]OBJ SavePackage: Finished generating thumbnails for package [/Game/AlligatorStuff/BP_ObstacleManager]
+[2026.10.04-13.46.54:060][659]LogSavePackage: Moving output files for package: /Game/AlligatorStuff/BP_ObstacleManager
+[2026.10.04-13.46.54:061][659]LogSavePackage: Moving '../../../../../../Users/Rasheed Chenet/Documents/GitHub/alligator_gravity_minigame/alligator_gravity/Saved/BP_ObstacleManagerABE9787248A97C6E28D5FE99B8E4548A.tmp' to '../../../../../../Users/Rasheed Chenet/Documents/GitHub/alligator_gravity_minigame/alligator_gravity/Content/AlligatorStuff/BP_ObstacleManager.uasset'
+[2026.10.04-13.46.54:081][659]LogFileHelpers: InternalPromptForCheckoutAndSave took 199.166 ms (total: 1.98 sec)
+[2026.10.04-13.46.54:142][659]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.04-13.46.54:143][659]LogContentValidation: Enabled validators:
+[2026.10.04-13.46.54:143][659]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.04-13.46.54:143][659]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.04-13.46.54:143][659]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.04-13.46.54:143][659]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.04-13.46.54:143][659]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.04-13.46.54:143][659]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.04-13.46.54:143][659]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.10.04-13.46.54:143][659]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.10.04-13.46.54:143][659]AssetCheck: /Game/AlligatorStuff/BP_ObstacleManager Validating asset
+[2026.10.04-13.46.56:399][716]LogActor: Loaded Actor (BP_ObstacleSpawner_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.46.56:400][716]LogActor: Loaded Actor (BP_ObstacleSpawner1_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.46.56:400][716]LogActor: Loaded Actor (BP_ObstacleSpawner2_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.46.56:402][716]LogActor: Loaded Actor (BP_ObstacleSpawner_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.46.56:402][716]LogActor: Loaded Actor (BP_ObstacleSpawner1_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.46.56:403][716]LogActor: Loaded Actor (BP_ObstacleSpawner2_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.46.56:542][716]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2026.10.04-13.46.56:547][716]LogActor: Loaded Actor (BP_ObstacleSpawner_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.46.56:548][716]LogActor: Loaded Actor (BP_ObstacleSpawner1_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.46.56:548][716]LogActor: Loaded Actor (BP_ObstacleSpawner2_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.46.56:550][716]LogActor: Loaded Actor (BP_ObstacleSpawner_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.46.56:550][716]LogActor: Loaded Actor (BP_ObstacleSpawner1_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.46.56:551][716]LogActor: Loaded Actor (BP_ObstacleSpawner2_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.46.56:595][716]LogActor: Loaded Actor (BP_ObstacleSpawner_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.46.56:595][716]LogActor: Loaded Actor (BP_ObstacleSpawner1_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.46.56:596][716]LogActor: Loaded Actor (BP_ObstacleSpawner2_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.46.56:598][716]LogActor: Loaded Actor (BP_ObstacleSpawner_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.46.56:598][716]LogActor: Loaded Actor (BP_ObstacleSpawner1_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.46.56:599][716]LogActor: Loaded Actor (BP_ObstacleSpawner2_GEN_VARIABLE_BP_ObstacleSpawner_C_CAT) with IsValid() == false
+[2026.10.04-13.46.56:862][717]LogStreaming: Display: FlushAsyncLoading(593): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.04-13.46.56:863][717]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/AlligatorStuff/BP_ObstacleManager.BP_ObstacleManager'
+[2026.10.04-13.47.21:757][277]LogSlate: Window 'NextBlock' being destroyed
+[2026.10.04-13.47.27:905][406]LogSlate: Window 'NextBlock' being destroyed
+[2026.10.04-13.47.31:282][511]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.04-13.47.31:290][511]LogPlayLevel: [PlayLevel] Compiling BP_AlligatorPlayer before play...
+[2026.10.04-13.47.31:471][511]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2026.10.04-13.47.31:475][511]LogPlayLevel: PlayLevel: Blueprint regeneration took 186 ms (1 blueprints)
+[2026.10.04-13.47.31:475][511]LogPlayLevel: Display: Creating online subsystem for client :Context_19
+[2026.10.04-13.47.31:479][511]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2026.10.04-13.47.31:504][512]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PharaohMinigame
+[2026.10.04-13.47.31:509][512]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006220s)
+[2026.10.04-13.47.31:509][512]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PharaohMinigame.PharaohMinigame to /Game/UEDPIE_0_PharaohMinigame.PharaohMinigame (0.006312s)
+[2026.10.04-13.47.31:553][512]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2026.10.04-13.47.31:556][512]LogTemp: WinRT Apartment initialized successfully!
+[2026.10.04-13.47.31:556][512]LogChaosDD: Creating Chaos Debug Draw Scene for world PharaohMinigame
+[2026.10.04-13.47.31:558][512]LogPlayLevel: PIE: World Init took: (0.002524s)
+[2026.10.04-13.47.31:559][512]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2026.10.04-13.47.31:559][512]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.04-13.47.31:559][512]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.04-13.47.31:559][512]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.04-13.47.31:560][512]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.04-13.47.31:560][512]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.04-13.47.31:560][512]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.04-13.47.31:560][512]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.04-13.47.31:560][512]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.04-13.47.31:560][512]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.04-13.47.31:560][512]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.04-13.47.31:560][512]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.04-13.47.31:563][512]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.04-13.47.31:585][512]LogAudioMixer: Display: Using Audio Hardware Device Speakers (High Definition Audio Device)
+[2026.10.04-13.47.31:586][512]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.04-13.47.31:586][512]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.04-13.47.31:586][512]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.04-13.47.31:587][512]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2026.10.04-13.47.31:587][512]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2026.10.04-13.47.31:591][512]LogInit: FAudioDevice initialized with ID 9.
+[2026.10.04-13.47.31:591][512]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2026.10.04-13.47.31:591][512]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2026.10.04-13.47.31:591][512]LogAudio: Display: Audio Device (ID: 9) registered with world 'PharaohMinigame'.
+[2026.10.04-13.47.31:591][512]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2026.10.04-13.47.31:597][512]LogLoad: Game class is 'BP_PharaohMinigame_C'
+[2026.10.04-13.47.31:600][512]LogWorld: Bringing World /Game/UEDPIE_0_PharaohMinigame.PharaohMinigame up for play (max tick rate 60) at 2026.10.04-09.47.31
+[2026.10.04-13.47.31:600][512]LogWorld: Bringing up level for play took: 0.002636
+[2026.10.04-13.47.31:601][512]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2026.10.04-13.47.31:601][512]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.10.04-13.47.31:601][512]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2026.10.04-13.47.31:602][512]LogMinigameCore: Error: MinigameBase: Not enough players for this game type!
+[2026.10.04-13.47.31:602][512]LogMinigameCore: Warning: MinigameBase: No point counter found. Creating default point counter.
+[2026.10.04-13.47.31:603][512]LogTemp: Warning: Minigame Base Player 0: Found player BashLocalPlayer_7 and controller BashPlayerController_0
+[2026.10.04-13.47.31:610][512]PIE: Server logged in
+[2026.10.04-13.47.31:613][512]PIE: Play in editor total start time 0.325 seconds.
+[2026.10.04-13.47.31:622][512]LogMutable: Started Update Skeletal Mesh Async. CustomizableObject=CO_ModularCharacter Instance=CustomizableObjectInstance_7, Frame=26514
+[2026.10.04-13.48.06:389][946]LogScript: Warning: UGameplayStatics::BeginDeferredActorSpawnFromClass: can not spawn an actor from a NULL class
+[2026.10.04-13.48.06:789][951]LogScript: Warning: Accessed None trying to read (real) property CurrObstacle in BP_AlligatorPlayer_C
+	BP_AlligatorPlayer_C /Game/UEDPIE_0_PharaohMinigame.PharaohMinigame:PersistentLevel.BP_AlligatorPlayer_C_0
+	Function /Game/BP_AlligatorPlayer.BP_AlligatorPlayer_C:MoveBlock:0158
+[2026.10.04-13.48.06:790][951]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CurrObstacle in BP_AlligatorPlayer_C". Node:  Set Actor Transform Graph:  MoveBlock Function:  Move Block Blueprint:  BP_AlligatorPlayer
+[2026.10.04-13.48.06:790][951]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CurrObstacle in BP_AlligatorPlayer_C". Node:  Set Actor Transform Graph:  MoveBlock Function:  Move Block Blueprint:  BP_AlligatorPlayer
+[2026.10.04-13.48.11:813][ 14]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CurrObstacle in BP_AlligatorPlayer_C". Node:  Set Actor Transform Graph:  MoveBlock Function:  Move Block Blueprint:  BP_AlligatorPlayer
+[2026.10.04-13.48.11:813][ 14]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CurrObstacle in BP_AlligatorPlayer_C". Node:  Set Actor Transform Graph:  MoveBlock Function:  Move Block Blueprint:  BP_AlligatorPlayer
+[2026.10.04-13.48.11:980][ 16]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CurrObstacle in BP_AlligatorPlayer_C". Node:  Set Actor Transform Graph:  MoveBlock Function:  Move Block Blueprint:  BP_AlligatorPlayer
+[2026.10.04-13.48.11:980][ 16]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CurrObstacle in BP_AlligatorPlayer_C". Node:  Set Actor Transform Graph:  MoveBlock Function:  Move Block Blueprint:  BP_AlligatorPlayer
+[2026.10.04-13.48.12:064][ 17]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CurrObstacle in BP_AlligatorPlayer_C". Node:  Set Actor Transform Graph:  MoveBlock Function:  Move Block Blueprint:  BP_AlligatorPlayer
+[2026.10.04-13.48.12:064][ 17]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CurrObstacle in BP_AlligatorPlayer_C". Node:  Set Actor Transform Graph:  MoveBlock Function:  Move Block Blueprint:  BP_AlligatorPlayer
+[2026.10.04-13.48.12:220][ 19]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CurrObstacle in BP_AlligatorPlayer_C". Node:  Set Actor Transform Graph:  MoveBlock Function:  Move Block Blueprint:  BP_AlligatorPlayer
+[2026.10.04-13.48.12:220][ 19]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CurrObstacle in BP_AlligatorPlayer_C". Node:  Set Actor Transform Graph:  MoveBlock Function:  Move Block Blueprint:  BP_AlligatorPlayer
+[2026.10.04-13.48.13:052][ 29]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.04-13.48.13:052][ 29]LogWorld: BeginTearingDown for /Game/UEDPIE_0_PharaohMinigame
+[2026.10.04-13.48.13:052][ 29]LogTemp: Warning: Deinitialize Bluetooth Manager Subsystem
+[2026.10.04-13.48.13:052][ 29]LogWorld: UWorld::CleanupWorld for PharaohMinigame, bSessionEnded=true, bCleanupResources=true
+[2026.10.04-13.48.13:054][ 29]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-13.48.13:170][ 29]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.04-13.48.13:178][ 29]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-13.48.13:226][ 29]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.04-13.48.13:226][ 29]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2026.10.04-13.48.13:226][ 29]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=4
+[2026.10.04-13.48.13:229][ 29]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=2
+[2026.10.04-13.48.13:241][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2026.10.04-13.48.13:492][ 30]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2026.10.04-13.48.15:328][ 79]LogSlate: Window 'Message Log' being destroyed
+[2026.10.04-13.48.15:406][ 79]LogSlate: Window 'Message Log' being destroyed
+[2026.10.04-13.49.40:155][ 92]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.04-13.49.40:314][ 92]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BP_AlligatorPlayer] ([2] browsable assets)...
+[2026.10.04-13.49.40:352][ 92]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_AlligatorPlayer.BP_AlligatorPlayer]
+[2026.10.04-13.49.40:352][ 92]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_AlligatorPlayer]
+[2026.10.04-13.49.40:404][ 92]LogSavePackage: Moving output files for package: /Game/BP_AlligatorPlayer
+[2026.10.04-13.49.40:405][ 92]LogSavePackage: Moving '../../../../../../Users/Rasheed Chenet/Documents/GitHub/alligator_gravity_minigame/alligator_gravity/Saved/BP_AlligatorPlayer020BF4434BE1E817148ACCB0A9E2A767.tmp' to '../../../../../../Users/Rasheed Chenet/Documents/GitHub/alligator_gravity_minigame/alligator_gravity/Content/BP_AlligatorPlayer.uasset'
+[2026.10.04-13.49.40:429][ 92]LogFileHelpers: InternalPromptForCheckoutAndSave took 272.399 ms (total: 2.26 sec)
+[2026.10.04-13.49.40:518][ 92]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.04-13.49.40:518][ 92]LogContentValidation: Enabled validators:
+[2026.10.04-13.49.40:518][ 92]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.04-13.49.40:518][ 92]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.04-13.49.40:518][ 92]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.04-13.49.40:518][ 92]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.04-13.49.40:518][ 92]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.04-13.49.40:518][ 92]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.04-13.49.40:518][ 92]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.10.04-13.49.40:518][ 92]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.10.04-13.49.40:518][ 92]AssetCheck: /Game/BP_AlligatorPlayer Validating asset
+[2026.10.04-13.49.40:569][ 93]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/Rasheed Chenet/Documents/GitHub/alligator_gravity_minigame/alligator_gravity/Saved/SourceControl/UncontrolledChangelists.json
+[2026.10.04-13.49.41:297][108]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2026.10.04-13.49.44:307][197]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.04-13.49.44:315][197]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.04-13.49.44:315][197]LogPlayLevel: Display: Creating online subsystem for client :Context_20
+[2026.10.04-13.49.44:319][197]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2026.10.04-13.49.44:348][198]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PharaohMinigame
+[2026.10.04-13.49.44:356][198]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006114s)
+[2026.10.04-13.49.44:356][198]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PharaohMinigame.PharaohMinigame to /Game/UEDPIE_0_PharaohMinigame.PharaohMinigame (0.006219s)
+[2026.10.04-13.49.44:402][198]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2026.10.04-13.49.44:407][198]LogTemp: WinRT Apartment initialized successfully!
+[2026.10.04-13.49.44:407][198]LogChaosDD: Creating Chaos Debug Draw Scene for world PharaohMinigame
+[2026.10.04-13.49.44:411][198]LogPlayLevel: PIE: World Init took: (0.002803s)
+[2026.10.04-13.49.44:412][198]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2026.10.04-13.49.44:412][198]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.04-13.49.44:412][198]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.04-13.49.44:412][198]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.04-13.49.44:412][198]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.04-13.49.44:412][198]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.04-13.49.44:412][198]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.04-13.49.44:412][198]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.04-13.49.44:412][198]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.04-13.49.44:412][198]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.04-13.49.44:413][198]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.04-13.49.44:413][198]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.04-13.49.44:416][198]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.04-13.49.44:440][198]LogAudioMixer: Display: Using Audio Hardware Device Speakers (High Definition Audio Device)
+[2026.10.04-13.49.44:442][198]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.04-13.49.44:442][198]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.04-13.49.44:442][198]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.04-13.49.44:442][198]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2026.10.04-13.49.44:443][198]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2026.10.04-13.49.44:447][198]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2026.10.04-13.49.44:447][198]LogInit: FAudioDevice initialized with ID 10.
+[2026.10.04-13.49.44:447][198]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2026.10.04-13.49.44:447][198]LogAudio: Display: Audio Device (ID: 10) registered with world 'PharaohMinigame'.
+[2026.10.04-13.49.44:447][198]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2026.10.04-13.49.44:452][198]LogLoad: Game class is 'BP_PharaohMinigame_C'
+[2026.10.04-13.49.44:455][198]LogWorld: Bringing World /Game/UEDPIE_0_PharaohMinigame.PharaohMinigame up for play (max tick rate 60) at 2026.10.04-09.49.44
+[2026.10.04-13.49.44:456][198]LogWorld: Bringing up level for play took: 0.002806
+[2026.10.04-13.49.44:456][198]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2026.10.04-13.49.44:456][198]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.10.04-13.49.44:457][198]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2026.10.04-13.49.44:457][198]LogMinigameCore: Error: MinigameBase: Not enough players for this game type!
+[2026.10.04-13.49.44:458][198]LogMinigameCore: Warning: MinigameBase: No point counter found. Creating default point counter.
+[2026.10.04-13.49.44:458][198]LogTemp: Warning: Minigame Base Player 0: Found player BashLocalPlayer_8 and controller BashPlayerController_0
+[2026.10.04-13.49.44:466][198]PIE: Server logged in
+[2026.10.04-13.49.44:470][198]PIE: Play in editor total start time 0.155 seconds.
+[2026.10.04-13.49.44:477][198]LogMutable: Started Update Skeletal Mesh Async. CustomizableObject=CO_ModularCharacter Instance=CustomizableObjectInstance_8, Frame=28200
+[2026.10.04-13.49.58:501][374]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.04-13.49.58:501][374]LogWorld: BeginTearingDown for /Game/UEDPIE_0_PharaohMinigame
+[2026.10.04-13.49.58:502][374]LogTemp: Warning: Deinitialize Bluetooth Manager Subsystem
+[2026.10.04-13.49.58:502][374]LogWorld: UWorld::CleanupWorld for PharaohMinigame, bSessionEnded=true, bCleanupResources=true
+[2026.10.04-13.49.58:503][374]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-13.49.58:625][374]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.04-13.49.58:636][374]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-13.49.58:678][374]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.10.04-13.49.58:679][374]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2026.10.04-13.49.58:679][374]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=4
+[2026.10.04-13.49.58:682][374]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=2
+[2026.10.04-13.49.58:689][374]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.04-13.49.58:694][374]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2026.10.04-13.49.58:798][375]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2026.10.04-13.50.24:760][517]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2026.10.04-13.50.24:778][517]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/PharaohMinigame_Auto1
+[2026.10.04-13.50.24:778][517]LogSavePackage: Moving '../../../../../../Users/Rasheed Chenet/Documents/GitHub/alligator_gravity_minigame/alligator_gravity/Saved/PharaohMinigame_Auto1E446DAFE4DCA895AA65412AE8278EC2C.tmp' to '../../../../../../Users/Rasheed Chenet/Documents/GitHub/alligator_gravity_minigame/alligator_gravity/Saved/Autosaves/Game/PharaohMinigame_Auto1.umap'
+[2026.10.04-13.50.24:783][517]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/PharaohMinigame' took 0.064
+[2026.10.04-13.50.24:783][517]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.064
+[2026.10.04-13.56.27:568][813]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2026.10.04-13.58.16:679][652]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2026.10.04-13.58.18:602][701]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.04-13.58.18:757][701]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BP_AlligatorPlayer] ([2] browsable assets)...
+[2026.10.04-13.58.18:779][701]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_AlligatorPlayer.BP_AlligatorPlayer]
+[2026.10.04-13.58.18:779][701]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_AlligatorPlayer]
+[2026.10.04-13.58.18:836][701]LogSavePackage: Moving output files for package: /Game/BP_AlligatorPlayer
+[2026.10.04-13.58.18:838][701]LogSavePackage: Moving '../../../../../../Users/Rasheed Chenet/Documents/GitHub/alligator_gravity_minigame/alligator_gravity/Saved/BP_AlligatorPlayer6491CF28496CE51799A74EA5F9C8FEA7.tmp' to '../../../../../../Users/Rasheed Chenet/Documents/GitHub/alligator_gravity_minigame/alligator_gravity/Content/BP_AlligatorPlayer.uasset'
+[2026.10.04-13.58.18:858][701]LogFileHelpers: InternalPromptForCheckoutAndSave took 255.610 ms (total: 2.51 sec)
+[2026.10.04-13.58.18:926][701]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.04-13.58.18:926][701]LogContentValidation: Enabled validators:
+[2026.10.04-13.58.18:926][701]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.04-13.58.18:926][701]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.04-13.58.18:926][701]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.04-13.58.18:926][701]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.04-13.58.18:926][701]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.04-13.58.18:926][701]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.04-13.58.18:926][701]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.10.04-13.58.18:926][701]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.10.04-13.58.18:926][701]AssetCheck: /Game/BP_AlligatorPlayer Validating asset
+[2026.10.04-13.58.20:946][767]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.04-13.58.20:955][767]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.04-13.58.20:955][767]LogPlayLevel: Display: Creating online subsystem for client :Context_21
+[2026.10.04-13.58.20:959][767]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2026.10.04-13.58.20:989][768]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PharaohMinigame
+[2026.10.04-13.58.20:995][768]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006103s)
+[2026.10.04-13.58.20:995][768]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PharaohMinigame.PharaohMinigame to /Game/UEDPIE_0_PharaohMinigame.PharaohMinigame (0.006187s)
+[2026.10.04-13.58.21:044][768]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2026.10.04-13.58.21:049][768]LogTemp: WinRT Apartment initialized successfully!
+[2026.10.04-13.58.21:049][768]LogChaosDD: Creating Chaos Debug Draw Scene for world PharaohMinigame
+[2026.10.04-13.58.21:052][768]LogPlayLevel: PIE: World Init took: (0.002753s)
+[2026.10.04-13.58.21:053][768]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2026.10.04-13.58.21:053][768]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.04-13.58.21:053][768]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.04-13.58.21:053][768]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.04-13.58.21:053][768]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.04-13.58.21:053][768]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.04-13.58.21:053][768]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.04-13.58.21:053][768]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.04-13.58.21:053][768]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.04-13.58.21:053][768]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.04-13.58.21:054][768]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.04-13.58.21:054][768]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.04-13.58.21:057][768]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.04-13.58.21:080][768]LogAudioMixer: Display: Using Audio Hardware Device Speakers (High Definition Audio Device)
+[2026.10.04-13.58.21:080][768]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.04-13.58.21:080][768]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.04-13.58.21:080][768]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.04-13.58.21:081][768]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2026.10.04-13.58.21:081][768]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2026.10.04-13.58.21:086][768]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2026.10.04-13.58.21:086][768]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2026.10.04-13.58.21:086][768]LogInit: FAudioDevice initialized with ID 11.
+[2026.10.04-13.58.21:086][768]LogAudio: Display: Audio Device (ID: 11) registered with world 'PharaohMinigame'.
+[2026.10.04-13.58.21:086][768]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2026.10.04-13.58.21:090][768]LogLoad: Game class is 'BP_PharaohMinigame_C'
+[2026.10.04-13.58.21:093][768]LogWorld: Bringing World /Game/UEDPIE_0_PharaohMinigame.PharaohMinigame up for play (max tick rate 60) at 2026.10.04-09.58.21
+[2026.10.04-13.58.21:094][768]LogWorld: Bringing up level for play took: 0.002519
+[2026.10.04-13.58.21:094][768]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2026.10.04-13.58.21:094][768]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.10.04-13.58.21:095][768]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2026.10.04-13.58.21:095][768]LogMinigameCore: Error: MinigameBase: Not enough players for this game type!
+[2026.10.04-13.58.21:095][768]LogMinigameCore: Warning: MinigameBase: No point counter found. Creating default point counter.
+[2026.10.04-13.58.21:096][768]LogTemp: Warning: Minigame Base Player 0: Found player BashLocalPlayer_9 and controller BashPlayerController_0
+[2026.10.04-13.58.21:102][768]PIE: Server logged in
+[2026.10.04-13.58.21:106][768]PIE: Play in editor total start time 0.151 seconds.
+[2026.10.04-13.58.21:112][768]LogMutable: Started Update Skeletal Mesh Async. CustomizableObject=CO_ModularCharacter Instance=CustomizableObjectInstance_9, Frame=38770
+[2026.10.04-13.58.42:179][ 31]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.04-13.58.42:179][ 31]LogWorld: BeginTearingDown for /Game/UEDPIE_0_PharaohMinigame
+[2026.10.04-13.58.42:179][ 31]LogTemp: Warning: Deinitialize Bluetooth Manager Subsystem
+[2026.10.04-13.58.42:179][ 31]LogWorld: UWorld::CleanupWorld for PharaohMinigame, bSessionEnded=true, bCleanupResources=true
+[2026.10.04-13.58.42:180][ 31]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-13.58.42:324][ 31]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.04-13.58.42:337][ 31]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-13.58.42:379][ 31]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.10.04-13.58.42:379][ 31]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2026.10.04-13.58.42:379][ 31]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11, StreamState=4
+[2026.10.04-13.58.42:383][ 31]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11, StreamState=2
+[2026.10.04-13.58.42:391][ 31]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.04-13.58.42:397][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2026.10.04-13.58.42:521][ 32]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2026.10.04-13.59.49:853][255]LogSlate: Window 'EventGraph' being destroyed
+[2026.10.04-14.00.46:522][142]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2026.10.04-14.00.46:527][142]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/PharaohMinigame' took 0.051
+[2026.10.04-14.00.46:528][142]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BP_AlligatorPlayer] ([2] browsable assets)...
+[2026.10.04-14.00.46:560][142]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_AlligatorPlayer.BP_AlligatorPlayer]
+[2026.10.04-14.00.46:560][142]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_AlligatorPlayer]
+[2026.10.04-14.00.46:626][142]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BP_AlligatorPlayer_Auto2
+[2026.10.04-14.00.46:626][142]LogSavePackage: Moving '../../../../../../Users/Rasheed Chenet/Documents/GitHub/alligator_gravity_minigame/alligator_gravity/Saved/BP_AlligatorPlayer_Auto2E10FDBA643B2810DEB3CAE82DE0B6E8C.tmp' to '../../../../../../Users/Rasheed Chenet/Documents/GitHub/alligator_gravity_minigame/alligator_gravity/Saved/Autosaves/Game/BP_AlligatorPlayer_Auto2.uasset'
+[2026.10.04-14.00.46:628][142]LogFileHelpers: Auto-saving content packages took 0.101
+[2026.10.04-14.04.35:220][402]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.04-14.04.35:388][402]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BP_AlligatorPlayer] ([2] browsable assets)...
+[2026.10.04-14.04.35:405][402]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_AlligatorPlayer.BP_AlligatorPlayer]
+[2026.10.04-14.04.35:405][402]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_AlligatorPlayer]
+[2026.10.04-14.04.35:457][402]LogSavePackage: Moving output files for package: /Game/BP_AlligatorPlayer
+[2026.10.04-14.04.35:458][402]LogSavePackage: Moving '../../../../../../Users/Rasheed Chenet/Documents/GitHub/alligator_gravity_minigame/alligator_gravity/Saved/BP_AlligatorPlayerC8957AB84B5C5B41C346FF90F815E6CA.tmp' to '../../../../../../Users/Rasheed Chenet/Documents/GitHub/alligator_gravity_minigame/alligator_gravity/Content/BP_AlligatorPlayer.uasset'
+[2026.10.04-14.04.35:487][402]LogFileHelpers: InternalPromptForCheckoutAndSave took 265.807 ms (total: 2.78 sec)
+[2026.10.04-14.04.35:586][402]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.04-14.04.35:586][402]LogContentValidation: Enabled validators:
+[2026.10.04-14.04.35:586][402]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.04-14.04.35:586][402]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.04-14.04.35:586][402]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.04-14.04.35:586][402]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.04-14.04.35:586][402]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.04-14.04.35:586][402]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.04-14.04.35:586][402]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.10.04-14.04.35:586][402]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.10.04-14.04.35:586][402]AssetCheck: /Game/BP_AlligatorPlayer Validating asset
+[2026.10.04-14.04.37:128][441]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2026.10.04-14.06.08:459][ 17]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.04-14.06.08:467][ 17]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.04-14.06.08:467][ 17]LogPlayLevel: Display: Creating online subsystem for client :Context_22
+[2026.10.04-14.06.08:473][ 17]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2026.10.04-14.06.08:517][ 18]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PharaohMinigame
+[2026.10.04-14.06.08:522][ 18]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005159s)
+[2026.10.04-14.06.08:522][ 18]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PharaohMinigame.PharaohMinigame to /Game/UEDPIE_0_PharaohMinigame.PharaohMinigame (0.005241s)
+[2026.10.04-14.06.08:571][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2026.10.04-14.06.08:576][ 18]LogTemp: WinRT Apartment initialized successfully!
+[2026.10.04-14.06.08:576][ 18]LogChaosDD: Creating Chaos Debug Draw Scene for world PharaohMinigame
+[2026.10.04-14.06.08:579][ 18]LogPlayLevel: PIE: World Init took: (0.003108s)
+[2026.10.04-14.06.08:580][ 18]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2026.10.04-14.06.08:581][ 18]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.04-14.06.08:581][ 18]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.04-14.06.08:581][ 18]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.04-14.06.08:581][ 18]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.04-14.06.08:581][ 18]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.04-14.06.08:581][ 18]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.04-14.06.08:581][ 18]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.04-14.06.08:581][ 18]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.04-14.06.08:581][ 18]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.04-14.06.08:581][ 18]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.04-14.06.08:581][ 18]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.04-14.06.08:584][ 18]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.04-14.06.08:607][ 18]LogAudioMixer: Display: Using Audio Hardware Device Speakers (High Definition Audio Device)
+[2026.10.04-14.06.08:608][ 18]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.04-14.06.08:608][ 18]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.04-14.06.08:608][ 18]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.04-14.06.08:609][ 18]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2026.10.04-14.06.08:610][ 18]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2026.10.04-14.06.08:614][ 18]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2026.10.04-14.06.08:614][ 18]LogInit: FAudioDevice initialized with ID 12.
+[2026.10.04-14.06.08:614][ 18]LogAudio: Display: Audio Device (ID: 12) registered with world 'PharaohMinigame'.
+[2026.10.04-14.06.08:614][ 18]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2026.10.04-14.06.08:614][ 18]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2026.10.04-14.06.08:631][ 18]LogLoad: Game class is 'BP_PharaohMinigame_C'
+[2026.10.04-14.06.08:634][ 18]LogWorld: Bringing World /Game/UEDPIE_0_PharaohMinigame.PharaohMinigame up for play (max tick rate 60) at 2026.10.04-10.06.08
+[2026.10.04-14.06.08:635][ 18]LogWorld: Bringing up level for play took: 0.003677
+[2026.10.04-14.06.08:636][ 18]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2026.10.04-14.06.08:636][ 18]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.10.04-14.06.08:636][ 18]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2026.10.04-14.06.08:637][ 18]LogMinigameCore: Error: MinigameBase: Not enough players for this game type!
+[2026.10.04-14.06.08:637][ 18]LogMinigameCore: Warning: MinigameBase: No point counter found. Creating default point counter.
+[2026.10.04-14.06.08:638][ 18]LogTemp: Warning: Minigame Base Player 0: Found player BashLocalPlayer_10 and controller BashPlayerController_0
+[2026.10.04-14.06.08:645][ 18]PIE: Server logged in
+[2026.10.04-14.06.08:649][ 18]PIE: Play in editor total start time 0.182 seconds.
+[2026.10.04-14.06.08:655][ 18]LogMutable: Started Update Skeletal Mesh Async. CustomizableObject=CO_ModularCharacter Instance=CustomizableObjectInstance_10, Frame=48020
+[2026.10.04-14.06.10:978][ 44]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.04-14.06.10:978][ 44]LogWorld: BeginTearingDown for /Game/UEDPIE_0_PharaohMinigame
+[2026.10.04-14.06.10:978][ 44]LogTemp: Warning: Deinitialize Bluetooth Manager Subsystem
+[2026.10.04-14.06.10:978][ 44]LogWorld: UWorld::CleanupWorld for PharaohMinigame, bSessionEnded=true, bCleanupResources=true
+[2026.10.04-14.06.10:979][ 44]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-14.06.11:132][ 44]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.04-14.06.11:139][ 44]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-14.06.11:189][ 44]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.10.04-14.06.11:189][ 44]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2026.10.04-14.06.11:189][ 44]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12, StreamState=4
+[2026.10.04-14.06.11:192][ 44]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12, StreamState=2
+[2026.10.04-14.06.11:200][ 44]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.04-14.06.11:207][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2026.10.04-14.06.11:285][ 45]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2026.10.04-14.07.43:802][358]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2026.10.04-14.08.36:318][749]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.04-14.08.36:526][749]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2026.10.04-14.08.36:545][749]LogSavePackage: Moving output files for package: /Game/PharaohMinigame
+[2026.10.04-14.08.36:546][749]LogSavePackage: Moving '../../../../../../Users/Rasheed Chenet/Documents/GitHub/alligator_gravity_minigame/alligator_gravity/Saved/PharaohMinigameB522233E4B617C2A80DEA38A14A98797.tmp' to '../../../../../../Users/Rasheed Chenet/Documents/GitHub/alligator_gravity_minigame/alligator_gravity/Content/PharaohMinigame.umap'
+[2026.10.04-14.08.36:555][749]LogFileHelpers: Saving map 'PharaohMinigame' took 0.089
+[2026.10.04-14.08.36:586][749]LogFileHelpers: InternalPromptForCheckoutAndSave took 267.836 ms (total: 3.04 sec)
+[2026.10.04-14.08.36:693][749]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.04-14.08.36:693][749]LogContentValidation: Enabled validators:
+[2026.10.04-14.08.36:693][749]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.04-14.08.36:693][749]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.04-14.08.36:693][749]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.04-14.08.36:693][749]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.04-14.08.36:693][749]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.04-14.08.36:693][749]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.04-14.08.36:693][749]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.10.04-14.08.36:693][749]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.10.04-14.08.36:693][749]AssetCheck: /Game/PharaohMinigame Validating asset

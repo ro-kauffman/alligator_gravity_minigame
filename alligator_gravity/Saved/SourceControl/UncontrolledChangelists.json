@@ -5,7 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Users/Rasheed Chenet/Documents/GitHub/alligator_gravity_minigame/alligator_gravity/Content/AlligatorStuff/BP_ObstacleManager.uasset"
+				"C:/Users/Rasheed Chenet/Documents/GitHub/alligator_gravity_minigame/alligator_gravity/Content/AlligatorStuff/BP_ObstacleManager.uasset",
+				"C:/Users/Rasheed Chenet/Documents/GitHub/alligator_gravity_minigame/alligator_gravity/Content/PharaohMinigame.umap",
+				"C:/Users/Rasheed Chenet/Documents/GitHub/alligator_gravity_minigame/alligator_gravity/Content/BP_AlligatorPlayer.uasset"
 			]
 		}
 	]
