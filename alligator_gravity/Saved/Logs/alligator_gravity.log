@@ -2685,3 +2685,1064 @@ Make sure '/Game/objects/BP_LObject.BP_LObject_C' has been compiled for  Get InW
 [2026.10.04-14.19.11:308][116]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
 [2026.10.04-14.19.11:308][116]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
 [2026.10.04-14.19.11:308][116]AssetCheck: /Game/PharaohsForcesMinigame Validating asset
+[2026.10.04-14.19.50:673][398]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.04-14.19.50:689][398]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.04-14.19.50:690][398]LogPlayLevel: Display: Creating online subsystem for client :Context_31
+[2026.10.04-14.19.50:694][398]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2026.10.04-14.19.50:728][399]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.19.50:741][399]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013368s)
+[2026.10.04-14.19.50:741][399]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PharaohsForcesMinigame.PharaohsForcesMinigame to /Game/UEDPIE_0_PharaohsForcesMinigame.PharaohsForcesMinigame (0.013482s)
+[2026.10.04-14.19.50:785][399]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2026.10.04-14.19.50:791][399]LogTemp: WinRT Apartment initialized successfully!
+[2026.10.04-14.19.50:792][399]LogChaosDD: Creating Chaos Debug Draw Scene for world PharaohsForcesMinigame
+[2026.10.04-14.19.50:796][399]LogPlayLevel: PIE: World Init took: (0.004624s)
+[2026.10.04-14.19.50:797][399]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2026.10.04-14.19.50:797][399]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.04-14.19.50:797][399]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.04-14.19.50:797][399]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.04-14.19.50:797][399]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.04-14.19.50:797][399]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.04-14.19.50:797][399]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.04-14.19.50:797][399]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.04-14.19.50:797][399]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.04-14.19.50:797][399]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.04-14.19.50:797][399]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.04-14.19.50:797][399]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.04-14.19.50:801][399]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.04-14.19.51:081][399]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2026.10.04-14.19.51:081][399]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.04-14.19.51:081][399]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.04-14.19.51:082][399]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.04-14.19.51:082][399]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2026.10.04-14.19.51:082][399]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2026.10.04-14.19.51:087][399]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2026.10.04-14.19.51:087][399]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2026.10.04-14.19.51:087][399]LogInit: FAudioDevice initialized with ID 16.
+[2026.10.04-14.19.51:087][399]LogAudio: Display: Audio Device (ID: 16) registered with world 'PharaohsForcesMinigame'.
+[2026.10.04-14.19.51:087][399]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2026.10.04-14.19.51:093][399]LogLoad: Game class is 'BP_PharaohMinigame_C'
+[2026.10.04-14.19.51:097][399]LogWorld: Bringing World /Game/UEDPIE_0_PharaohsForcesMinigame.PharaohsForcesMinigame up for play (max tick rate 60) at 2026.10.04-10.19.51
+[2026.10.04-14.19.51:097][399]LogWorld: Bringing up level for play took: 0.004016
+[2026.10.04-14.19.51:098][399]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2026.10.04-14.19.51:099][399]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.10.04-14.19.51:099][399]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2026.10.04-14.19.51:099][399]LogMinigameCore: Error: MinigameBase: Not enough players for this game type!
+[2026.10.04-14.19.51:099][399]LogMinigameCore: Warning: MinigameBase: No point counter found. Creating default point counter.
+[2026.10.04-14.19.51:100][399]LogTemp: Warning: Minigame Base Player 0: Found player BashLocalPlayer_14 and controller BashPlayerController_0
+[2026.10.04-14.19.51:104][399]PIE: Server logged in
+[2026.10.04-14.19.51:107][399]PIE: Play in editor total start time 0.418 seconds.
+[2026.10.04-14.19.51:117][399]LogMutable: Started Update Skeletal Mesh Async. CustomizableObject=CO_ModularCharacter Instance=CustomizableObjectInstance_14, Frame=57401
+[2026.10.04-14.19.51:314][400]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.04-14.19.59:289][538]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/PharaohsForcesMinigame"
+[2026.10.04-14.19.59:289][538]LogNet: Browse: /Game/PharaohsForcesMinigame
+[2026.10.04-14.19.59:289][538]LogLoad: LoadMap: /Game/PharaohsForcesMinigame
+[2026.10.04-14.19.59:289][538]LogWorld: BeginTearingDown for /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.19.59:291][538]LogWorld: UWorld::CleanupWorld for PharaohsForcesMinigame, bSessionEnded=true, bCleanupResources=true
+[2026.10.04-14.19.59:292][538]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-14.19.59:334][538]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.10.04-14.19.59:341][538]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2026.10.04-14.19.59:375][538]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.19.59:390][538]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014259s)
+[2026.10.04-14.19.59:390][538]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PharaohsForcesMinigame.PharaohsForcesMinigame to /Game/UEDPIE_0_PharaohsForcesMinigame.PharaohsForcesMinigame (0.014350s)
+[2026.10.04-14.19.59:390][538]LogAudio: Display: Audio Device (ID: 16) registered with world 'PharaohsForcesMinigame'.
+[2026.10.04-14.19.59:390][538]LogChaosDD: Creating Chaos Debug Draw Scene for world PharaohsForcesMinigame
+[2026.10.04-14.19.59:393][538]LogPlayLevel: PIE: World Init took: (0.003053s)
+[2026.10.04-14.19.59:393][538]LogLoad: Game class is 'BP_PharaohMinigame_C'
+[2026.10.04-14.19.59:397][538]LogWorld: Bringing World /Game/UEDPIE_0_PharaohsForcesMinigame.PharaohsForcesMinigame up for play (max tick rate 60) at 2026.10.04-10.19.59
+[2026.10.04-14.19.59:398][538]LogWorld: Bringing up level for play took: 0.005775
+[2026.10.04-14.19.59:399][538]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2026.10.04-14.19.59:399][538]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2026.10.04-14.19.59:399][538]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2026.10.04-14.19.59:400][538]LogMinigameCore: Warning: MinigameBase: No point counter found. Creating default point counter.
+[2026.10.04-14.19.59:401][538]LogTemp: Warning: Minigame Base Player 0: Found player BashLocalPlayer_14 and controller BashPlayerController_0
+[2026.10.04-14.19.59:409][538]LogLoad: Took 0.119714 seconds to LoadMap(/Game/UEDPIE_0_PharaohsForcesMinigame)
+[2026.10.04-14.19.59:409][538]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.19.59:415][538]LogMutable: Started Update Skeletal Mesh Async. CustomizableObject=CO_ModularCharacter Instance=CustomizableObjectInstance_14, Frame=57540
+[2026.10.04-14.19.59:428][538]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.04-14.20.26:460][ 79]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.04-14.20.26:460][ 79]LogWorld: BeginTearingDown for /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.20.26:460][ 79]LogTemp: Warning: Deinitialize Bluetooth Manager Subsystem
+[2026.10.04-14.20.26:460][ 79]LogWorld: UWorld::CleanupWorld for PharaohsForcesMinigame, bSessionEnded=true, bCleanupResources=true
+[2026.10.04-14.20.26:461][ 79]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-14.20.26:527][ 79]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.04-14.20.26:536][ 79]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-14.20.26:577][ 79]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.04-14.20.26:577][ 79]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2026.10.04-14.20.26:577][ 79]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16, StreamState=4
+[2026.10.04-14.20.26:581][ 79]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16, StreamState=2
+[2026.10.04-14.20.26:592][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2026.10.04-14.20.26:784][ 80]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2026.10.04-14.21.14:600][994]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.04-14.21.14:623][994]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.04-14.21.14:623][994]LogPlayLevel: Display: Creating online subsystem for client :Context_32
+[2026.10.04-14.21.14:628][994]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2026.10.04-14.21.14:666][995]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.21.14:682][995]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015468s)
+[2026.10.04-14.21.14:682][995]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PharaohsForcesMinigame.PharaohsForcesMinigame to /Game/UEDPIE_0_PharaohsForcesMinigame.PharaohsForcesMinigame (0.015544s)
+[2026.10.04-14.21.14:731][995]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2026.10.04-14.21.14:738][995]LogTemp: WinRT Apartment initialized successfully!
+[2026.10.04-14.21.14:738][995]LogChaosDD: Creating Chaos Debug Draw Scene for world PharaohsForcesMinigame
+[2026.10.04-14.21.14:740][995]LogPlayLevel: PIE: World Init took: (0.002728s)
+[2026.10.04-14.21.14:742][995]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2026.10.04-14.21.14:742][995]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.04-14.21.14:742][995]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.04-14.21.14:742][995]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.04-14.21.14:742][995]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.04-14.21.14:742][995]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.04-14.21.14:742][995]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.04-14.21.14:742][995]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.04-14.21.14:742][995]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.04-14.21.14:742][995]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.04-14.21.14:742][995]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.04-14.21.14:742][995]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.04-14.21.14:747][995]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.04-14.21.15:017][995]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2026.10.04-14.21.15:017][995]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.04-14.21.15:017][995]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.04-14.21.15:017][995]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.04-14.21.15:018][995]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2026.10.04-14.21.15:018][995]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2026.10.04-14.21.15:022][995]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2026.10.04-14.21.15:023][995]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2026.10.04-14.21.15:023][995]LogInit: FAudioDevice initialized with ID 17.
+[2026.10.04-14.21.15:023][995]LogAudio: Display: Audio Device (ID: 17) registered with world 'PharaohsForcesMinigame'.
+[2026.10.04-14.21.15:023][995]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2026.10.04-14.21.15:031][995]LogLoad: Game class is 'BP_PharaohMinigame_C'
+[2026.10.04-14.21.15:035][995]LogWorld: Bringing World /Game/UEDPIE_0_PharaohsForcesMinigame.PharaohsForcesMinigame up for play (max tick rate 60) at 2026.10.04-10.21.15
+[2026.10.04-14.21.15:036][995]LogWorld: Bringing up level for play took: 0.004416
+[2026.10.04-14.21.15:037][995]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2026.10.04-14.21.15:037][995]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.10.04-14.21.15:038][995]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2026.10.04-14.21.15:038][995]LogMinigameCore: Error: MinigameBase: Not enough players for this game type!
+[2026.10.04-14.21.15:038][995]LogMinigameCore: Warning: MinigameBase: No point counter found. Creating default point counter.
+[2026.10.04-14.21.15:039][995]LogTemp: Warning: Minigame Base Player 0: Found player BashLocalPlayer_15 and controller BashPlayerController_0
+[2026.10.04-14.21.15:044][995]PIE: Server logged in
+[2026.10.04-14.21.15:047][995]PIE: Play in editor total start time 0.424 seconds.
+[2026.10.04-14.21.15:057][995]LogMutable: Started Update Skeletal Mesh Async. CustomizableObject=CO_ModularCharacter Instance=CustomizableObjectInstance_15, Frame=58997
+[2026.10.04-14.21.15:376][996]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.04-14.21.15:788][997]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3231.725098
+[2026.10.04-14.21.16:055][  1]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.04-14.21.16:055][  1]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3231.921387, Update Interval: 340.238647
+[2026.10.04-14.21.20:755][ 96]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/PharaohsForcesMinigame"
+[2026.10.04-14.21.20:755][ 96]LogNet: Browse: /Game/PharaohsForcesMinigame
+[2026.10.04-14.21.20:755][ 96]LogLoad: LoadMap: /Game/PharaohsForcesMinigame
+[2026.10.04-14.21.20:755][ 96]LogWorld: BeginTearingDown for /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.21.20:757][ 96]LogWorld: UWorld::CleanupWorld for PharaohsForcesMinigame, bSessionEnded=true, bCleanupResources=true
+[2026.10.04-14.21.20:758][ 96]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-14.21.20:795][ 96]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.10.04-14.21.20:804][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2026.10.04-14.21.20:842][ 96]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.21.20:851][ 96]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008991s)
+[2026.10.04-14.21.20:851][ 96]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PharaohsForcesMinigame.PharaohsForcesMinigame to /Game/UEDPIE_0_PharaohsForcesMinigame.PharaohsForcesMinigame (0.009116s)
+[2026.10.04-14.21.20:851][ 96]LogAudio: Display: Audio Device (ID: 17) registered with world 'PharaohsForcesMinigame'.
+[2026.10.04-14.21.20:851][ 96]LogChaosDD: Creating Chaos Debug Draw Scene for world PharaohsForcesMinigame
+[2026.10.04-14.21.20:853][ 96]LogPlayLevel: PIE: World Init took: (0.002094s)
+[2026.10.04-14.21.20:853][ 96]LogLoad: Game class is 'BP_PharaohMinigame_C'
+[2026.10.04-14.21.20:856][ 96]LogWorld: Bringing World /Game/UEDPIE_0_PharaohsForcesMinigame.PharaohsForcesMinigame up for play (max tick rate 60) at 2026.10.04-10.21.20
+[2026.10.04-14.21.20:856][ 96]LogWorld: Bringing up level for play took: 0.003679
+[2026.10.04-14.21.20:857][ 96]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2026.10.04-14.21.20:857][ 96]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2026.10.04-14.21.20:857][ 96]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2026.10.04-14.21.20:858][ 96]LogMinigameCore: Warning: MinigameBase: No point counter found. Creating default point counter.
+[2026.10.04-14.21.20:859][ 96]LogTemp: Warning: Minigame Base Player 0: Found player BashLocalPlayer_15 and controller BashPlayerController_0
+[2026.10.04-14.21.20:864][ 96]LogLoad: Took 0.109145 seconds to LoadMap(/Game/UEDPIE_0_PharaohsForcesMinigame)
+[2026.10.04-14.21.20:864][ 96]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.21.20:870][ 96]LogMutable: Started Update Skeletal Mesh Async. CustomizableObject=CO_ModularCharacter Instance=CustomizableObjectInstance_15, Frame=59098
+[2026.10.04-14.21.20:885][ 96]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.04-14.21.47:219][620]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.04-14.21.47:219][620]LogWorld: BeginTearingDown for /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.21.47:219][620]LogTemp: Warning: Deinitialize Bluetooth Manager Subsystem
+[2026.10.04-14.21.47:219][620]LogWorld: UWorld::CleanupWorld for PharaohsForcesMinigame, bSessionEnded=true, bCleanupResources=true
+[2026.10.04-14.21.47:220][620]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-14.21.47:296][620]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.04-14.21.47:304][620]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-14.21.47:341][620]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.04-14.21.47:341][620]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2026.10.04-14.21.47:341][620]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17, StreamState=4
+[2026.10.04-14.21.47:346][620]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17, StreamState=2
+[2026.10.04-14.21.47:362][620]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2026.10.04-14.21.47:514][621]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2026.10.04-14.26.15:870][376]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.04-14.26.15:889][376]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.04-14.26.15:889][376]LogPlayLevel: Display: Creating online subsystem for client :Context_33
+[2026.10.04-14.26.15:894][376]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2026.10.04-14.26.15:934][377]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.26.15:953][377]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019164s)
+[2026.10.04-14.26.15:953][377]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PharaohsForcesMinigame.PharaohsForcesMinigame to /Game/UEDPIE_0_PharaohsForcesMinigame.PharaohsForcesMinigame (0.019239s)
+[2026.10.04-14.26.16:006][377]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2026.10.04-14.26.16:010][377]LogTemp: WinRT Apartment initialized successfully!
+[2026.10.04-14.26.16:010][377]LogChaosDD: Creating Chaos Debug Draw Scene for world PharaohsForcesMinigame
+[2026.10.04-14.26.16:013][377]LogPlayLevel: PIE: World Init took: (0.002672s)
+[2026.10.04-14.26.16:016][377]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2026.10.04-14.26.16:016][377]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.04-14.26.16:016][377]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.04-14.26.16:016][377]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.04-14.26.16:016][377]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.04-14.26.16:016][377]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.04-14.26.16:016][377]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.04-14.26.16:016][377]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.04-14.26.16:016][377]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.04-14.26.16:016][377]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.04-14.26.16:016][377]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.04-14.26.16:016][377]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.04-14.26.16:020][377]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.04-14.26.16:314][377]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2026.10.04-14.26.16:314][377]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.04-14.26.16:314][377]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.04-14.26.16:314][377]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.04-14.26.16:314][377]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2026.10.04-14.26.16:314][377]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2026.10.04-14.26.16:320][377]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2026.10.04-14.26.16:320][377]LogInit: FAudioDevice initialized with ID 18.
+[2026.10.04-14.26.16:320][377]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2026.10.04-14.26.16:320][377]LogAudio: Display: Audio Device (ID: 18) registered with world 'PharaohsForcesMinigame'.
+[2026.10.04-14.26.16:320][377]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2026.10.04-14.26.16:328][377]LogLoad: Game class is 'BP_PharaohMinigame_C'
+[2026.10.04-14.26.16:335][377]LogWorld: Bringing World /Game/UEDPIE_0_PharaohsForcesMinigame.PharaohsForcesMinigame up for play (max tick rate 60) at 2026.10.04-10.26.16
+[2026.10.04-14.26.16:335][377]LogWorld: Bringing up level for play took: 0.006543
+[2026.10.04-14.26.16:335][377]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2026.10.04-14.26.16:335][377]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.10.04-14.26.16:336][377]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2026.10.04-14.26.16:336][377]LogMinigameCore: Error: MinigameBase: Not enough players for this game type!
+[2026.10.04-14.26.16:336][377]LogMinigameCore: Warning: MinigameBase: No point counter found. Creating default point counter.
+[2026.10.04-14.26.16:337][377]LogTemp: Warning: Minigame Base Player 0: Found player BashLocalPlayer_16 and controller BashPlayerController_0
+[2026.10.04-14.26.16:342][377]PIE: Server logged in
+[2026.10.04-14.26.16:345][377]PIE: Play in editor total start time 0.457 seconds.
+[2026.10.04-14.26.16:356][377]LogMutable: Started Update Skeletal Mesh Async. CustomizableObject=CO_ModularCharacter Instance=CustomizableObjectInstance_16, Frame=65379
+[2026.10.04-14.26.16:501][378]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.04-14.26.21:946][463]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/PharaohsForcesMinigame"
+[2026.10.04-14.26.21:946][463]LogNet: Browse: /Game/PharaohsForcesMinigame
+[2026.10.04-14.26.21:947][463]LogLoad: LoadMap: /Game/PharaohsForcesMinigame
+[2026.10.04-14.26.21:947][463]LogWorld: BeginTearingDown for /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.26.21:948][463]LogWorld: UWorld::CleanupWorld for PharaohsForcesMinigame, bSessionEnded=true, bCleanupResources=true
+[2026.10.04-14.26.21:949][463]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-14.26.21:994][463]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.10.04-14.26.22:001][463]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2026.10.04-14.26.22:034][463]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.26.22:046][463]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011923s)
+[2026.10.04-14.26.22:046][463]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PharaohsForcesMinigame.PharaohsForcesMinigame to /Game/UEDPIE_0_PharaohsForcesMinigame.PharaohsForcesMinigame (0.012015s)
+[2026.10.04-14.26.22:046][463]LogAudio: Display: Audio Device (ID: 18) registered with world 'PharaohsForcesMinigame'.
+[2026.10.04-14.26.22:046][463]LogChaosDD: Creating Chaos Debug Draw Scene for world PharaohsForcesMinigame
+[2026.10.04-14.26.22:049][463]LogPlayLevel: PIE: World Init took: (0.002579s)
+[2026.10.04-14.26.22:049][463]LogLoad: Game class is 'BP_PharaohMinigame_C'
+[2026.10.04-14.26.22:053][463]LogWorld: Bringing World /Game/UEDPIE_0_PharaohsForcesMinigame.PharaohsForcesMinigame up for play (max tick rate 60) at 2026.10.04-10.26.22
+[2026.10.04-14.26.22:053][463]LogWorld: Bringing up level for play took: 0.003730
+[2026.10.04-14.26.22:054][463]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2026.10.04-14.26.22:054][463]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2026.10.04-14.26.22:054][463]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2026.10.04-14.26.22:055][463]LogMinigameCore: Warning: MinigameBase: No point counter found. Creating default point counter.
+[2026.10.04-14.26.22:055][463]LogTemp: Warning: Minigame Base Player 0: Found player BashLocalPlayer_16 and controller BashPlayerController_0
+[2026.10.04-14.26.22:060][463]LogLoad: Took 0.114985 seconds to LoadMap(/Game/UEDPIE_0_PharaohsForcesMinigame)
+[2026.10.04-14.26.22:062][463]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.26.22:068][463]LogMutable: Started Update Skeletal Mesh Async. CustomizableObject=CO_ModularCharacter Instance=CustomizableObjectInstance_16, Frame=65465
+[2026.10.04-14.26.22:083][463]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.04-14.26.43:395][887]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.04-14.26.43:395][887]LogWorld: BeginTearingDown for /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.26.43:395][887]LogTemp: Warning: Deinitialize Bluetooth Manager Subsystem
+[2026.10.04-14.26.43:396][887]LogWorld: UWorld::CleanupWorld for PharaohsForcesMinigame, bSessionEnded=true, bCleanupResources=true
+[2026.10.04-14.26.43:396][887]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-14.26.43:473][887]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.04-14.26.43:481][887]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-14.26.43:520][887]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.04-14.26.43:521][887]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2026.10.04-14.26.43:521][887]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18, StreamState=4
+[2026.10.04-14.26.43:524][887]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18, StreamState=2
+[2026.10.04-14.26.43:535][887]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2026.10.04-14.26.43:617][888]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2026.10.04-14.27.51:242][152]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3627.187012
+[2026.10.04-14.27.51:496][156]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.04-14.27.51:496][156]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3627.377930, Update Interval: 340.907013
+[2026.10.04-14.29.03:682][393]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2026.10.04-14.29.13:567][561]LogDerivedDataCache: C:/Users/rache/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.001 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.10.04-14.31.07:767][650]LogBlueprint: Error: [AssetLog] C:\Users\rache\Downloads\alligator_gravity_minigame\alligator_gravity\Content\objects\BP_LObject.uasset: [Compiler] The current value of the ' Accessor ' pin is invalid: 'Accessor' in action 'Set Disable Collision' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2026.10.04-14.31.07:849][650]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2026.10.04-14.32.05:940][360]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2026.10.04-14.32.05:991][360]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/PharaohsForcesMinigame_Auto5
+[2026.10.04-14.32.05:991][360]LogSavePackage: Moving '../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Saved/PharaohsForcesMinigame_Auto5D1FCE849416515A8823504BB54711945.tmp' to '../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Saved/Autosaves/Game/PharaohsForcesMinigame_Auto5.umap'
+[2026.10.04-14.32.05:995][360]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/PharaohsForcesMinigame' took 0.096
+[2026.10.04-14.32.05:995][360]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.096
+[2026.10.04-14.32.05:996][360]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/objects/BP_LObject] ([2] browsable assets)...
+[2026.10.04-14.32.06:296][360]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/objects/BP_LObject.BP_LObject]
+[2026.10.04-14.32.06:297][360]OBJ SavePackage: Finished generating thumbnails for package [/Game/objects/BP_LObject]
+[2026.10.04-14.32.06:326][360]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/objects/BP_LObject_Auto5
+[2026.10.04-14.32.06:326][360]LogSavePackage: Moving '../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Saved/BP_LObject_Auto5B3C71C4F4A4081D61C8529B8A03ED652.tmp' to '../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Saved/Autosaves/Game/objects/BP_LObject_Auto5.uasset'
+[2026.10.04-14.32.06:327][360]LogFileHelpers: Auto-saving content packages took 0.333
+[2026.10.04-14.34.18:509][532]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2026.10.04-14.34.20:807][575]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.04-14.34.20:826][575]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.04-14.34.20:826][575]LogPlayLevel: Display: Creating online subsystem for client :Context_34
+[2026.10.04-14.34.20:831][575]LogOnline: OSS: Created online subsystem instance for: :Context_34
+[2026.10.04-14.34.20:862][576]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.34.20:876][576]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013987s)
+[2026.10.04-14.34.20:876][576]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PharaohsForcesMinigame.PharaohsForcesMinigame to /Game/UEDPIE_0_PharaohsForcesMinigame.PharaohsForcesMinigame (0.014060s)
+[2026.10.04-14.34.20:920][576]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2026.10.04-14.34.20:928][576]LogTemp: WinRT Apartment initialized successfully!
+[2026.10.04-14.34.20:928][576]LogChaosDD: Creating Chaos Debug Draw Scene for world PharaohsForcesMinigame
+[2026.10.04-14.34.20:931][576]LogPlayLevel: PIE: World Init took: (0.002500s)
+[2026.10.04-14.34.20:934][576]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2026.10.04-14.34.20:934][576]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.04-14.34.20:934][576]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.04-14.34.20:934][576]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.04-14.34.20:934][576]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.04-14.34.20:934][576]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.04-14.34.20:934][576]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.04-14.34.20:934][576]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.04-14.34.20:934][576]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.04-14.34.20:934][576]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.04-14.34.20:934][576]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.04-14.34.20:934][576]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.04-14.34.20:938][576]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.04-14.34.21:215][576]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2026.10.04-14.34.21:217][576]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.04-14.34.21:217][576]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.04-14.34.21:217][576]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.04-14.34.21:218][576]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2026.10.04-14.34.21:218][576]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2026.10.04-14.34.21:222][576]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2026.10.04-14.34.21:222][576]LogInit: FAudioDevice initialized with ID 19.
+[2026.10.04-14.34.21:222][576]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2026.10.04-14.34.21:222][576]LogAudio: Display: Audio Device (ID: 19) registered with world 'PharaohsForcesMinigame'.
+[2026.10.04-14.34.21:222][576]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2026.10.04-14.34.21:228][576]LogLoad: Game class is 'BP_PharaohMinigame_C'
+[2026.10.04-14.34.21:233][576]LogWorld: Bringing World /Game/UEDPIE_0_PharaohsForcesMinigame.PharaohsForcesMinigame up for play (max tick rate 60) at 2026.10.04-10.34.21
+[2026.10.04-14.34.21:233][576]LogWorld: Bringing up level for play took: 0.004188
+[2026.10.04-14.34.21:234][576]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2026.10.04-14.34.21:234][576]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.10.04-14.34.21:234][576]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2026.10.04-14.34.21:235][576]LogMinigameCore: Error: MinigameBase: Not enough players for this game type!
+[2026.10.04-14.34.21:235][576]LogMinigameCore: Warning: MinigameBase: No point counter found. Creating default point counter.
+[2026.10.04-14.34.21:236][576]LogTemp: Warning: Minigame Base Player 0: Found player BashLocalPlayer_17 and controller BashPlayerController_0
+[2026.10.04-14.34.21:239][576]PIE: Server logged in
+[2026.10.04-14.34.21:242][576]PIE: Play in editor total start time 0.417 seconds.
+[2026.10.04-14.34.21:253][576]LogMutable: Started Update Skeletal Mesh Async. CustomizableObject=CO_ModularCharacter Instance=CustomizableObjectInstance_17, Frame=73578
+[2026.10.04-14.34.21:346][577]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.04-14.34.26:471][650]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4022.422119
+[2026.10.04-14.34.26:672][654]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.04-14.34.26:672][654]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4022.570801, Update Interval: 354.803314
+[2026.10.04-14.34.26:877][659]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/PharaohsForcesMinigame"
+[2026.10.04-14.34.26:877][659]LogNet: Browse: /Game/PharaohsForcesMinigame
+[2026.10.04-14.34.26:877][659]LogLoad: LoadMap: /Game/PharaohsForcesMinigame
+[2026.10.04-14.34.26:877][659]LogWorld: BeginTearingDown for /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.34.26:878][659]LogWorld: UWorld::CleanupWorld for PharaohsForcesMinigame, bSessionEnded=true, bCleanupResources=true
+[2026.10.04-14.34.26:879][659]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-14.34.26:928][659]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.10.04-14.34.26:935][659]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2026.10.04-14.34.26:953][659]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.34.26:964][659]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010928s)
+[2026.10.04-14.34.26:964][659]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PharaohsForcesMinigame.PharaohsForcesMinigame to /Game/UEDPIE_0_PharaohsForcesMinigame.PharaohsForcesMinigame (0.011029s)
+[2026.10.04-14.34.26:964][659]LogAudio: Display: Audio Device (ID: 19) registered with world 'PharaohsForcesMinigame'.
+[2026.10.04-14.34.26:964][659]LogChaosDD: Creating Chaos Debug Draw Scene for world PharaohsForcesMinigame
+[2026.10.04-14.34.26:966][659]LogPlayLevel: PIE: World Init took: (0.002272s)
+[2026.10.04-14.34.26:966][659]LogLoad: Game class is 'BP_PharaohMinigame_C'
+[2026.10.04-14.34.26:970][659]LogWorld: Bringing World /Game/UEDPIE_0_PharaohsForcesMinigame.PharaohsForcesMinigame up for play (max tick rate 60) at 2026.10.04-10.34.26
+[2026.10.04-14.34.26:970][659]LogWorld: Bringing up level for play took: 0.003694
+[2026.10.04-14.34.26:971][659]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2026.10.04-14.34.26:971][659]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2026.10.04-14.34.26:971][659]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2026.10.04-14.34.26:971][659]LogMinigameCore: Warning: MinigameBase: No point counter found. Creating default point counter.
+[2026.10.04-14.34.26:972][659]LogTemp: Warning: Minigame Base Player 0: Found player BashLocalPlayer_17 and controller BashPlayerController_0
+[2026.10.04-14.34.26:978][659]LogLoad: Took 0.101501 seconds to LoadMap(/Game/UEDPIE_0_PharaohsForcesMinigame)
+[2026.10.04-14.34.26:978][659]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.34.26:985][659]LogMutable: Started Update Skeletal Mesh Async. CustomizableObject=CO_ModularCharacter Instance=CustomizableObjectInstance_17, Frame=73661
+[2026.10.04-14.34.27:000][659]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.04-14.34.30:386][728]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/PharaohsForcesMinigame"
+[2026.10.04-14.34.30:386][728]LogNet: Browse: /Game/PharaohsForcesMinigame
+[2026.10.04-14.34.30:386][728]LogLoad: LoadMap: /Game/PharaohsForcesMinigame
+[2026.10.04-14.34.30:386][728]LogWorld: BeginTearingDown for /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.34.30:388][728]LogWorld: UWorld::CleanupWorld for PharaohsForcesMinigame, bSessionEnded=true, bCleanupResources=true
+[2026.10.04-14.34.30:389][728]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-14.34.30:444][728]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.10.04-14.34.30:449][728]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2026.10.04-14.34.30:453][728]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.34.30:464][728]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010621s)
+[2026.10.04-14.34.30:464][728]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PharaohsForcesMinigame.PharaohsForcesMinigame to /Game/UEDPIE_0_PharaohsForcesMinigame.PharaohsForcesMinigame (0.010711s)
+[2026.10.04-14.34.30:464][728]LogAudio: Display: Audio Device (ID: 19) registered with world 'PharaohsForcesMinigame'.
+[2026.10.04-14.34.30:464][728]LogChaosDD: Creating Chaos Debug Draw Scene for world PharaohsForcesMinigame
+[2026.10.04-14.34.30:466][728]LogPlayLevel: PIE: World Init took: (0.002321s)
+[2026.10.04-14.34.30:467][728]LogLoad: Game class is 'BP_PharaohMinigame_C'
+[2026.10.04-14.34.30:470][728]LogWorld: Bringing World /Game/UEDPIE_0_PharaohsForcesMinigame.PharaohsForcesMinigame up for play (max tick rate 60) at 2026.10.04-10.34.30
+[2026.10.04-14.34.30:471][728]LogWorld: Bringing up level for play took: 0.003695
+[2026.10.04-14.34.30:471][728]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2026.10.04-14.34.30:471][728]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2026.10.04-14.34.30:471][728]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2026.10.04-14.34.30:472][728]LogMinigameCore: Warning: MinigameBase: No point counter found. Creating default point counter.
+[2026.10.04-14.34.30:473][728]LogTemp: Warning: Minigame Base Player 0: Found player BashLocalPlayer_17 and controller BashPlayerController_0
+[2026.10.04-14.34.30:479][728]LogLoad: Took 0.093055 seconds to LoadMap(/Game/UEDPIE_0_PharaohsForcesMinigame)
+[2026.10.04-14.34.30:479][728]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.34.30:485][728]LogMutable: Started Update Skeletal Mesh Async. CustomizableObject=CO_ModularCharacter Instance=CustomizableObjectInstance_17, Frame=73730
+[2026.10.04-14.34.30:499][728]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.04-14.34.46:778][ 52]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.04-14.34.46:778][ 52]LogWorld: BeginTearingDown for /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.34.46:778][ 52]LogTemp: Warning: Deinitialize Bluetooth Manager Subsystem
+[2026.10.04-14.34.46:778][ 52]LogWorld: UWorld::CleanupWorld for PharaohsForcesMinigame, bSessionEnded=true, bCleanupResources=true
+[2026.10.04-14.34.46:780][ 52]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-14.34.46:854][ 52]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.04-14.34.46:863][ 52]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-14.34.46:903][ 52]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.04-14.34.46:904][ 52]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2026.10.04-14.34.46:904][ 52]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19, StreamState=4
+[2026.10.04-14.34.46:907][ 52]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19, StreamState=2
+[2026.10.04-14.34.46:918][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2026.10.04-14.34.46:992][ 53]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2026.10.04-14.35.06:930][365]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2026.10.04-14.35.11:165][434]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.04-14.35.11:182][434]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.04-14.35.11:182][434]LogPlayLevel: Display: Creating online subsystem for client :Context_35
+[2026.10.04-14.35.11:188][434]LogOnline: OSS: Created online subsystem instance for: :Context_35
+[2026.10.04-14.35.11:219][435]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.35.11:230][435]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011451s)
+[2026.10.04-14.35.11:230][435]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PharaohsForcesMinigame.PharaohsForcesMinigame to /Game/UEDPIE_0_PharaohsForcesMinigame.PharaohsForcesMinigame (0.011533s)
+[2026.10.04-14.35.11:277][435]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2026.10.04-14.35.11:286][435]LogTemp: WinRT Apartment initialized successfully!
+[2026.10.04-14.35.11:286][435]LogChaosDD: Creating Chaos Debug Draw Scene for world PharaohsForcesMinigame
+[2026.10.04-14.35.11:289][435]LogPlayLevel: PIE: World Init took: (0.002986s)
+[2026.10.04-14.35.11:290][435]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2026.10.04-14.35.11:290][435]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.04-14.35.11:290][435]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.04-14.35.11:290][435]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.04-14.35.11:290][435]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.04-14.35.11:290][435]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.04-14.35.11:290][435]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.04-14.35.11:290][435]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.04-14.35.11:290][435]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.04-14.35.11:290][435]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.04-14.35.11:290][435]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.04-14.35.11:290][435]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.04-14.35.11:294][435]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.04-14.35.11:564][435]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2026.10.04-14.35.11:564][435]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.04-14.35.11:564][435]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.04-14.35.11:564][435]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.04-14.35.11:565][435]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2026.10.04-14.35.11:565][435]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2026.10.04-14.35.11:570][435]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2026.10.04-14.35.11:570][435]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2026.10.04-14.35.11:570][435]LogInit: FAudioDevice initialized with ID 20.
+[2026.10.04-14.35.11:570][435]LogAudio: Display: Audio Device (ID: 20) registered with world 'PharaohsForcesMinigame'.
+[2026.10.04-14.35.11:570][435]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2026.10.04-14.35.11:575][435]LogLoad: Game class is 'BP_PharaohMinigame_C'
+[2026.10.04-14.35.11:580][435]LogWorld: Bringing World /Game/UEDPIE_0_PharaohsForcesMinigame.PharaohsForcesMinigame up for play (max tick rate 60) at 2026.10.04-10.35.11
+[2026.10.04-14.35.11:580][435]LogWorld: Bringing up level for play took: 0.004451
+[2026.10.04-14.35.11:581][435]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2026.10.04-14.35.11:581][435]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.10.04-14.35.11:581][435]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2026.10.04-14.35.11:581][435]LogMinigameCore: Error: MinigameBase: Not enough players for this game type!
+[2026.10.04-14.35.11:581][435]LogMinigameCore: Warning: MinigameBase: No point counter found. Creating default point counter.
+[2026.10.04-14.35.11:582][435]LogTemp: Warning: Minigame Base Player 0: Found player BashLocalPlayer_18 and controller BashPlayerController_0
+[2026.10.04-14.35.11:587][435]PIE: Server logged in
+[2026.10.04-14.35.11:589][435]PIE: Play in editor total start time 0.408 seconds.
+[2026.10.04-14.35.11:600][435]LogMutable: Started Update Skeletal Mesh Async. CustomizableObject=CO_ModularCharacter Instance=CustomizableObjectInstance_18, Frame=74437
+[2026.10.04-14.35.11:783][436]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.04-14.35.15:155][491]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/PharaohsForcesMinigame"
+[2026.10.04-14.35.15:155][491]LogNet: Browse: /Game/PharaohsForcesMinigame
+[2026.10.04-14.35.15:155][491]LogLoad: LoadMap: /Game/PharaohsForcesMinigame
+[2026.10.04-14.35.15:155][491]LogWorld: BeginTearingDown for /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.35.15:156][491]LogWorld: UWorld::CleanupWorld for PharaohsForcesMinigame, bSessionEnded=true, bCleanupResources=true
+[2026.10.04-14.35.15:157][491]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-14.35.15:195][491]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.10.04-14.35.15:205][491]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2026.10.04-14.35.15:241][491]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.35.15:250][491]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009453s)
+[2026.10.04-14.35.15:250][491]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PharaohsForcesMinigame.PharaohsForcesMinigame to /Game/UEDPIE_0_PharaohsForcesMinigame.PharaohsForcesMinigame (0.009529s)
+[2026.10.04-14.35.15:250][491]LogAudio: Display: Audio Device (ID: 20) registered with world 'PharaohsForcesMinigame'.
+[2026.10.04-14.35.15:250][491]LogChaosDD: Creating Chaos Debug Draw Scene for world PharaohsForcesMinigame
+[2026.10.04-14.35.15:252][491]LogPlayLevel: PIE: World Init took: (0.002053s)
+[2026.10.04-14.35.15:252][491]LogLoad: Game class is 'BP_PharaohMinigame_C'
+[2026.10.04-14.35.15:256][491]LogWorld: Bringing World /Game/UEDPIE_0_PharaohsForcesMinigame.PharaohsForcesMinigame up for play (max tick rate 60) at 2026.10.04-10.35.15
+[2026.10.04-14.35.15:256][491]LogWorld: Bringing up level for play took: 0.002886
+[2026.10.04-14.35.15:256][491]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2026.10.04-14.35.15:257][491]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2026.10.04-14.35.15:257][491]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2026.10.04-14.35.15:257][491]LogMinigameCore: Warning: MinigameBase: No point counter found. Creating default point counter.
+[2026.10.04-14.35.15:258][491]LogTemp: Warning: Minigame Base Player 0: Found player BashLocalPlayer_18 and controller BashPlayerController_0
+[2026.10.04-14.35.15:263][491]LogLoad: Took 0.108302 seconds to LoadMap(/Game/UEDPIE_0_PharaohsForcesMinigame)
+[2026.10.04-14.35.15:263][491]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.35.15:267][491]LogMutable: Started Update Skeletal Mesh Async. CustomizableObject=CO_ModularCharacter Instance=CustomizableObjectInstance_18, Frame=74493
+[2026.10.04-14.35.15:281][491]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.04-14.35.29:552][773]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Color 'Graph.Node.Comment.TextColor'.'
+[2026.10.04-14.35.44:147][ 65]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.04-14.35.44:147][ 65]LogWorld: BeginTearingDown for /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.35.44:147][ 65]LogTemp: Warning: Deinitialize Bluetooth Manager Subsystem
+[2026.10.04-14.35.44:147][ 65]LogWorld: UWorld::CleanupWorld for PharaohsForcesMinigame, bSessionEnded=true, bCleanupResources=true
+[2026.10.04-14.35.44:148][ 65]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-14.35.44:229][ 65]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.04-14.35.44:237][ 65]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-14.35.44:278][ 65]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.04-14.35.44:278][ 65]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2026.10.04-14.35.44:278][ 65]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20, StreamState=4
+[2026.10.04-14.35.44:283][ 65]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20, StreamState=2
+[2026.10.04-14.35.44:298][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2026.10.04-14.35.44:484][ 66]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2026.10.04-14.35.55:703][209]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2026.10.04-14.36.14:895][600]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.04-14.36.14:911][600]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.04-14.36.14:912][600]LogPlayLevel: Display: Creating online subsystem for client :Context_36
+[2026.10.04-14.36.14:926][600]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2026.10.04-14.36.14:967][601]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.36.14:988][601]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020584s)
+[2026.10.04-14.36.14:988][601]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PharaohsForcesMinigame.PharaohsForcesMinigame to /Game/UEDPIE_0_PharaohsForcesMinigame.PharaohsForcesMinigame (0.020652s)
+[2026.10.04-14.36.15:029][601]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2026.10.04-14.36.15:036][601]LogTemp: WinRT Apartment initialized successfully!
+[2026.10.04-14.36.15:036][601]LogChaosDD: Creating Chaos Debug Draw Scene for world PharaohsForcesMinigame
+[2026.10.04-14.36.15:040][601]LogPlayLevel: PIE: World Init took: (0.002802s)
+[2026.10.04-14.36.15:041][601]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2026.10.04-14.36.15:041][601]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.04-14.36.15:041][601]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.04-14.36.15:041][601]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.04-14.36.15:041][601]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.04-14.36.15:041][601]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.04-14.36.15:041][601]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.04-14.36.15:041][601]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.04-14.36.15:041][601]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.04-14.36.15:041][601]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.04-14.36.15:041][601]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.04-14.36.15:041][601]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.04-14.36.15:045][601]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.04-14.36.15:315][601]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2026.10.04-14.36.15:315][601]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.04-14.36.15:316][601]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.04-14.36.15:316][601]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.04-14.36.15:316][601]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2026.10.04-14.36.15:316][601]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2026.10.04-14.36.15:321][601]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2026.10.04-14.36.15:323][601]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2026.10.04-14.36.15:323][601]LogInit: FAudioDevice initialized with ID 21.
+[2026.10.04-14.36.15:323][601]LogAudio: Display: Audio Device (ID: 21) registered with world 'PharaohsForcesMinigame'.
+[2026.10.04-14.36.15:323][601]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2026.10.04-14.36.15:329][601]LogLoad: Game class is 'BP_PharaohMinigame_C'
+[2026.10.04-14.36.15:333][601]LogWorld: Bringing World /Game/UEDPIE_0_PharaohsForcesMinigame.PharaohsForcesMinigame up for play (max tick rate 60) at 2026.10.04-10.36.15
+[2026.10.04-14.36.15:334][601]LogWorld: Bringing up level for play took: 0.004292
+[2026.10.04-14.36.15:334][601]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2026.10.04-14.36.15:334][601]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.10.04-14.36.15:334][601]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2026.10.04-14.36.15:336][601]LogMinigameCore: Error: MinigameBase: Not enough players for this game type!
+[2026.10.04-14.36.15:336][601]LogMinigameCore: Warning: MinigameBase: No point counter found. Creating default point counter.
+[2026.10.04-14.36.15:337][601]LogTemp: Warning: Minigame Base Player 0: Found player BashLocalPlayer_19 and controller BashPlayerController_0
+[2026.10.04-14.36.15:341][601]PIE: Server logged in
+[2026.10.04-14.36.15:343][601]PIE: Play in editor total start time 0.433 seconds.
+[2026.10.04-14.36.15:354][601]LogMutable: Started Update Skeletal Mesh Async. CustomizableObject=CO_ModularCharacter Instance=CustomizableObjectInstance_19, Frame=75603
+[2026.10.04-14.36.15:430][602]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.04-14.36.22:015][720]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/PharaohsForcesMinigame"
+[2026.10.04-14.36.22:015][720]LogNet: Browse: /Game/PharaohsForcesMinigame
+[2026.10.04-14.36.22:015][720]LogLoad: LoadMap: /Game/PharaohsForcesMinigame
+[2026.10.04-14.36.22:015][720]LogWorld: BeginTearingDown for /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.36.22:017][720]LogWorld: UWorld::CleanupWorld for PharaohsForcesMinigame, bSessionEnded=true, bCleanupResources=true
+[2026.10.04-14.36.22:018][720]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-14.36.22:062][720]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.10.04-14.36.22:067][720]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2026.10.04-14.36.22:091][720]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.36.22:102][720]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011951s)
+[2026.10.04-14.36.22:102][720]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PharaohsForcesMinigame.PharaohsForcesMinigame to /Game/UEDPIE_0_PharaohsForcesMinigame.PharaohsForcesMinigame (0.012038s)
+[2026.10.04-14.36.22:102][720]LogAudio: Display: Audio Device (ID: 21) registered with world 'PharaohsForcesMinigame'.
+[2026.10.04-14.36.22:102][720]LogChaosDD: Creating Chaos Debug Draw Scene for world PharaohsForcesMinigame
+[2026.10.04-14.36.22:106][720]LogPlayLevel: PIE: World Init took: (0.002641s)
+[2026.10.04-14.36.22:106][720]LogLoad: Game class is 'BP_PharaohMinigame_C'
+[2026.10.04-14.36.22:110][720]LogWorld: Bringing World /Game/UEDPIE_0_PharaohsForcesMinigame.PharaohsForcesMinigame up for play (max tick rate 60) at 2026.10.04-10.36.22
+[2026.10.04-14.36.22:111][720]LogWorld: Bringing up level for play took: 0.004507
+[2026.10.04-14.36.22:111][720]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2026.10.04-14.36.22:112][720]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2026.10.04-14.36.22:112][720]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2026.10.04-14.36.22:113][720]LogMinigameCore: Warning: MinigameBase: No point counter found. Creating default point counter.
+[2026.10.04-14.36.22:114][720]LogTemp: Warning: Minigame Base Player 0: Found player BashLocalPlayer_19 and controller BashPlayerController_0
+[2026.10.04-14.36.22:122][720]LogLoad: Took 0.107101 seconds to LoadMap(/Game/UEDPIE_0_PharaohsForcesMinigame)
+[2026.10.04-14.36.22:122][720]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.36.22:129][720]LogMutable: Started Update Skeletal Mesh Async. CustomizableObject=CO_ModularCharacter Instance=CustomizableObjectInstance_19, Frame=75722
+[2026.10.04-14.36.22:144][720]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.04-14.36.44:757][161]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.04-14.36.44:757][161]LogWorld: BeginTearingDown for /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.36.44:757][161]LogTemp: Warning: Deinitialize Bluetooth Manager Subsystem
+[2026.10.04-14.36.44:757][161]LogWorld: UWorld::CleanupWorld for PharaohsForcesMinigame, bSessionEnded=true, bCleanupResources=true
+[2026.10.04-14.36.44:759][161]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-14.36.44:831][161]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.04-14.36.44:839][161]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-14.36.44:879][161]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.04-14.36.44:879][161]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2026.10.04-14.36.44:879][161]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21, StreamState=4
+[2026.10.04-14.36.44:882][161]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21, StreamState=2
+[2026.10.04-14.36.44:898][161]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2026.10.04-14.36.44:976][162]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2026.10.04-14.36.54:271][313]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2026.10.04-14.36.56:573][354]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.04-14.36.56:591][354]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.04-14.36.56:592][354]LogPlayLevel: Display: Creating online subsystem for client :Context_37
+[2026.10.04-14.36.56:595][354]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2026.10.04-14.36.56:628][355]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.36.56:640][355]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012673s)
+[2026.10.04-14.36.56:640][355]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PharaohsForcesMinigame.PharaohsForcesMinigame to /Game/UEDPIE_0_PharaohsForcesMinigame.PharaohsForcesMinigame (0.012745s)
+[2026.10.04-14.36.56:682][355]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2026.10.04-14.36.56:695][355]LogTemp: WinRT Apartment initialized successfully!
+[2026.10.04-14.36.56:695][355]LogChaosDD: Creating Chaos Debug Draw Scene for world PharaohsForcesMinigame
+[2026.10.04-14.36.56:701][355]LogPlayLevel: PIE: World Init took: (0.006001s)
+[2026.10.04-14.36.56:703][355]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2026.10.04-14.36.56:703][355]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.04-14.36.56:703][355]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.04-14.36.56:703][355]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.04-14.36.56:703][355]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.04-14.36.56:704][355]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.04-14.36.56:704][355]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.04-14.36.56:704][355]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.04-14.36.56:704][355]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.04-14.36.56:704][355]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.04-14.36.56:704][355]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.04-14.36.56:704][355]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.04-14.36.56:707][355]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.04-14.36.56:981][355]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2026.10.04-14.36.56:982][355]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.04-14.36.56:982][355]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.04-14.36.56:982][355]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.04-14.36.56:983][355]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2026.10.04-14.36.56:983][355]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2026.10.04-14.36.56:987][355]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2026.10.04-14.36.56:988][355]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2026.10.04-14.36.56:988][355]LogInit: FAudioDevice initialized with ID 22.
+[2026.10.04-14.36.56:988][355]LogAudio: Display: Audio Device (ID: 22) registered with world 'PharaohsForcesMinigame'.
+[2026.10.04-14.36.56:988][355]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2026.10.04-14.36.56:994][355]LogLoad: Game class is 'BP_PharaohMinigame_C'
+[2026.10.04-14.36.56:998][355]LogWorld: Bringing World /Game/UEDPIE_0_PharaohsForcesMinigame.PharaohsForcesMinigame up for play (max tick rate 60) at 2026.10.04-10.36.56
+[2026.10.04-14.36.56:998][355]LogWorld: Bringing up level for play took: 0.004647
+[2026.10.04-14.36.56:999][355]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2026.10.04-14.36.56:999][355]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.10.04-14.36.56:999][355]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2026.10.04-14.36.57:000][355]LogMinigameCore: Error: MinigameBase: Not enough players for this game type!
+[2026.10.04-14.36.57:000][355]LogMinigameCore: Warning: MinigameBase: No point counter found. Creating default point counter.
+[2026.10.04-14.36.57:001][355]LogTemp: Warning: Minigame Base Player 0: Found player BashLocalPlayer_20 and controller BashPlayerController_0
+[2026.10.04-14.36.57:005][355]PIE: Server logged in
+[2026.10.04-14.36.57:008][355]PIE: Play in editor total start time 0.417 seconds.
+[2026.10.04-14.36.57:018][355]LogMutable: Started Update Skeletal Mesh Async. CustomizableObject=CO_ModularCharacter Instance=CustomizableObjectInstance_20, Frame=76357
+[2026.10.04-14.36.57:189][356]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.04-14.37.08:866][577]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/PharaohsForcesMinigame"
+[2026.10.04-14.37.08:867][577]LogNet: Browse: /Game/PharaohsForcesMinigame
+[2026.10.04-14.37.08:867][577]LogLoad: LoadMap: /Game/PharaohsForcesMinigame
+[2026.10.04-14.37.08:867][577]LogWorld: BeginTearingDown for /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.37.08:868][577]LogWorld: UWorld::CleanupWorld for PharaohsForcesMinigame, bSessionEnded=true, bCleanupResources=true
+[2026.10.04-14.37.08:870][577]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-14.37.08:916][577]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.10.04-14.37.08:921][577]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2026.10.04-14.37.08:954][577]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.37.08:966][577]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011789s)
+[2026.10.04-14.37.08:966][577]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PharaohsForcesMinigame.PharaohsForcesMinigame to /Game/UEDPIE_0_PharaohsForcesMinigame.PharaohsForcesMinigame (0.011896s)
+[2026.10.04-14.37.08:966][577]LogAudio: Display: Audio Device (ID: 22) registered with world 'PharaohsForcesMinigame'.
+[2026.10.04-14.37.08:966][577]LogChaosDD: Creating Chaos Debug Draw Scene for world PharaohsForcesMinigame
+[2026.10.04-14.37.08:969][577]LogPlayLevel: PIE: World Init took: (0.002662s)
+[2026.10.04-14.37.08:969][577]LogLoad: Game class is 'BP_PharaohMinigame_C'
+[2026.10.04-14.37.08:974][577]LogWorld: Bringing World /Game/UEDPIE_0_PharaohsForcesMinigame.PharaohsForcesMinigame up for play (max tick rate 60) at 2026.10.04-10.37.08
+[2026.10.04-14.37.08:974][577]LogWorld: Bringing up level for play took: 0.003916
+[2026.10.04-14.37.08:974][577]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2026.10.04-14.37.08:975][577]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2026.10.04-14.37.08:975][577]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2026.10.04-14.37.08:975][577]LogMinigameCore: Warning: MinigameBase: No point counter found. Creating default point counter.
+[2026.10.04-14.37.08:977][577]LogTemp: Warning: Minigame Base Player 0: Found player BashLocalPlayer_20 and controller BashPlayerController_0
+[2026.10.04-14.37.08:983][577]LogLoad: Took 0.115201 seconds to LoadMap(/Game/UEDPIE_0_PharaohsForcesMinigame)
+[2026.10.04-14.37.08:983][577]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.37.08:989][577]LogMutable: Started Update Skeletal Mesh Async. CustomizableObject=CO_ModularCharacter Instance=CustomizableObjectInstance_20, Frame=76579
+[2026.10.04-14.37.09:001][577]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.04-14.37.30:676][ 10]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.04-14.37.30:676][ 10]LogWorld: BeginTearingDown for /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.37.30:676][ 10]LogTemp: Warning: Deinitialize Bluetooth Manager Subsystem
+[2026.10.04-14.37.30:676][ 10]LogWorld: UWorld::CleanupWorld for PharaohsForcesMinigame, bSessionEnded=true, bCleanupResources=true
+[2026.10.04-14.37.30:677][ 10]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-14.37.30:744][ 10]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.04-14.37.30:755][ 10]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-14.37.30:798][ 10]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.04-14.37.30:799][ 10]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2026.10.04-14.37.30:799][ 10]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22, StreamState=4
+[2026.10.04-14.37.30:803][ 10]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22, StreamState=2
+[2026.10.04-14.37.30:819][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2026.10.04-14.37.30:904][ 11]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2026.10.04-14.37.55:664][449]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.04-14.37.55:895][449]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/objects/BP_LObject] ([2] browsable assets)...
+[2026.10.04-14.37.56:080][449]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/objects/BP_LObject.BP_LObject]
+[2026.10.04-14.37.56:080][449]OBJ SavePackage: Finished generating thumbnails for package [/Game/objects/BP_LObject]
+[2026.10.04-14.37.56:080][449]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/BP_LObject" FILE="../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Content/objects/BP_LObject.uasset" SILENT=true
+[2026.10.04-14.37.56:115][449]LogSavePackage: Moving output files for package: /Game/objects/BP_LObject
+[2026.10.04-14.37.56:116][449]LogSavePackage: Moving '../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Saved/BP_LObject9A4B383A4B29F40FBF33BEAC470DD9B3.tmp' to '../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Content/objects/BP_LObject.uasset'
+[2026.10.04-14.37.56:147][449]LogFileHelpers: InternalPromptForCheckoutAndSave took 483.552 ms (total: 2.07 sec)
+[2026.10.04-14.37.56:323][449]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.04-14.37.56:323][449]LogContentValidation: Enabled validators:
+[2026.10.04-14.37.56:323][449]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.04-14.37.56:323][449]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.04-14.37.56:323][449]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.04-14.37.56:323][449]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.04-14.37.56:323][449]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.04-14.37.56:323][449]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.04-14.37.56:323][449]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.10.04-14.37.56:323][449]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.10.04-14.37.56:324][449]AssetCheck: /Game/objects/BP_LObject Validating asset
+[2026.10.04-14.38.03:276][594]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.04-14.38.03:294][594]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.04-14.38.03:295][594]LogPlayLevel: Display: Creating online subsystem for client :Context_38
+[2026.10.04-14.38.03:299][594]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2026.10.04-14.38.03:334][595]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.38.03:349][595]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015652s)
+[2026.10.04-14.38.03:350][595]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PharaohsForcesMinigame.PharaohsForcesMinigame to /Game/UEDPIE_0_PharaohsForcesMinigame.PharaohsForcesMinigame (0.015732s)
+[2026.10.04-14.38.03:390][595]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2026.10.04-14.38.03:396][595]LogTemp: WinRT Apartment initialized successfully!
+[2026.10.04-14.38.03:396][595]LogChaosDD: Creating Chaos Debug Draw Scene for world PharaohsForcesMinigame
+[2026.10.04-14.38.03:398][595]LogPlayLevel: PIE: World Init took: (0.002276s)
+[2026.10.04-14.38.03:399][595]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2026.10.04-14.38.03:399][595]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.04-14.38.03:399][595]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.04-14.38.03:399][595]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.04-14.38.03:399][595]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.04-14.38.03:399][595]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.04-14.38.03:399][595]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.04-14.38.03:399][595]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.04-14.38.03:399][595]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.04-14.38.03:399][595]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.04-14.38.03:399][595]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.04-14.38.03:399][595]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.04-14.38.03:403][595]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.04-14.38.03:681][595]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2026.10.04-14.38.03:683][595]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.04-14.38.03:683][595]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.04-14.38.03:683][595]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.04-14.38.03:683][595]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2026.10.04-14.38.03:683][595]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2026.10.04-14.38.03:689][595]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2026.10.04-14.38.03:689][595]LogInit: FAudioDevice initialized with ID 23.
+[2026.10.04-14.38.03:689][595]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2026.10.04-14.38.03:689][595]LogAudio: Display: Audio Device (ID: 23) registered with world 'PharaohsForcesMinigame'.
+[2026.10.04-14.38.03:689][595]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2026.10.04-14.38.03:695][595]LogLoad: Game class is 'BP_PharaohMinigame_C'
+[2026.10.04-14.38.03:699][595]LogWorld: Bringing World /Game/UEDPIE_0_PharaohsForcesMinigame.PharaohsForcesMinigame up for play (max tick rate 60) at 2026.10.04-10.38.03
+[2026.10.04-14.38.03:700][595]LogWorld: Bringing up level for play took: 0.004580
+[2026.10.04-14.38.03:701][595]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2026.10.04-14.38.03:701][595]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.10.04-14.38.03:701][595]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2026.10.04-14.38.03:701][595]LogMinigameCore: Error: MinigameBase: Not enough players for this game type!
+[2026.10.04-14.38.03:701][595]LogMinigameCore: Warning: MinigameBase: No point counter found. Creating default point counter.
+[2026.10.04-14.38.03:703][595]LogTemp: Warning: Minigame Base Player 0: Found player BashLocalPlayer_21 and controller BashPlayerController_0
+[2026.10.04-14.38.03:709][595]PIE: Server logged in
+[2026.10.04-14.38.03:712][595]PIE: Play in editor total start time 0.418 seconds.
+[2026.10.04-14.38.03:723][595]LogMutable: Started Update Skeletal Mesh Async. CustomizableObject=CO_ModularCharacter Instance=CustomizableObjectInstance_21, Frame=77597
+[2026.10.04-14.38.03:865][596]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.04-14.38.16:336][823]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/PharaohsForcesMinigame"
+[2026.10.04-14.38.16:336][823]LogNet: Browse: /Game/PharaohsForcesMinigame
+[2026.10.04-14.38.16:336][823]LogLoad: LoadMap: /Game/PharaohsForcesMinigame
+[2026.10.04-14.38.16:336][823]LogWorld: BeginTearingDown for /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.38.16:338][823]LogWorld: UWorld::CleanupWorld for PharaohsForcesMinigame, bSessionEnded=true, bCleanupResources=true
+[2026.10.04-14.38.16:339][823]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-14.38.16:382][823]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.10.04-14.38.16:387][823]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2026.10.04-14.38.16:418][823]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.38.16:430][823]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011468s)
+[2026.10.04-14.38.16:430][823]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PharaohsForcesMinigame.PharaohsForcesMinigame to /Game/UEDPIE_0_PharaohsForcesMinigame.PharaohsForcesMinigame (0.011587s)
+[2026.10.04-14.38.16:430][823]LogAudio: Display: Audio Device (ID: 23) registered with world 'PharaohsForcesMinigame'.
+[2026.10.04-14.38.16:430][823]LogChaosDD: Creating Chaos Debug Draw Scene for world PharaohsForcesMinigame
+[2026.10.04-14.38.16:431][823]LogPlayLevel: PIE: World Init took: (0.002287s)
+[2026.10.04-14.38.16:432][823]LogLoad: Game class is 'BP_PharaohMinigame_C'
+[2026.10.04-14.38.16:435][823]LogWorld: Bringing World /Game/UEDPIE_0_PharaohsForcesMinigame.PharaohsForcesMinigame up for play (max tick rate 60) at 2026.10.04-10.38.16
+[2026.10.04-14.38.16:435][823]LogWorld: Bringing up level for play took: 0.003469
+[2026.10.04-14.38.16:436][823]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2026.10.04-14.38.16:436][823]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2026.10.04-14.38.16:436][823]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2026.10.04-14.38.16:436][823]LogMinigameCore: Warning: MinigameBase: No point counter found. Creating default point counter.
+[2026.10.04-14.38.16:437][823]LogTemp: Warning: Minigame Base Player 0: Found player BashLocalPlayer_21 and controller BashPlayerController_0
+[2026.10.04-14.38.16:444][823]LogLoad: Took 0.107359 seconds to LoadMap(/Game/UEDPIE_0_PharaohsForcesMinigame)
+[2026.10.04-14.38.16:444][823]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.38.16:450][823]LogMutable: Started Update Skeletal Mesh Async. CustomizableObject=CO_ModularCharacter Instance=CustomizableObjectInstance_21, Frame=77825
+[2026.10.04-14.38.16:462][823]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.04-14.38.43:814][364]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.04-14.38.43:814][364]LogWorld: BeginTearingDown for /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.38.43:815][364]LogTemp: Warning: Deinitialize Bluetooth Manager Subsystem
+[2026.10.04-14.38.43:815][364]LogWorld: UWorld::CleanupWorld for PharaohsForcesMinigame, bSessionEnded=true, bCleanupResources=true
+[2026.10.04-14.38.43:816][364]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-14.38.43:893][364]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.04-14.38.43:901][364]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-14.38.43:942][364]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.04-14.38.43:942][364]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2026.10.04-14.38.43:942][364]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23, StreamState=4
+[2026.10.04-14.38.43:946][364]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23, StreamState=2
+[2026.10.04-14.38.43:962][364]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2026.10.04-14.38.44:045][365]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2026.10.04-14.39.43:091][883]LogUdpMessaging: Error: Socket error detected when communicating with 10.10.13.165:56753. Banning communication to that endpoint.
+[2026.10.04-14.39.43:384][883]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2026.10.04-14.39.44:494][884]LogAudioMixer: Display: Attempt to swap audio render device to new device: '[System Default]', because: 'AudioMixerPlatformInterface. Timeout waiting for h/w.', force=1
+[2026.10.04-14.39.44:495][884]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2026.10.04-14.39.49:495][884]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.10.04-14.39.49:495][884]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'AudioMixerPlatformInterface. Timeout waiting for h/w.', force=1
+[2026.10.04-14.39.49:495][884]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2026.10.04-14.40.36:545][884]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.10.04-14.40.36:545][884]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'AudioMixerPlatformInterface. Timeout waiting for h/w.', force=1
+[2026.10.04-14.40.36:545][884]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [57 Seconds] waiting for h/w. InstanceID=1
+[2026.10.04-14.40.41:545][885]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.10.04-14.40.41:545][885]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'AudioMixerPlatformInterface. Timeout waiting for h/w.', force=1
+[2026.10.04-14.40.41:545][885]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2026.10.04-14.40.41:924][885]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (2- WH202A), InstanceID=1
+[2026.10.04-14.40.41:924][885]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2026.10.04-14.40.41:924][885]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '{0.0.0.00000000}.{ae6354a5-296e-422f-ba40-d34b6e6ab030}', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.10.04-14.40.43:339][885]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [[System Default]]
+[2026.10.04-14.40.43:339][885]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2026.10.04-14.40.43:346][885]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=AudioMixerPlatformInterface. Timeout waiting for h/w.
+[2026.10.04-14.40.46:323][885]LogUdpMessaging: Display: Unicast socket bound to '0.0.0.0:51813'.
+[2026.10.04-14.40.46:347][885]LogUdpMessaging: Display: Added local interface '10.10.13.30' to multicast group '230.0.0.1:6666'
+[2026.10.04-14.40.46:377][885]LogUdpMessaging: Display: Using asynchronous task graph for message deserialization.
+[2026.10.04-14.40.46:471][886]LogAudioMixer: Display: FMixerPlatformXAudio2::PostDeviceSwap - successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{7e51c8c1-a48b-4fcf-8108-58751f98fc20}, Name=Speaker (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=2398.71
+[2026.10.04-14.40.46:472][886]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2026.10.04-14.40.46:472][886]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.10.04-14.40.46:492][886]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.10.04-14.41.11:729][759]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4437.978027
+[2026.10.04-14.41.11:841][764]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.04-14.41.11:851][764]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4438.077637, Update Interval: 304.288452
+[2026.10.04-14.41.26:857][205]LogUObjectHash: Compacting FUObjectHashTables data took   4.85ms
+[2026.10.04-14.41.28:024][216]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2026.10.04-14.41.29:363][261]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.04-14.41.29:487][261]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/objects/BP_LObject] ([2] browsable assets)...
+[2026.10.04-14.41.29:544][261]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/objects/BP_LObject.BP_LObject]
+[2026.10.04-14.41.29:544][261]OBJ SavePackage: Finished generating thumbnails for package [/Game/objects/BP_LObject]
+[2026.10.04-14.41.29:545][261]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/BP_LObject" FILE="../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Content/objects/BP_LObject.uasset" SILENT=true
+[2026.10.04-14.41.29:623][261]LogSavePackage: Moving output files for package: /Game/objects/BP_LObject
+[2026.10.04-14.41.29:624][261]LogSavePackage: Moving '../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Saved/BP_LObject1D4B207C4C5917DF4CE293BD36C9E6F7.tmp' to '../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Content/objects/BP_LObject.uasset'
+[2026.10.04-14.41.29:665][261]LogFileHelpers: InternalPromptForCheckoutAndSave took 302.370 ms (total: 2.37 sec)
+[2026.10.04-14.41.29:815][261]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.04-14.41.29:815][261]LogContentValidation: Enabled validators:
+[2026.10.04-14.41.29:815][261]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.04-14.41.29:815][261]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.04-14.41.29:815][261]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.04-14.41.29:815][261]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.04-14.41.29:815][261]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.04-14.41.29:815][261]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.04-14.41.29:815][261]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.10.04-14.41.29:817][261]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.10.04-14.41.29:819][261]AssetCheck: /Game/objects/BP_LObject Validating asset
+[2026.10.04-14.41.46:415][916]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2026.10.04-14.41.54:264][201]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2026.10.04-14.42.01:891][515]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.04-14.42.01:928][515]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.04-14.42.01:946][515]LogPlayLevel: Display: Creating online subsystem for client :Context_39
+[2026.10.04-14.42.01:957][515]LogOnline: OSS: Created online subsystem instance for: :Context_39
+[2026.10.04-14.42.02:002][516]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.42.02:048][516]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044866s)
+[2026.10.04-14.42.02:048][516]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PharaohsForcesMinigame.PharaohsForcesMinigame to /Game/UEDPIE_0_PharaohsForcesMinigame.PharaohsForcesMinigame (0.045711s)
+[2026.10.04-14.42.02:081][516]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2026.10.04-14.42.02:094][516]LogTemp: WinRT Apartment initialized successfully!
+[2026.10.04-14.42.02:096][516]LogChaosDD: Creating Chaos Debug Draw Scene for world PharaohsForcesMinigame
+[2026.10.04-14.42.02:157][516]LogPlayLevel: PIE: World Init took: (0.062076s)
+[2026.10.04-14.42.02:160][516]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2026.10.04-14.42.02:161][516]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.04-14.42.02:161][516]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.04-14.42.02:161][516]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.04-14.42.02:161][516]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.04-14.42.02:161][516]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.04-14.42.02:161][516]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.04-14.42.02:161][516]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.04-14.42.02:161][516]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.04-14.42.02:164][516]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.04-14.42.02:164][516]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.04-14.42.02:164][516]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.04-14.42.02:166][516]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.04-14.42.02:495][516]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- WH202A)
+[2026.10.04-14.42.02:500][516]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.04-14.42.02:500][516]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.04-14.42.02:503][516]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.04-14.42.02:508][516]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2026.10.04-14.42.02:508][516]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2026.10.04-14.42.02:512][516]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2026.10.04-14.42.02:512][516]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2026.10.04-14.42.02:514][516]LogInit: FAudioDevice initialized with ID 24.
+[2026.10.04-14.42.02:514][516]LogAudio: Display: Audio Device (ID: 24) registered with world 'PharaohsForcesMinigame'.
+[2026.10.04-14.42.02:516][516]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 24
+[2026.10.04-14.42.02:553][516]LogLoad: Game class is 'BP_PharaohMinigame_C'
+[2026.10.04-14.42.02:568][516]LogWorld: Bringing World /Game/UEDPIE_0_PharaohsForcesMinigame.PharaohsForcesMinigame up for play (max tick rate 60) at 2026.10.04-10.42.02
+[2026.10.04-14.42.02:570][516]LogWorld: Bringing up level for play took: 0.013730
+[2026.10.04-14.42.02:578][516]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2026.10.04-14.42.02:579][516]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.10.04-14.42.02:584][516]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2026.10.04-14.42.02:590][516]LogMinigameCore: Error: MinigameBase: Not enough players for this game type!
+[2026.10.04-14.42.02:590][516]LogMinigameCore: Warning: MinigameBase: No point counter found. Creating default point counter.
+[2026.10.04-14.42.02:629][516]LogTemp: Warning: Minigame Base Player 0: Found player BashLocalPlayer_22 and controller BashPlayerController_0
+[2026.10.04-14.42.02:646][516]PIE: Server logged in
+[2026.10.04-14.42.02:649][516]PIE: Play in editor total start time 0.735 seconds.
+[2026.10.04-14.42.02:689][516]LogMutable: Started Update Skeletal Mesh Async. CustomizableObject=CO_ModularCharacter Instance=CustomizableObjectInstance_22, Frame=81518
+[2026.10.04-14.42.02:743][517]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.04-14.42.07:302][669]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/PharaohsForcesMinigame"
+[2026.10.04-14.42.07:302][669]LogNet: Browse: /Game/PharaohsForcesMinigame
+[2026.10.04-14.42.07:304][669]LogLoad: LoadMap: /Game/PharaohsForcesMinigame
+[2026.10.04-14.42.07:304][669]LogWorld: BeginTearingDown for /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.42.07:313][669]LogWorld: UWorld::CleanupWorld for PharaohsForcesMinigame, bSessionEnded=true, bCleanupResources=true
+[2026.10.04-14.42.07:318][669]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-14.42.07:355][669]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.10.04-14.42.07:373][669]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2026.10.04-14.42.07:376][669]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.42.07:385][669]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007723s)
+[2026.10.04-14.42.07:385][669]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PharaohsForcesMinigame.PharaohsForcesMinigame to /Game/UEDPIE_0_PharaohsForcesMinigame.PharaohsForcesMinigame (0.007791s)
+[2026.10.04-14.42.07:385][669]LogAudio: Display: Audio Device (ID: 24) registered with world 'PharaohsForcesMinigame'.
+[2026.10.04-14.42.07:385][669]LogChaosDD: Creating Chaos Debug Draw Scene for world PharaohsForcesMinigame
+[2026.10.04-14.42.07:386][669]LogPlayLevel: PIE: World Init took: (0.002067s)
+[2026.10.04-14.42.07:386][669]LogLoad: Game class is 'BP_PharaohMinigame_C'
+[2026.10.04-14.42.07:390][669]LogWorld: Bringing World /Game/UEDPIE_0_PharaohsForcesMinigame.PharaohsForcesMinigame up for play (max tick rate 60) at 2026.10.04-10.42.07
+[2026.10.04-14.42.07:390][669]LogWorld: Bringing up level for play took: 0.002960
+[2026.10.04-14.42.07:391][669]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2026.10.04-14.42.07:391][669]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2026.10.04-14.42.07:391][669]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2026.10.04-14.42.07:391][669]LogMinigameCore: Warning: MinigameBase: No point counter found. Creating default point counter.
+[2026.10.04-14.42.07:393][669]LogTemp: Warning: Minigame Base Player 0: Found player BashLocalPlayer_22 and controller BashPlayerController_0
+[2026.10.04-14.42.07:400][669]LogLoad: Took 0.095159 seconds to LoadMap(/Game/UEDPIE_0_PharaohsForcesMinigame)
+[2026.10.04-14.42.07:400][669]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.42.07:406][669]LogMutable: Started Update Skeletal Mesh Async. CustomizableObject=CO_ModularCharacter Instance=CustomizableObjectInstance_22, Frame=81671
+[2026.10.04-14.42.07:418][669]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.04-14.42.27:291][367]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.04-14.42.27:291][367]LogWorld: BeginTearingDown for /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.42.27:292][367]LogTemp: Warning: Deinitialize Bluetooth Manager Subsystem
+[2026.10.04-14.42.27:292][367]LogWorld: UWorld::CleanupWorld for PharaohsForcesMinigame, bSessionEnded=true, bCleanupResources=true
+[2026.10.04-14.42.27:293][367]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-14.42.27:311][367]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.04-14.42.27:323][367]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-14.42.27:374][367]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.04-14.42.27:374][367]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 24
+[2026.10.04-14.42.27:375][367]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24, StreamState=4
+[2026.10.04-14.42.27:378][367]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24, StreamState=2
+[2026.10.04-14.42.27:413][367]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2026.10.04-14.42.27:625][368]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2026.10.04-14.42.51:616][ 51]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.04-14.42.51:753][ 51]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/objects/BP_AObject] ([2] browsable assets)...
+[2026.10.04-14.42.51:810][ 51]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/objects/BP_AObject.BP_AObject]
+[2026.10.04-14.42.51:810][ 51]OBJ SavePackage: Finished generating thumbnails for package [/Game/objects/BP_AObject]
+[2026.10.04-14.42.51:810][ 51]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/BP_AObject" FILE="../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Content/objects/BP_AObject.uasset" SILENT=true
+[2026.10.04-14.42.51:854][ 51]LogSavePackage: Moving output files for package: /Game/objects/BP_AObject
+[2026.10.04-14.42.51:857][ 51]LogSavePackage: Moving '../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Saved/BP_AObject160F91A64F54A8835A88E2A18126B500.tmp' to '../../../../../../Users/rache/Downloads/alligator_gravity_minigame/alligator_gravity/Content/objects/BP_AObject.uasset'
+[2026.10.04-14.42.51:883][ 51]LogFileHelpers: InternalPromptForCheckoutAndSave took 266.417 ms (total: 2.64 sec)
+[2026.10.04-14.42.52:063][ 51]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.04-14.42.52:064][ 51]LogContentValidation: Enabled validators:
+[2026.10.04-14.42.52:064][ 51]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.04-14.42.52:064][ 51]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.04-14.42.52:064][ 51]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.04-14.42.52:064][ 51]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.04-14.42.52:064][ 51]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.04-14.42.52:064][ 51]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.04-14.42.52:064][ 51]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.10.04-14.42.52:064][ 51]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.10.04-14.42.52:064][ 51]AssetCheck: /Game/objects/BP_AObject Validating asset
+[2026.10.04-14.42.52:739][ 69]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2026.10.04-14.42.54:504][119]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.04-14.42.54:528][119]LogPlayLevel: [PlayLevel] Compiling BP_RObject before play...
+[2026.10.04-14.42.54:649][119]LogPlayLevel: [PlayLevel] Compiling BP_LObject before play...
+[2026.10.04-14.42.54:828][119]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2026.10.04-14.42.54:838][119]LogPlayLevel: PlayLevel: Blueprint regeneration took 314 ms (2 blueprints)
+[2026.10.04-14.42.54:839][119]LogPlayLevel: Display: Creating online subsystem for client :Context_40
+[2026.10.04-14.42.54:843][119]LogOnline: OSS: Created online subsystem instance for: :Context_40
+[2026.10.04-14.42.54:876][120]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.42.54:894][120]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017530s)
+[2026.10.04-14.42.54:894][120]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PharaohsForcesMinigame.PharaohsForcesMinigame to /Game/UEDPIE_0_PharaohsForcesMinigame.PharaohsForcesMinigame (0.017628s)
+[2026.10.04-14.42.54:938][120]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2026.10.04-14.42.54:942][120]LogTemp: WinRT Apartment initialized successfully!
+[2026.10.04-14.42.54:942][120]LogChaosDD: Creating Chaos Debug Draw Scene for world PharaohsForcesMinigame
+[2026.10.04-14.42.54:945][120]LogPlayLevel: PIE: World Init took: (0.002688s)
+[2026.10.04-14.42.54:946][120]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2026.10.04-14.42.54:946][120]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.04-14.42.54:947][120]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.04-14.42.54:947][120]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.04-14.42.54:947][120]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.04-14.42.54:947][120]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.04-14.42.54:947][120]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.04-14.42.54:947][120]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.04-14.42.54:947][120]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.04-14.42.54:947][120]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.04-14.42.54:947][120]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.04-14.42.54:947][120]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.04-14.42.54:951][120]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.04-14.42.55:494][120]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- WH202A)
+[2026.10.04-14.42.55:495][120]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.04-14.42.55:495][120]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.04-14.42.55:495][120]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.04-14.42.55:496][120]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2026.10.04-14.42.55:496][120]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2026.10.04-14.42.55:500][120]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2026.10.04-14.42.55:500][120]LogInit: FAudioDevice initialized with ID 25.
+[2026.10.04-14.42.55:500][120]LogAudio: Display: Audio Device (ID: 25) registered with world 'PharaohsForcesMinigame'.
+[2026.10.04-14.42.55:501][120]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2026.10.04-14.42.55:501][120]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 25
+[2026.10.04-14.42.55:510][120]LogLoad: Game class is 'BP_PharaohMinigame_C'
+[2026.10.04-14.42.55:521][120]LogWorld: Bringing World /Game/UEDPIE_0_PharaohsForcesMinigame.PharaohsForcesMinigame up for play (max tick rate 60) at 2026.10.04-10.42.55
+[2026.10.04-14.42.55:522][120]LogWorld: Bringing up level for play took: 0.011121
+[2026.10.04-14.42.55:525][120]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2026.10.04-14.42.55:525][120]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.10.04-14.42.55:525][120]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2026.10.04-14.42.55:527][120]LogMinigameCore: Error: MinigameBase: Not enough players for this game type!
+[2026.10.04-14.42.55:527][120]LogMinigameCore: Warning: MinigameBase: No point counter found. Creating default point counter.
+[2026.10.04-14.42.55:529][120]LogTemp: Warning: Minigame Base Player 0: Found player BashLocalPlayer_23 and controller BashPlayerController_0
+[2026.10.04-14.42.55:536][120]PIE: Server logged in
+[2026.10.04-14.42.55:539][120]PIE: Play in editor total start time 1.018 seconds.
+[2026.10.04-14.42.55:684][120]LogMutable: Started Update Skeletal Mesh Async. CustomizableObject=CO_ModularCharacter Instance=CustomizableObjectInstance_23, Frame=83122
+[2026.10.04-14.42.55:714][120]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.04-14.43.02:417][314]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/PharaohsForcesMinigame"
+[2026.10.04-14.43.02:417][314]LogNet: Browse: /Game/PharaohsForcesMinigame
+[2026.10.04-14.43.02:418][314]LogLoad: LoadMap: /Game/PharaohsForcesMinigame
+[2026.10.04-14.43.02:418][314]LogWorld: BeginTearingDown for /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.43.02:420][314]LogWorld: UWorld::CleanupWorld for PharaohsForcesMinigame, bSessionEnded=true, bCleanupResources=true
+[2026.10.04-14.43.02:421][314]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-14.43.02:463][314]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.10.04-14.43.02:467][314]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2026.10.04-14.43.02:472][314]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.43.02:486][314]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013605s)
+[2026.10.04-14.43.02:486][314]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PharaohsForcesMinigame.PharaohsForcesMinigame to /Game/UEDPIE_0_PharaohsForcesMinigame.PharaohsForcesMinigame (0.013700s)
+[2026.10.04-14.43.02:486][314]LogAudio: Display: Audio Device (ID: 25) registered with world 'PharaohsForcesMinigame'.
+[2026.10.04-14.43.02:486][314]LogChaosDD: Creating Chaos Debug Draw Scene for world PharaohsForcesMinigame
+[2026.10.04-14.43.02:489][314]LogPlayLevel: PIE: World Init took: (0.002917s)
+[2026.10.04-14.43.02:489][314]LogLoad: Game class is 'BP_PharaohMinigame_C'
+[2026.10.04-14.43.02:492][314]LogWorld: Bringing World /Game/UEDPIE_0_PharaohsForcesMinigame.PharaohsForcesMinigame up for play (max tick rate 60) at 2026.10.04-10.43.02
+[2026.10.04-14.43.02:493][314]LogWorld: Bringing up level for play took: 0.004255
+[2026.10.04-14.43.02:493][314]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2026.10.04-14.43.02:493][314]LogEnhancedInput: Warning: Called AddMappingContext with a null Mapping Context! No changes have been applied.
+[2026.10.04-14.43.02:494][314]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2026.10.04-14.43.02:494][314]LogMinigameCore: Warning: MinigameBase: No point counter found. Creating default point counter.
+[2026.10.04-14.43.02:496][314]LogTemp: Warning: Minigame Base Player 0: Found player BashLocalPlayer_23 and controller BashPlayerController_0
+[2026.10.04-14.43.02:503][314]LogLoad: Took 0.085647 seconds to LoadMap(/Game/UEDPIE_0_PharaohsForcesMinigame)
+[2026.10.04-14.43.02:503][314]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.43.02:510][314]LogMutable: Started Update Skeletal Mesh Async. CustomizableObject=CO_ModularCharacter Instance=CustomizableObjectInstance_23, Frame=83316
+[2026.10.04-14.43.02:557][315]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.10.04-14.43.24:117][ 98]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.04-14.43.24:117][ 98]LogWorld: BeginTearingDown for /Game/UEDPIE_0_PharaohsForcesMinigame
+[2026.10.04-14.43.24:117][ 98]LogTemp: Warning: Deinitialize Bluetooth Manager Subsystem
+[2026.10.04-14.43.24:117][ 98]LogWorld: UWorld::CleanupWorld for PharaohsForcesMinigame, bSessionEnded=true, bCleanupResources=true
+[2026.10.04-14.43.24:118][ 98]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-14.43.24:123][ 98]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.04-14.43.24:131][ 98]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.04-14.43.24:171][ 98]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.04-14.43.24:172][ 98]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 25
+[2026.10.04-14.43.24:172][ 98]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25, StreamState=4
+[2026.10.04-14.43.24:175][ 98]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25, StreamState=2
+[2026.10.04-14.43.24:206][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2026.10.04-14.43.24:278][ 99]LogPlayLevel: Display: Destroying online subsystem :Context_40
